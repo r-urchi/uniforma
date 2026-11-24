@@ -1,7 +1,7 @@
 UNIFORMA · ALTA DE PRODUCTOS NUEVOS · v1.0.0 (noviembre 2026)
 
 QUÉ HACE
-Crea en BORRADOR los 34 productos de data/productos-nuevos.csv, que son los del txt "Tipos y Modelos
+Crea en BORRADOR los 35 productos de data/productos-nuevos.csv, que son los del txt "Tipos y Modelos
 faltantes" y del PDF de Gastronomía que NO existen en la web.
 Usa la misma función del tema que usa el ERP (uniforma_erp_product_handle), así que quedan iguales a
 los actuales: producto variable con Color x Talle, SKU UNI-P### (el siguiente libre), descripción corta,
