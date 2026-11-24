@@ -1,0 +1,69 @@
+UNIFORMA · ALTA DE PRODUCTOS NUEVOS · v1.0.0 (noviembre 2026)
+
+QUÉ HACE
+Crea en BORRADOR los 34 productos de data/productos-nuevos.csv, que son los del txt "Tipos y Modelos
+faltantes" y del PDF de Gastronomía que NO existen en la web.
+Usa la misma función del tema que usa el ERP (uniforma_erp_product_handle), así que quedan iguales a
+los actuales: producto variable con Color x Talle, SKU UNI-P### (el siguiente libre), descripción corta,
+"Detalles" (ACF) y descripción larga con el mismo formato.
+- No toca ningún producto existente, ni precios, ni fotos.
+- No crea categorías. Si una no existe, avisa y no la asigna.
+- Puede crear colores o talles nuevos en el atributo global (la revisión dice cuáles, p. ej. "Naranja").
+- Sin foto: la web muestra la imagen genérica de WooCommerce.
+- Sin precios: el PDF es el catálogo del proveedor (Full Complements) con precios + IVA, que son COSTO.
+  No se cargaron. OJO: el ERP no deja publicar sin "Precio unitario X5", pero desde el admin de
+  WordPress sí se puede. No publicar ninguno sin cargar antes sus precios.
+
+ANTES DE EMPEZAR (producción)
+1. Respaldo: hPanel de Hostinger > Respaldos > generar uno (archivos + base de datos). Esperar a que termine.
+2. No hacer el mismo día actualizaciones de WordPress, WooCommerce, plugins o tema.
+3. No usar Apariencia > Editor de archivos de temas ni editar wp-config.php.
+4. No usar a la vez el importador de fotos de octubre (son independientes).
+
+INSTALACIÓN
+1. Comprimir la carpeta uniforma-alta-productos en un ZIP (la carpeta adentro del ZIP, con este archivo).
+2. Plugins > Añadir nuevo > Subir plugin > elegir el ZIP > Instalar > Activar.
+3. WooCommerce > Alta de productos UNIFORMA.
+
+USO
+1. «Revisar»: no escribe nada. Compara con TODOS los productos de la base (también borradores y privados)
+   y simula la creación. Mirar las columnas:
+   - "Ya existe": no se crea.
+   - "Parecidos": son avisos. Si un parecido es realmente el mismo producto, destildarlo.
+   - "A revisar": supuestos que hice (colores/talles no indicados en el txt).
+2. Destildar lo que no se quiera crear y presionar «Crear seleccionados en borrador».
+3. Descargar el registro CSV.
+4. En Productos > Borradores, abrir cada uno, cargar precios X5/X10/X20/X50 (y el precio de las variaciones),
+   revisar colores y talles, y recién ahí Publicar. Purgar LiteSpeed Cache.
+Si algo salió mal: «Deshacer» manda a la papelera los productos creados por este plugin que sigan en
+borrador (se pueden restaurar desde Productos > Papelera). No borra nada definitivamente.
+Al terminar, desactivar y borrar el plugin. Los productos quedan.
+
+PRECIOS DESPUÉS DE CREADOS
+Los precios X5..X50 se cargan en la ficha (campos UNIFORMA). Las variaciones se crean sin precio:
+en la ficha > Datos del producto > Variaciones > "Acciones masivas" > "Establecer precios normales" y
+poner el precio X5. Alternativa: completar las columnas de precio del CSV ANTES de crear, y el plugin
+lo hace todo (precio X5 en las variaciones incluido).
+
+DEL TXT/PDF QUE YA EXISTE EN WORDPRESS (no crear; según la copia del ERP del 29/09/2026)
+Estos ya están cargados; la mayoría no se ve en la web porque está en BORRADOR o privado.
+Para que aparezcan hay que completarlos y publicarlos, no crearlos de nuevo:
+- Comercio: Remera cuello V (P095), Remera talle súper especial (P096), Pantalón gabardina bolsillo chino
+  (P027, solo Negro: faltan colores), Gorras P080-P093 (incluye Gorra vintage P085, Pilusos P088/P089,
+  Australianos P090/P091, Gorra de jean P087).
+- Gastronomía: Delantal clásico jean (P041), Delantal camuflado + gorro pirata (P044), Urban Bitter (P047),
+  Faldón jean (P052), Chaqueta jean (P061), Pantalón rayado (P067), Camisas dama M/C y 3/4 (P104, P105),
+  Camisa hombre M/C (P106), Calzado Comfort antideslizante (P075), Calzado antideslizante (P076).
+- Campo: Alpargatas (P110), Boinas (P111), Bombacha de campo (P102).
+- Empresas: todo el rubro (P112-P156): Mora, Venecia, Milano, Turín (y talles especiales), faldas,
+  camisas poplín, chalecos, cardigan, sobretodos, Montgomery, camisas hombre, sweater, corbata,
+  cinturones, zapatos Mónaco/Berlín/Londres.
+- Salud: Ambos Runa, Amba, Milo, Mao (P124-P127).
+- Industria: Chaleco y Campera Trucker (P128, P129), Botín y Zapato dieléctrico (P077, P078),
+  Zapato de seguridad Grafa 70 (P108).
+
+NO INCLUIDOS (decidir)
+- "Gorra" (genérica, txt): no se sabe cuál es.
+- "Gorra jean trucker" (PDF): parece ser la Gorra de jean (P087) o Trucker clásicas (P080).
+- Mantelería (manteles, servilletas, caminos, fundas): en el PDF figura "Consultar", sin colores ni medidas.
+- "Pantalón jeans recto hombre semielastizado": existen P022 (semirrígido) y P023 (elastizado).
