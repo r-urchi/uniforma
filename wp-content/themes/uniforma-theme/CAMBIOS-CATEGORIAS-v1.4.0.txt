@@ -1,0 +1,12 @@
+UNIFORMA Theme v1.4.0 — Categorías y filtros
+
+- Talles ordenados de forma natural: XXS, XS, S, M, L, XL, XXL, XXXL; luego numéricos; luego especiales 6E, 7E, 8E; talle único al final.
+- Filtros multiselección: permite combinar varios colores, talles, rubros, tipos y mangas en una sola búsqueda.
+- Nuevo filtro por rubro usando categorías reales de WooCommerce, con compatibilidad para nombres históricos (Gastronomía, Salud, Ropa de trabajo y Administrativo).
+- Paleta visual completa de los 42 colores importados, incluidos colores dobles, melange y localizados.
+- Cualquier color futuro recibe un tono visible automático en vez de mostrarse blanco.
+- Los filtros de color muestran círculo y nombre para evitar confusiones con blanco, natural, beige y tonos claros.
+- Las tarjetas muestran muestras reales, visibles y con borde; cada muestra abre la PDP con ese color preseleccionado.
+- Las tarjetas limitan la fila a ocho muestras y muestran +N cuando existen más colores.
+- Paginación y ordenamiento conservan todos los filtros seleccionados.
+- No modifica productos, imágenes, precios ni categorías existentes.

@@ -1,0 +1,344 @@
+[
+    {
+        "key": "group_uniforma_simulador_producto",
+        "title": "UNIFORMA - Simulador de producto",
+        "fields": [
+            {
+                "key": "field_uniforma_simulador_activo",
+                "label": "Mostrar en simulador",
+                "name": "uniforma_simulador_activo",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "Activá esta opción para que el producto aparezca en la página Simulá tu prenda.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Mostrar este producto en el simulador",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "Sí",
+                "ui_off_text": "No"
+            },
+            {
+                "key": "field_uniforma_cantidad_minima",
+                "label": "Cantidad mínima / inicial",
+                "name": "uniforma_cantidad_minima",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Cantidad inicial que se mostrará en el simulador. Ejemplo: 25.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 25,
+                "min": 1,
+                "max": "",
+                "placeholder": 25,
+                "step": 1,
+                "prepend": "",
+                "append": "unidades"
+            },
+            {
+                "key": "field_uniforma_simulador_imagen_frente",
+                "label": "Imagen frente simulador",
+                "name": "uniforma_simulador_imagen_frente",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Imagen base de frente, idealmente sin logo, en PNG o WEBP.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,webp"
+            },
+            {
+                "key": "field_uniforma_simulador_imagen_espalda",
+                "label": "Imagen espalda simulador",
+                "name": "uniforma_simulador_imagen_espalda",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Imagen base de espalda, idealmente sin logo, en PNG o WEBP.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,webp"
+            },
+            {
+                "key": "field_uniforma_simulador_imagen_lateral_1",
+                "label": "Imagen lateral / detalle 1",
+                "name": "uniforma_simulador_imagen_lateral_1",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Opcional. Imagen lateral o detalle del producto.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,webp"
+            },
+            {
+                "key": "field_uniforma_simulador_imagen_lateral_2",
+                "label": "Imagen lateral / detalle 2",
+                "name": "uniforma_simulador_imagen_lateral_2",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Opcional. Segunda imagen lateral o detalle del producto.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,webp"
+            },
+            {
+                "key": "field_uniforma_logo_frente_x",
+                "label": "Logo frente - posición X",
+                "name": "uniforma_logo_frente_x",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Posición horizontal inicial del logo en la vista de frente. Valor recomendado: 58.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 58,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_logo_frente_y",
+                "label": "Logo frente - posición Y",
+                "name": "uniforma_logo_frente_y",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Posición vertical inicial del logo en la vista de frente. Valor recomendado: 36.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 36,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_logo_frente_w",
+                "label": "Logo frente - ancho",
+                "name": "uniforma_logo_frente_w",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Ancho inicial del logo en la vista de frente. Valor recomendado: 16.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 16,
+                "min": 5,
+                "max": 80,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_logo_espalda_x",
+                "label": "Logo espalda - posición X",
+                "name": "uniforma_logo_espalda_x",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Posición horizontal inicial del logo en la vista de espalda. Valor recomendado: 50.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 50,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_logo_espalda_y",
+                "label": "Logo espalda - posición Y",
+                "name": "uniforma_logo_espalda_y",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Posición vertical inicial del logo en la vista de espalda. Valor recomendado: 36.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 36,
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_logo_espalda_w",
+                "label": "Logo espalda - ancho",
+                "name": "uniforma_logo_espalda_w",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Ancho inicial del logo en la vista de espalda. Valor recomendado: 24.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 24,
+                "min": 5,
+                "max": 80,
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_uniforma_ubicaciones_logo",
+                "label": "Ubicaciones disponibles del logo",
+                "name": "uniforma_ubicaciones_logo",
+                "aria-label": "",
+                "type": "checkbox",
+                "instructions": "Elegí qué ubicaciones estarán disponibles en el simulador para este producto.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "pecho_izquierdo": "Pecho izquierdo",
+                    "pecho_derecho": "Pecho derecho",
+                    "centro_pecho": "Centro pecho",
+                    "espalda_centro": "Espalda centro",
+                    "manga_izquierda": "Manga izquierda",
+                    "manga_derecha": "Manga derecha",
+                    "frente_gorra": "Frente gorra"
+                },
+                "default_value": [
+                    "pecho_izquierdo"
+                ],
+                "return_format": "array",
+                "allow_custom": 0,
+                "layout": "vertical",
+                "toggle": 0,
+                "save_custom": 0,
+                "custom_choice_button_text": "Agregar ubicación"
+            },
+            {
+                "key": "field_uniforma_notas_simulador",
+                "label": "Notas internas del simulador",
+                "name": "uniforma_notas_simulador",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Opcional. Notas internas para el vendedor o para recordar detalles de este producto en el simulador.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 3,
+                "placeholder": "Ej: En este producto conviene usar bordado chico en pecho izquierdo.",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Campos para controlar qué productos aparecen en el simulador de UNIFORMA y cómo se posiciona el logo.",
+        "show_in_rest": 0,
+        "modified": 1782479517
+    }
+]

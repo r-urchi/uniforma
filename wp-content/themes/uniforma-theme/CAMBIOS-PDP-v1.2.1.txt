@@ -1,0 +1,50 @@
+UNIFORMA Theme v1.2.1 — Correcciones de PDP
+Fecha: 29/08/2026
+
+CAMBIOS IMPLEMENTADOS
+
+1. Galería vinculada al color
+- La PDP ya no muestra simultáneamente las fotos de todos los colores.
+- Al elegir un color se muestran únicamente sus imágenes de frente y espalda.
+- La imagen principal y las flechas se actualizan junto con las miniaturas.
+- Si un color todavía no tiene fotos propias, se usa una imagen general disponible como respaldo.
+- La detección utiliza la relación de imágenes importadas, el nombre del archivo, el título y el texto alternativo.
+
+2. Muestras de color
+- Se incorporó una paleta para todos los colores presentes en el inventario maestro.
+- Los colores compuestos se muestran con dos tonos o textura.
+- Los colores claros conservan un borde visible.
+- Los términos nuevos reciben un tono de respaldo para evitar círculos blancos sin identificar.
+
+3. Orden de talles
+- Talles de letras: XXS, XS, S, M, L, XL, XXL, XXXL y siguientes.
+- Talles numéricos: orden ascendente real.
+- Talles especiales 6E, 7E, 8E: orden ascendente.
+- “Talle único” se muestra al final.
+
+4. Cantidad libre con mínimo mayorista
+- Se mantienen los accesos X5, X10, X20 y X50.
+- El campo manual permite cualquier número entero positivo.
+- El precio se calcula según el tramo correspondiente.
+- Con una cantidad menor a 5 se bloquea Personalizar prenda y Pedir presupuesto.
+- Se muestra el aviso: “El pedido mínimo es de 5 unidades”.
+
+5. Información del producto
+- Se eliminó la barra redundante “Detalles / Tabla de talles / Cuidados”.
+- El bloque inferior queda directamente dividido en Detalles, Tabla de talles y Cuidados.
+
+ARCHIVOS MODIFICADOS
+- style.css
+- functions.php
+- woocommerce/single-product.php
+- assets/js/uniforma-single-product.js
+- assets/css/uniforma-single-product.css
+
+INSTALACIÓN
+1. Hacer una copia de seguridad del theme activo.
+2. Ir a Apariencia > Temas > Añadir tema > Subir tema.
+3. Instalar el ZIP completo y reemplazar la versión existente cuando WordPress lo solicite.
+4. Vaciar la caché del sitio, del plugin de caché y del navegador.
+5. Revisar una PDP con varios colores y probar una cantidad menor a 5.
+
+Este paquete no vuelve a importar ni modifica productos, precios, imágenes o variaciones en la base de datos.

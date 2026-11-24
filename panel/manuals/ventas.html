@@ -1,0 +1,151 @@
+<section id="clientes">
+  <h2>Cargar y ordenar clientes</h2>
+  <ol class="m-steps">
+    <li>Entrá a <b>Clientes</b> y tocá <b>Nuevo cliente</b> (o usá el botón «Nuevo» de arriba).</li>
+    <li>Completá empresa, contacto, <b>WhatsApp</b> (sin él no funcionan los mensajes rápidos), email y prioridad.</li>
+    <li>Subí los <b>logos del cliente</b> en la ficha: después aparecen para elegirlos en el editor.</li>
+    <li>Las <b>notas internas</b> no salen en los documentos para el cliente.</li>
+  </ol>
+  <div class="m-callout">Antes de crear un cliente, probá buscarlo con <b>Ctrl + K</b>: evita duplicados.</div>
+</section>
+
+<section id="propuesta">
+  <h2>Crear una propuesta</h2>
+  <ol class="m-steps">
+    <li><b>Nueva propuesta:</b> elegí un cliente anterior (se busca por nombre, contacto, CUIT, teléfono o email) o cargá uno nuevo ahí mismo.</li>
+    <li>Poné un título claro («Uniformes salón 2026»), validez y fecha de entrega estimada.</li>
+    <li>Ajustá descuento, recargo, envío e IVA si corresponde.</li>
+    <li>Guardá y tocá <b>Editar prendas</b> para abrir el Editor visual.</li>
+  </ol>
+</section>
+
+<section id="editor">
+  <h2>Armar las prendas en el Editor visual</h2>
+  <ol class="m-steps">
+    <li>Elegí el producto (busca por nombre o categoría) y el <b>color</b>.</li>
+    <li>Cargá las <b>cantidades por talle</b>: el total se calcula solo y se aplica el <b>precio por tramo</b>.</li>
+    <li>Subí o elegí un <b>logo</b>; arrastralo para ubicarlo, usá las manijas para tamaño y rotación, o escribí las medidas en cm.</li>
+    <li>Para cada logo indicá <b>técnica</b> (bordado o DTF), lado (frente/espalda) y color.</li>
+    <li>Si el logo tiene fondo blanco, podés <b>quitarlo</b> ahí mismo; para trabajos más finos usá el <b>Estudio de logos</b>.</li>
+    <li>Tocá <b>Agregar prenda</b>. Repetí para cada prenda del pedido.</li>
+  </ol>
+  <details><summary>¿Cómo se calcula el precio?</summary>
+    <p>Se toma el precio del tramo según la cantidad total de esa prenda. El panel sugiere un precio con el costo de bordado/DTF y el margen objetivo (solo lo ve quien tiene permiso de costos). Podés aceptar la sugerencia o escribir otro precio.</p>
+  </details>
+</section>
+
+<section id="enviar">
+  <h2>Enviar el presupuesto</h2>
+  <ul>
+    <li><b>Presupuesto</b> (botón en la propuesta): abre el documento imprimible/PDF.</li>
+    <li><b>Ficha visual para cliente</b>: muestra cada prenda con sus logos y medidas, para que el cliente confirme.</li>
+    <li><b>Mensajes rápidos de WhatsApp</b>: «Enviar presupuesto», «Pedir logo», «Diseño para aprobar»… abren WhatsApp con el texto ya armado. No se envía nada solo; queda anotado en el historial.</li>
+    <li>Cambiá el estado a <b>Enviada</b> (desde la propuesta o arrastrando la tarjeta).</li>
+  </ul>
+</section>
+
+<section id="seguimiento">
+  <h2>Seguimiento: que ningún presupuesto se enfríe</h2>
+  <table class="m-table">
+    <tr><th>Situación</th><th>Qué hace el sistema</th><th>Qué hacés vos</th></tr>
+    <tr><td>Enviada/Vista sin cambios 3 días</td><td>Aviso amarillo en «Mi día»</td><td>«Repescar por WhatsApp»</td></tr>
+    <tr><td>Enviada/Vista 7 días</td><td>Aviso rojo</td><td>Llamar o cerrar como Rechazada</td></tr>
+    <tr><td>Validez vencida</td><td>Aviso «Vencida»</td><td>Duplicar la propuesta con precios actuales</td></tr>
+    <tr><td>Aprobada y sin producir 2 días</td><td>Aviso «Sin producir»</td><td>«Pasar a producción»</td></tr>
+  </table>
+  <p>Las tarjetas del tablero muestran «N d en estado» para ver de un vistazo qué se está demorando.</p>
+</section>
+
+<section id="aprobacion">
+  <h2>Aprobación del diseño</h2>
+  <ol class="m-steps">
+    <li>Mandá la ficha visual y esperá la confirmación del cliente (WhatsApp, mail, firma).</li>
+    <li>En la propuesta tocá <b>Registrar aprobación</b>: quién aprobó, fecha, nota y, si hay, el comprobante (captura del mensaje).</li>
+    <li>Se congela esa <b>versión del diseño</b>. Si después hay que cambiar algo, usá <b>Reabrir diseño</b>: se pedirá una nueva aprobación.</li>
+  </ol>
+  <div class="m-callout"><b>Importante:</b> sin diseño aprobado, producción trabaja «a ciegas». Mi día te lo marca como «Diseño sin aprobación».</div>
+</section>
+
+<section id="pagos">
+  <h2>Registrar pagos (seña, parcial, saldo)</h2>
+  <ol class="m-steps">
+    <li>En la propuesta, <b>Registrar pago</b>: tipo, monto, medio, fecha, referencia y el comprobante (imagen o PDF, hasta 2 MB).</li>
+    <li>El pago queda <b>Pendiente de validación</b>. <u>No baja el saldo</u> hasta que Administración lo valide.</li>
+    <li>Si lo rechazan, verás el motivo; corregilo (referencia, comprobante, monto) y vuelve a pendiente.</li>
+    <li>Un pago <b>validado</b> no se edita ni se borra: si hay un error, avisá a Administración para que lo anule con motivo.</li>
+  </ol>
+  <details><summary>¿Y si el cliente paga y quiero entregar ya?</summary>
+    <p>La entrega exige saldo $0 validado. Si no está validado todavía, pedile a Administración que lo valide. Solo un administrador puede autorizar una entrega con saldo, escribiendo el motivo.</p>
+  </details>
+</section>
+
+<section id="link-cliente">
+  <h2>Link para el cliente: seguimiento y aprobación online</h2>
+  <ol class="m-steps">
+    <li>En la propuesta, sección <b>Link para el cliente</b> → <b>Crear link</b> (también se crea solo al mandar un mensaje que lo incluye).</li>
+    <li>Copialo o mandalo con el mensaje rápido «Enviar presupuesto» o «Diseño para aprobar».</li>
+    <li>El cliente ve el <b>estado del pedido</b>, sus prendas con los logos y las medidas, los importes y la entrega estimada. <u>Nunca</u> ve costos ni notas internas.</li>
+    <li>Puede <b>aprobar el presupuesto y el diseño</b> escribiendo su nombre, o <b>pedir cambios</b> con un comentario.</li>
+  </ol>
+  <div class="m-callout"><b>Qué hace solo el sistema:</b> al abrir el link una <i>Enviada</i> pasa a <i>Vista</i>; al aprobar, la propuesta pasa a <i>Aprobada</i>, se congela la versión del diseño con su <b>código de verificación</b> (fecha, IP y huella del contenido) y se crea una tarea «pasar a producción y pedir seña». Si pide cambios, aparece en «Mi día» como «Cambios» hasta que lo marques como atendido.</div>
+  <details><summary>¿Y si quiero que el cliente deje de ver el link?</summary><p><b>Desactivar</b> lo anula al instante; <b>Renovar</b> genera uno nuevo y el anterior deja de funcionar.</p></details>
+</section>
+
+<section id="mensajes">
+  <h2>Mensajes rápidos por WhatsApp y por mail</h2>
+  <ul>
+    <li>Cada botón abre WhatsApp con el texto armado. Si el cliente tiene email cargado, el botón <b>✉</b> de al lado lo envía por mail y lo anota en el historial.</li>
+    <li>Los textos los edita Gerencia en <b>Configuración → Mensajes rápidos</b>. Variables: {cliente} {pedido} {total} {saldo} {entrega} {validez} {link}.</li>
+    <li>El envío por mail depende de la configuración del servidor. Si dice «apagado», avisá a quien administra el sistema.</li>
+  </ul>
+</section>
+
+<section id="extras">
+  <h2>Garantías, vistas guardadas, tareas repetitivas e importación</h2>
+  <ul>
+    <li><b>Rehacer / garantía:</b> en una propuesta aprobada o posterior, botón «Rehacer / garantía». Elegís las prendas y el motivo; se crea un <b>pedido vinculado sin cargo</b>, ya aprobado, que el taller ve como cualquier otro. El pedido original no se toca.</li>
+    <li><b>Vistas guardadas:</b> en Propuestas filtrá como quieras y tocá «Guardar vista». Después la elegís del desplegable. Son tuyas.</li>
+    <li><b>Tareas repetitivas:</b> al crear una tarea elegí «Repetir». Al completarla se programa la próxima (ideal para clientes que compran todos los años).</li>
+    <li><b>Importar clientes:</b> Configuración → Importar desde Excel (CSV). Descargá la plantilla, completala y subila; ves una vista previa y no se pisan los que ya existen.</li>
+    <li><b>Ficha de logo:</b> desde el Estudio de logos podés mandar el logo ya preparado a la ficha del cliente con «Usar en propuesta».</li>
+  </ul>
+</section>
+<section id="consultas">
+  <h2>Consultas que llegan de la web</h2>
+  <ol class="m-steps">
+    <li>Todo lo que se pide en el sitio (formulario de contacto, «Pedir presupuesto» en un producto, «Pedir de nuevo» en el link del cliente) aparece en <b>Consultas</b> y en «Mi día».</li>
+    <li>Tocá <b>Convertir en propuesta</b>: busca al cliente por email, teléfono o empresa (si no existe lo crea) y arma un borrador. Si la consulta traía un producto, color, talle y cantidad, ya queda cargada la prenda; si era una recompra, copia el pedido anterior con los <b>precios actuales</b>.</li>
+    <li>Mientras tanto podés escribirle por WhatsApp o mail desde la misma tarjeta y marcarla <b>Contactada</b>. Lo que no sirve se <b>descarta</b>.</li>
+  </ol>
+</section>
+
+<section id="planilla">
+  <h2>Planilla de talles y nombres (uniformes de varias personas)</h2>
+  <ol class="m-steps">
+    <li>En la propuesta, <b>Planilla de talles y nombres → Habilitar planilla para el cliente</b>. Se crea el link si hace falta.</li>
+    <li>Mandale el link: el cliente completa una fila por persona (nombre, prenda, color, talle, cantidad y texto a bordar), incluso pegando una lista desde Excel.</li>
+    <li>Cuando la envía te llega un aviso. Revisala y tocá <b>Aplicar a las prendas</b>: se cargan las cantidades por color y talle y se actualiza el precio según el tramo.</li>
+    <li><b>Imprimir planilla</b> da la lista para el taller (persona por persona, con el texto de cada una) y <b>CSV</b> la baja a Excel.</li>
+  </ol>
+  <div class="m-callout warn">Si el diseño ya fue aprobado, primero hay que <b>Reabrir diseño</b>: cambiar cantidades invalida la aprobación.</div>
+</section>
+
+<section id="fotos">
+  <h2>Fotos, encuesta y recompra</h2>
+  <ul>
+    <li><b>Fotos del trabajo terminado:</b> subilas en la propuesta (desde el celular abre la cámara). Marcá «Mostrar al cliente» en las que querés que vea en su link.</li>
+    <li><b>Encuesta:</b> al entregar, el cliente puede puntuar de 1 a 5 desde su link. Si pone 3 o menos, se crea una tarea para llamarlo.</li>
+    <li><b>Recompra:</b> el cliente ve sus pedidos anteriores en su link y pide «Pedir de nuevo». Además, «Mi día» te sugiere escribirle a quienes no compran hace más de 6 meses, con un mensaje listo.</li>
+    <li><b>Avisos automáticos por mail:</b> si Gerencia los activa, el cliente recibe un mail cuando el pedido pasa a Aprobada, En producción, Lista o Entregada.</li>
+  </ul>
+</section>
+<section id="rutina">
+  <h2>Rutina diaria de ventas</h2>
+  <ul class="m-routine">
+    <li>Abrir <b>Mi día</b> y contestar los seguimientos (amarillo y rojo).</li>
+    <li>Subir al sistema los presupuestos nuevos que llegaron por WhatsApp o Instagram.</li>
+    <li>Pedir logos y aprobaciones pendientes.</li>
+    <li>Registrar pagos recibidos con su comprobante.</li>
+    <li>Mover a «Aprobada» lo que el cliente confirmó.</li>
+  </ul>
+</section>

@@ -1,0 +1,606 @@
+/*
+Theme Name: UNIFORMA Theme
+Theme URI: https://uniforma.com.ar/
+Description: Tema propio liviano para UNIFORMA. Sistema de diseño «Taller editorial».
+Author: UNIFORMA
+Version: 1.6.8
+Text Domain: uniforma-theme
+Requires at least: 6.0
+Tested up to: 6.6
+*/
+
+/* =========================================================
+   SISTEMA DE DISEÑO — «TALLER EDITORIAL»
+   Papel crema, marrón como tinta, líneas finas en lugar de
+   sombras, fotografía protagonista. Sin degradés ni píldoras.
+   ========================================================= */
+
+:root {
+  /* Color: roles fijos */
+  --uniforma-ink: #5f3d27;          /* marrón de marca: texto, botón primario, pie (más claro que antes, cerca del logo) */
+  --uniforma-on-accent: #2a1b12;    /* texto sobre el dorado (hover): necesita un marrón profundo para contraste */
+  --uniforma-bg: #f2ece0;           /* papel (fondo general) */
+  --uniforma-surface: #f8f4ea;      /* papel claro (paneles, inputs) */
+  --uniforma-tile: #e9e0cf;         /* fondo detrás de fotos de producto */
+  --uniforma-text: #5f3d27;
+  --uniforma-muted: #6b5d50;        /* texto secundario (AA sobre papel) */
+  --uniforma-border: #d3c7b1;       /* línea fina */
+  --uniforma-primary: #b77a2b;      /* acento: hover, activo, marcas */
+  --uniforma-primary-dark: #8a5a20; /* acento como texto sobre papel */
+  --uniforma-footer: #5f3d27;
+  --uniforma-white: #ffffff;
+  --uniforma-radius: 0;
+
+  /* Alias que usan los archivos de páginas internas (etapa 2) */
+  --uniforma-bg-soft: var(--uniforma-surface);
+  --uniforma-gold: var(--uniforma-primary);
+  --uniforma-gold-dark: var(--uniforma-primary-dark);
+
+  /* Tipografía: Archivo (texto y titulares angostos) + Jost (menú, etiquetas, botones y precios;
+     geométrica, en la línea del logo) */
+  --font-display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --font-body: "Archivo", Arial, sans-serif;
+  --font-label: "Jost", "Montserrat", Arial, sans-serif;
+  --font-price: "Jost", "Montserrat", Arial, sans-serif;
+  --display-stretch: 68%;           /* ancho de letra de los titulares (100% = normal) */
+
+  /* Escala (6 tamaños) */
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(1.5rem, 2.2vw, 2.1rem);
+  --text-display: clamp(2.4rem, 5.4vw, 4.8rem);
+
+  /* Grilla */
+  --gutter: clamp(20px, 4vw, 56px);
+  --max: 1520px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--uniforma-bg);
+  color: var(--uniforma-text);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.55;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#main-content {
+  width: 100%;
+  min-height: 55vh;
+}
+
+.uniforma-page-content,
+.uniforma-page-content__inner {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--uniforma-text);
+  font-family: var(--font-display);
+  font-stretch: var(--display-stretch);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--uniforma-primary-dark);
+}
+
+a:hover {
+  color: var(--uniforma-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--uniforma-ink);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--uniforma-primary);
+  color: var(--uniforma-on-accent);
+}
+
+.screen-reader-text {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Etiqueta mono (kicker, contadores, datos) ---------- */
+.uniforma-label,
+.uniforma-kicker {
+  color: var(--uniforma-muted);
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.uniforma-kicker {
+  color: var(--uniforma-primary-dark);
+}
+
+/* ---------- Botones: rectángulo de tinta, sin sombra ni degradé ---------- */
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.uniforma-button,
+.uniforma-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--uniforma-ink);
+  border: 1px solid var(--uniforma-ink);
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--uniforma-bg) !important;
+  cursor: pointer;
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  padding: 16px 26px !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.uniforma-button:hover,
+.uniforma-btn:hover {
+  background: var(--uniforma-primary);
+  border-color: var(--uniforma-primary);
+  color: var(--uniforma-on-accent) !important;
+}
+
+.uniforma-button-outline,
+.woocommerce a.uniforma-button-outline,
+.uniforma-btn--ghost {
+  background: transparent;
+  border: 1px solid var(--uniforma-ink);
+  color: var(--uniforma-ink) !important;
+}
+
+.uniforma-button-outline:hover,
+.woocommerce a.uniforma-button-outline:hover,
+.uniforma-btn--ghost:hover {
+  background: var(--uniforma-ink);
+  border-color: var(--uniforma-ink);
+  color: var(--uniforma-bg) !important;
+}
+
+/* Enlace de texto con flecha: acción secundaria */
+.uniforma-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid currentColor;
+  color: var(--uniforma-ink);
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  padding-bottom: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.uniforma-link::after {
+  content: "→";
+}
+
+.uniforma-link:hover {
+  border-color: var(--uniforma-primary);
+  color: var(--uniforma-primary-dark);
+}
+
+/* Cabecera de sección: título grande a la izquierda, dato a la derecha, línea abajo */
+.uniforma-section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--uniforma-ink);
+  padding-bottom: 14px;
+}
+
+.uniforma-section-head h2 {
+  margin: 0;
+  font-size: var(--text-xl);
+  text-transform: uppercase;
+}
+
+.uniforma-section-head .uniforma-label {
+  white-space: nowrap;
+}
+
+/* Contenedor de contenido */
+.uniforma-wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+/* ---------- Tarjeta de producto (home, tienda, categorías, búsqueda) ----------
+   Foto sobre papel con multiply: el blanco de la foto desaparece en el fondo.
+   Sin borde, sombra ni radio: la tarjeta es la foto + una línea de datos. */
+.uniforma-product-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.uniforma-product-card__image {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  background: var(--uniforma-tile);
+  overflow: hidden;
+}
+
+.uniforma-product-card__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  transition: transform 0.35s ease;
+}
+
+.uniforma-product-card:hover .uniforma-product-card__image img {
+  transform: scale(1.025);
+}
+
+/* La carga diferida de LiteSpeed deja un GIF gris de 1x1 hasta que la foto entra en pantalla:
+   se oculta para que se vea el fondo beige de la tarjeta, y la foto aparece con un fundido. */
+.uniforma-product-card__image img[src^="data:image"] {
+  opacity: 0;
+}
+
+.uniforma-product-card__image img {
+  transition: transform 0.35s ease, opacity 0.3s ease;
+}
+
+.uniforma-product-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 14px;
+}
+
+.uniforma-product-card__title {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-stretch: 100%;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.25;
+  text-transform: none;
+  /* Mismo alto en todas las tarjetas: 2 líneas, el resto se corta con «…» */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 2.5em;
+}
+
+.uniforma-product-card__title a {
+  color: var(--uniforma-ink);
+  text-decoration: none;
+}
+
+.uniforma-product-card__title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.uniforma-product-card__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  margin: 0;
+  color: var(--uniforma-ink);
+  font-family: var(--font-price);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.uniforma-product-card__price small {
+  color: var(--uniforma-muted);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.uniforma-product-card__colors {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 6px;
+  min-height: 16px;
+  overflow: hidden;
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.uniforma-swatch {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: var(--swatch, transparent);
+  border: 1px solid rgba(95, 61, 39, 0.4);
+}
+
+.uniforma-swatch.is-unknown {
+  background: repeating-linear-gradient(45deg, #cdbfa6 0 3px, #f2ece0 3px 6px);
+}
+
+.uniforma-product-card__more {
+  color: var(--uniforma-muted);
+  font-family: var(--font-label);
+  font-size: 12px;
+}
+
+.uniforma-product-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+/* Tarjetas angostas: los dos enlaces siempre en dos líneas, así todas miden lo mismo */
+.uniforma-product-card,
+.uniforma-category-card {
+  container-type: inline-size;
+}
+
+@container (max-width: 290px) {
+  .uniforma-product-card__actions,
+  .uniforma-category-card__actions {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+}
+
+/* ---------- WooCommerce base ---------- */
+.woocommerce ul.products li.product {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  color: var(--uniforma-text);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-stretch: 100%;
+  font-weight: 600;
+  padding: 0;
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: var(--uniforma-ink);
+  font-family: var(--font-price);
+  font-weight: 600;
+}
+
+.uniforma-product-actions {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.uniforma-single-actions {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.woocommerce div.product .uniforma-single-actions a.button {
+  text-align: center;
+}
+
+.woocommerce div.product .product_title {
+  color: var(--uniforma-text);
+  font-family: var(--font-display);
+  font-stretch: var(--display-stretch);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  color: var(--uniforma-muted);
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.woocommerce .woocommerce-breadcrumb a {
+  color: var(--uniforma-ink);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-color: var(--uniforma-border);
+  border-radius: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  border-bottom-color: var(--uniforma-bg);
+}
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+  background: var(--uniforma-surface);
+  border-top-color: var(--uniforma-ink);
+  color: var(--uniforma-text);
+}
+
+/* ---------- Campos ---------- */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+select,
+textarea {
+  background: var(--uniforma-surface);
+  border: 1px solid var(--uniforma-border);
+  border-radius: 0;
+  color: var(--uniforma-text);
+  font-family: var(--font-body);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--uniforma-ink);
+  outline: 0;
+}
+
+@media (max-width: 767px) {
+  .uniforma-product-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .woocommerce a.button,
+  .woocommerce button.button,
+  .woocommerce input.button,
+  .uniforma-button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* Oculta el título automático de página (el contenido trae su propio h1) */
+body h1.entry-title.main_title {
+  display: none !important;
+}
+
+
+/* ---------- Carrito vacío (bloques de WooCommerce) ----------
+   El carrito vive en modo catálogo, así que solo se ve vacío con «Nuevo en la tienda».
+   Sin márgenes negativos (empujaban 8 px de scroll horizontal) y con la marca. */
+.wc-block-grid__products {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wc-block-grid__product-image {
+  background: var(--uniforma-tile);
+}
+
+.wc-block-grid__product-image img {
+  mix-blend-mode: multiply;
+}
+
+.wc-block-grid__product-title {
+  color: var(--uniforma-ink);
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.wc-block-grid__product-price {
+  color: var(--uniforma-ink);
+  font-family: var(--font-price);
+}
+
+.wc-block-grid__product .wp-block-button__link,
+.wc-block-grid__product .wc-block-grid__product-add-to-cart .wp-block-button__link {
+  background: var(--uniforma-ink);
+  border: 1px solid var(--uniforma-ink);
+  border-radius: 0;
+  color: var(--uniforma-bg);
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  padding: 16px 26px;
+  text-transform: uppercase;
+}
+
+.wc-block-grid__product .wp-block-button__link:hover {
+  background: var(--uniforma-primary);
+  border-color: var(--uniforma-primary);
+  color: var(--uniforma-on-accent);
+}

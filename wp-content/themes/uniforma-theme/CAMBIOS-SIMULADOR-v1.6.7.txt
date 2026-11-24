@@ -1,0 +1,18 @@
+UNIFORMA theme 1.6.7 - Simulador "Personaliza tu uniforme"
+
+1. La vista previa de la prenda acompana el scroll del panel derecho (escritorio). El pedido
+   actual paso a la columna derecha, debajo del panel, para que la prenda tenga todo el recorrido.
+2. Se quito el control de "Tolerancia". Ahora, por cada logo:
+   - "Quitar fondo": un clic, detecta solo el color del fondo (mismo metodo que el Estudio de logos del ERP).
+   - "Quitar tambien el fondo de los huecos": para letras/formas cerradas (O, A...).
+   - "Recortar vacio": elimina el espacio transparente alrededor del dibujo; el tamano real en cm del dibujo no cambia.
+   - "Restaurar original".
+3. Los centimetros (ancho/alto) se actualizan en vivo mientras se agranda o achica el logo, tambien con el
+   campo enfocado, y se ven en una etiqueta sobre el logo.
+4. Nuevo: color del logo (8 colores + selector libre). Pinta todo el dibujo de un solo tono; si el logo
+   tiene fondo, lo quita solo. "Colores originales" vuelve atras. El color se informa en el presupuesto.
+5. Los logos del frente ya no aparecen al cambiar a espalda (y viceversa): el estilo del logo anulaba el
+   atributo hidden. Al cambiar de vista se selecciona un logo de esa vista.
+
+Archivos: shortcodes/uniforma-customizer.php, assets/js/uniforma-customizer.js, assets/css/uniforma-customizer.css, style.css.
+Despues de subir: purgar LiteSpeed Cache y Ctrl+F5.

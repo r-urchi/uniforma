@@ -1,0 +1,12 @@
+UNIFORMA Theme v1.5.0 - Buscador de productos
+
+- Corrige la pantalla generica que aparecia al enviar una busqueda desde el header.
+- Agrega una pagina de resultados con el mismo estilo visual del catalogo.
+- Busca por nombre, descripcion, SKU, categorias, rubros, etiquetas, colores, talles y demas atributos.
+- Reconoce variantes simples de singular y plural, por ejemplo remera/remeras y pantalon/pantalones.
+- Permite busquedas combinadas, por ejemplo "remera negra" o "ambo salud".
+- Ordena por relevancia, precio, ventas, fecha o nombre.
+- Mantiene colores reales, imagen, precio y acceso al simulador en cada tarjeta.
+- Incluye paginacion, estado sin resultados y sugerencias de busqueda.
+- Unifica el motor de la pagina completa con las sugerencias instantaneas del header.
+- Conserva las mejoras anteriores de PDP, simulador, categorias y filtros mobile.

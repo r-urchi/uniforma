@@ -1,0 +1,1987 @@
+{
+  "version": "2.1.0",
+  "batch": "uniforma-fotos-2026-10-16",
+  "summary": {
+    "source_images": 270,
+    "included_images": 172,
+    "excluded_images": 80,
+    "pending_images": 18,
+    "photo_products": 34,
+    "draft_products": 1
+  },
+  "excluded_skus": [
+    "UNI-P002",
+    "UNI-P094",
+    "UNI-P095",
+    "UNI-P003",
+    "UNI-P096",
+    "UNI-P004",
+    "UNI-P006",
+    "UNI-P013",
+    "UNI-P014",
+    "UNI-P015",
+    "UNI-P097",
+    "UNI-P017",
+    "UNI-P018",
+    "UNI-P019",
+    "UNI-P020",
+    "UNI-P021",
+    "UNI-P036",
+    "UNI-P104",
+    "UNI-P105",
+    "UNI-P063",
+    "UNI-P106",
+    "UNI-P064",
+    "UNI-P077",
+    "UNI-P078",
+    "UNI-P079",
+    "UNI-P107",
+    "UNI-P108",
+    "UNI-P109",
+    "UNI-P085",
+    "UNI-P139",
+    "UNI-P140",
+    "UNI-P141",
+    "UNI-P119",
+    "UNI-P120",
+    "UNI-P149",
+    "UNI-P155"
+  ],
+  "excluded_notes": [
+    "Remeras clásicas y oversize, chombas piqué, buzos canguro, prendas polares y camisas: todos sus colores y talles especiales.",
+    "Remera mujer con lycra: solo pasar a borrador, sin importar imágenes.",
+    "Gorra vintage básica: todos los colores. Piluso vintage permanece incluido.",
+    "Ambo verde con detalles rosas de apertura y zapato Bochin: omitidos.",
+    "También se mantienen fuera los calzados previamente descartados."
+  ],
+  "pending": [
+    {
+      "file": "traje-milano-azul-frente",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-milano-azul-espalda",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-mora-azul-frente",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-mora-azul-espalda",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-venecia-azul-frente",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-venecia-azul-espalda",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-turin-negro-frente",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-turin-negro-espalda",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-turin-azul-frente",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "traje-turin-azul-espalda",
+      "reason": "La foto muestra un conjunto completo; el catálogo vende saco y pantalón por separado."
+    },
+    {
+      "file": "gorro-chef-azul-jean-frente",
+      "reason": "La imagen es de jean; el producto UNI-P070 especifica gabardina."
+    },
+    {
+      "file": "gorro-chef-azul-jean-espalda",
+      "reason": "La imagen es de jean; el producto UNI-P070 especifica gabardina."
+    },
+    {
+      "file": "alpargatas-guarda-negro-frente",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    },
+    {
+      "file": "alpargatas-guarda-negro-espalda",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    },
+    {
+      "file": "alpargatas-guarda-verde-frente",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    },
+    {
+      "file": "alpargatas-guarda-verde-espalda",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    },
+    {
+      "file": "alpargatas-guarda-blanco-frente",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    },
+    {
+      "file": "alpargatas-guarda-blanco-espalda",
+      "reason": "Confirmar si la alpargata con guarda pertenece al mismo producto que la lisa o tiene SKU propio."
+    }
+  ],
+  "products": [
+    {
+      "sku": "UNI-P016",
+      "name": "Buzo frizado cuello redondo",
+      "slug": "buzo-frizado-cuello-redondo",
+      "existing_id": 396,
+      "names": [
+        "Buzo frizado cuello redondo"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "efb3a81d18c2431efc13b844844304704219f9a4e6b3856e52e6179cf0890739",
+          "bytes": 59012
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "fb8e038e98010dd7387298ad56859f4e46006d09b9fc4a61425c7472489da40c",
+          "bytes": 52846
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "653a6a59854232473d5db91d76d8278251c4fd601c1955d84f3943ebc0e8becc",
+          "bytes": 89074
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "41d69b0cce6d266d3e0429430aef53537bbde813405b60f19f3cb8293f169a53",
+          "bytes": 76496
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-chocolate-frente.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "frente",
+          "sha256": "97b0e414adfac1b784fc5a2fc78c2a3d0ce930621058956a976425584aa4b56f",
+          "bytes": 88050
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-chocolate-espalda.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "espalda",
+          "sha256": "d5c99deab2c7b6079d695479cffa376cff7bed533a1f12f853580bbb9c09b3d3",
+          "bytes": 80954
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-melange-frente.webp",
+          "color": "Melange",
+          "color_slug": "melange",
+          "view": "frente",
+          "sha256": "0e4ab25fb9409861d76fa7e146f63352064f0330e791eb5ef7fb96040992e20b",
+          "bytes": 205338
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-melange-espalda.webp",
+          "color": "Melange",
+          "color_slug": "melange",
+          "view": "espalda",
+          "sha256": "e8392f8266376f41c69fc57c34738213b19b4b7cd422716367a97e62e5c432cb",
+          "bytes": 170016
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "4c189d599464b86e530df7e3aac9f740e4ea9e54902d04b729f8738b9f435929",
+          "bytes": 98034
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "50b872b6f57936fbaab6e8e872d91914f05225e182bed9cb9373621ba9087b55",
+          "bytes": 100366
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "2b5a335dc49e75734151b4b03d1c37a8ae3010fb85f1ba1f51e3baf99e27830f",
+          "bytes": 106380
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "9cc169a47bfb529da7ed29be86fb7c4cc1e15190dded5bc6e8ad80a6b20418b4",
+          "bytes": 90046
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-verde-frente.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "sha256": "67ab0c821fbc1e85e30aef6aae313eeb4357f1abaf46e4f9eb7799b9c922fd14",
+          "bytes": 128972
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-verde-espalda.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "espalda",
+          "sha256": "68de22ea881dfe53abdab5995d5a1fa35eb17575822333fa56540d7d6a8814b9",
+          "bytes": 105420
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P098",
+      "name": "Buzo frizado cuello redondo talle especial",
+      "slug": "buzo-frizado-cuello-redondo-talle-especial",
+      "existing_id": 0,
+      "names": [
+        "Buzo frizado cuello redondo talle especial",
+        "Buzo frizado cuello redondo T.E"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "efb3a81d18c2431efc13b844844304704219f9a4e6b3856e52e6179cf0890739",
+          "bytes": 59012
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "fb8e038e98010dd7387298ad56859f4e46006d09b9fc4a61425c7472489da40c",
+          "bytes": 52846
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "2b5a335dc49e75734151b4b03d1c37a8ae3010fb85f1ba1f51e3baf99e27830f",
+          "bytes": 106380
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "9cc169a47bfb529da7ed29be86fb7c4cc1e15190dded5bc6e8ad80a6b20418b4",
+          "bytes": 90046
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-gris-frente.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "sha256": "9d7ac8f82f6e7ac3c9a854f2d82ebf2ff8328c7a28f1ea630d59b00b5f031618",
+          "bytes": 217248
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-gris-espalda.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "espalda",
+          "sha256": "4da5c24b6dfd44627f0df3ffc46478f6d9629854c39449ae8ffdd31e12c4c33a",
+          "bytes": 179078
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-bordo-frente.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "frente",
+          "sha256": "8b08a1b20da432b82a3b148f9787bc7e1d0b993e38fe96c6fd505efaf0c318e5",
+          "bytes": 85438
+        },
+        {
+          "filename": "uniforma-oct2026-buzo-cuello-redondo-bordo-espalda.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "espalda",
+          "sha256": "b32123a07546a0a5cc81b6f19954bf9564fd01873b67dba70f23d4d07d61ca81",
+          "bytes": 88246
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P056",
+      "name": "Chaqueta Arciel clásica",
+      "slug": "chaqueta-arciel-clasica",
+      "existing_id": 436,
+      "names": [
+        "Chaqueta Arciel clásica",
+        "Chaqueta Arciel Clasica"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-chaqueta-arciel-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "48466f5c79dbe0875c20667eaf9e16d207dd1076dfed97c707203ca3a7473fac",
+          "bytes": 38812
+        },
+        {
+          "filename": "uniforma-oct2026-chaqueta-arciel-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "68e11183596a8678a475c9a15f3618e0b6ee331b659aa963c383f1c537053a84",
+          "bytes": 34096
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P057",
+      "name": "Chaqueta Mao clásica",
+      "slug": "chaqueta-mao-clasica",
+      "existing_id": 437,
+      "names": [
+        "Chaqueta Mao clásica",
+        "Chaqueta Mao Clasica"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-chaqueta-mao-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "27b183bf949bbe531d7b0a14e881c9e15632cd2af7edb9ab80f55fff6f9b16b5",
+          "bytes": 37964
+        },
+        {
+          "filename": "uniforma-oct2026-chaqueta-mao-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "a23d4450f8825d3030d342e9d0228605cb4c6125acbc631587381b052c9f69f6",
+          "bytes": 33526
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P060",
+      "name": "Chaqueta escote V",
+      "slug": "chaqueta-escote-v",
+      "existing_id": 440,
+      "names": [
+        "Chaqueta escote V"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-chaqueta-escote-v-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "bd9ad2e04b394b2ed9c5eccb722e5be1b1201d027d737e233319eb50fe245667",
+          "bytes": 30360
+        },
+        {
+          "filename": "uniforma-oct2026-chaqueta-escote-v-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "826ccc38c34da0ad081f8c6a88d2e0b7bf1f7771a06bf38bc61339f17ca18382",
+          "bytes": 25530
+        },
+        {
+          "filename": "uniforma-oct2026-chaqueta-escote-v-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "05cc10b7dd9cc7db96698db82bcff53528d33f7017cd3c3c0c7aa88140e9848a",
+          "bytes": 44534
+        },
+        {
+          "filename": "uniforma-oct2026-chaqueta-escote-v-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "f194889b08adb968c3d153df71e444d1031c5cd0f520f2ae25f03f624ea794e1",
+          "bytes": 43910
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P039",
+      "name": "Delantal tropical mecánico",
+      "slug": "delantal-tropical-mecanico",
+      "existing_id": 419,
+      "names": [
+        "Delantal tropical mecánico",
+        "Delantal Tropical Mecanico"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "e1087133b0da1ea7a9a10183f9f296f2a10646b9e321f7d04a7e907245477e22",
+          "bytes": 32316
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "8b91c7cbf062104190c990d84c2fe8e2bd418440411cfa27808d9be7c501beda",
+          "bytes": 30610
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "f4aeb53c2917259598b253c61608793f67a0feb8a0909d30a841c7a889201acb",
+          "bytes": 47072
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "bd6021931fdf53d8e940b0a261ed4ea893dec59414b586cd9f1826a9397734dd",
+          "bytes": 47464
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "7efe2461ec0bdb4433b41db192787408725f9b14c4ccdeb332eac4d43c5c9969",
+          "bytes": 44236
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-tropical-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "9bec4d164b9be2f45ae77d219c51f7c483add4c3578739b23568ccbdf7b4638f",
+          "bytes": 35472
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P040",
+      "name": "Delantal clásico de gabardina",
+      "slug": "delantal-clasico-de-gabardina",
+      "existing_id": 420,
+      "names": [
+        "Delantal clásico de gabardina",
+        "Delantal Gabardina",
+        "Delantal clasico Gabardina"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "6139c2b9951243ad9d0a0695871664fb7d2436647579378459fb49d2aa14054f",
+          "bytes": 25902
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "44e8170bc888ab82540c643d51ee88efd8fb635e9e7367f60c5244d140d31ac2",
+          "bytes": 24588
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "d576e74424e9c466044bf767d7c4b45da574a925a324be2ad53707f9e58f4c1b",
+          "bytes": 48936
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "1d2ed9329e1233b5e8afb70d8210a64cf8dabea8f7ef947ef1a4cd5427044679",
+          "bytes": 45302
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "e8ae5678fe736d7f0fa187b3760156d08ff729178e9808f818e97ab143b1715a",
+          "bytes": 51144
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "1ae96ef1be753a2784ed9e42077e95a5af9f85cd6b32fa5f2166bf8280f6a1f2",
+          "bytes": 35202
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "c6871685ff43eebbb63cc443ec0757638bdb273cb91aad87f66826fcb70abcd1",
+          "bytes": 38580
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-gabardina-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "2b5e700cfff7b2bc45854586cbe1b9a17507c8b790934dfff60d6c3fcd3431b5",
+          "bytes": 42744
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P042",
+      "name": "Delantal clásico de PVC",
+      "slug": "delantal-clasico-de-pvc",
+      "existing_id": 422,
+      "names": [
+        "Delantal clásico de PVC",
+        "Delantal PVC",
+        "Delantal clasico PVC"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-pvc-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "1abcdb36c22e1032a85f909c4cffac607ef88dd5203d95064c9584e10af7c4b8",
+          "bytes": 26622
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-pvc-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "5d5c4a3920a21fc3fcc1da526e8eabecc153e9f8bcf018241da948e444815097",
+          "bytes": 24408
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P043",
+      "name": "Delantal bandera de gabardina 8 oz",
+      "slug": "delantal-bandera-de-gabardina-8-oz",
+      "existing_id": 423,
+      "names": [
+        "Delantal bandera de gabardina 8 oz",
+        "Delantal Bandera Gabardina 8oz",
+        "Delantal Band Gabardina 8oz"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-bandera-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "b5abf0ee23e2d812b31d571511f6678aa0db7b73caeb8c741d36d10bf1851b93",
+          "bytes": 36384
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-bandera-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "6378bf54f74379f9a107063a1ba4fe70de2ddaf5205fcfecbc3262a1330f1620",
+          "bytes": 30338
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P045",
+      "name": "Delantal Lite cruzado",
+      "slug": "delantal-lite-cruzado",
+      "existing_id": 425,
+      "names": [
+        "Delantal Lite cruzado"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-lite-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "99d6c17044bf29b808065a4e574b80c177959019c64c5804b84759414e4eb968",
+          "bytes": 34280
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-lite-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "a8615367f18b195051bb6dda52f8637c0a43901bd41b0e1d252a21cfe5c43ae6",
+          "bytes": 28656
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-lite-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "fb97bcb6854b5297c0302e88e0b12894f123e83e491c462bf2927727e8ad78d6",
+          "bytes": 52402
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-lite-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "3584243e59a9cb0f2e277f4de24a5dae7d0a43356e72fc493bc48a0fdf03ef25",
+          "bytes": 44178
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-lite-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "53b8ad26d622361d6a212f926e63fc8a6e78f61b5c3407912815b719b3da0f49",
+          "bytes": 44846
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-lite-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "6aa0d3a66e1ab8774e13b6cb3a0446afc30eb17759365221e9a0f023c07f3dd2",
+          "bytes": 49670
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P046",
+      "name": "Delantal Mistela cruzado",
+      "slug": "delantal-mistela-cruzado",
+      "existing_id": 426,
+      "names": [
+        "Delantal Mistela cruzado"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "92dddfdfe34fe80327ec8e0c97f36be34d958ec2ed05aa0d4482993005efa425",
+          "bytes": 57890
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "d71f0652b5aff183e5f3703e5cd53d42e50e6e209872d0d351dc583bb86bd425",
+          "bytes": 41078
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "01eeb761e051454477ab6493e32ca643086859edc542a77316e428d871fb440e",
+          "bytes": 76222
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "ebaeeb0b17c84a8c8b1b27bfa5736969b1b6179fa5949d2cc04737859fdf6a46",
+          "bytes": 66662
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "daf7e92a8dc0a6ac010d3761bd4bfd0e476bd08c8659722c05d83b0f292da8f6",
+          "bytes": 83368
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-mistela-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "3424ab2841130d239bc142b5cb83975d969c7f1202088b1fd2b12ab55d89c8bb",
+          "bytes": 53976
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P049",
+      "name": "Delantal Urban Campari",
+      "slug": "delantal-urban-campari",
+      "existing_id": 429,
+      "names": [
+        "Delantal Urban Campari"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-urban-campari-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "fb290b4a3913f1d7979ae9f0f97cd8087dbb7b4df53ad207d8b0d934370cc0fe",
+          "bytes": 49446
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-urban-campari-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "681259f1f6bbdff8f036bcac446bc057354285de1954efdf02446e63c5af0df7",
+          "bytes": 59234
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P048",
+      "name": "Delantal Urban Whisky",
+      "slug": "delantal-urban-whisky",
+      "existing_id": 428,
+      "names": [
+        "Delantal Urban Whisky",
+        "Delantal Urbam Whisky"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-urban-whisky-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "5c929d4fb2279273800b3151390bf4c846732703d4dfb36540db5ac5c9f87dbe",
+          "bytes": 70170
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-urban-whisky-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "d78825a7ac6dc8d32dab734c16c805afc4ceb9e06b80537007e434cb4ac406fc",
+          "bytes": 46240
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P050",
+      "name": "Delantal Urban Tequila",
+      "slug": "delantal-urban-tequila",
+      "existing_id": 430,
+      "names": [
+        "Delantal Urban Tequila"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-delantal-urban-tequila-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "53dfa369530cd3a3d3fa8bce549b7dca0946eabba0d8098dbd2463c52b9a7f23",
+          "bytes": 77592
+        },
+        {
+          "filename": "uniforma-oct2026-delantal-urban-tequila-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "f338522c73c503e0f51ebb95f4dcb7d6ee3b1e8400704d193aac5b640f3c85e6",
+          "bytes": 82848
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P051",
+      "name": "Faldón tropical mecánico",
+      "slug": "faldon-tropical-mecanico",
+      "existing_id": 431,
+      "names": [
+        "Faldón tropical mecánico",
+        "Faldones Tropical mecanico"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-faldon-tropical-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "f68ae161ebc684a2c9231ec20ae469718ac7be7635ae4075ce32dced7eb3e6fa",
+          "bytes": 55638
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-tropical-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "8829a8adaec242cc9afb288561398431b3c48484646c4cdfda0a56af0a7bdaad",
+          "bytes": 30818
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P053",
+      "name": "Faldón de gabardina",
+      "slug": "faldon-de-gabardina",
+      "existing_id": 433,
+      "names": [
+        "Faldón de gabardina",
+        "Faldon Gabardina"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-faldon-gabardina-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "1eb123a044d45680ff04b217bada6f3511337fef39592a3914e1d402217effaa",
+          "bytes": 58140
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-gabardina-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "4b8bafd31b51871384c3a1a790d04fa57f3d918a2aca0c308d7ba48c4c3075eb",
+          "bytes": 45914
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-gabardina-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "aae1bcdfb425dbf5ac04bab2390184c0cbefeb3c244c535a7e31237f122c64e2",
+          "bytes": 36870
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-gabardina-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "b5ad16473cf7af3ac4ee0aa306b3d1a9737cc2741d01f250a91542ddd9549e8c",
+          "bytes": 42776
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P054",
+      "name": "Faldón Mistela",
+      "slug": "faldon-mistela",
+      "existing_id": 434,
+      "names": [
+        "Faldón Mistela",
+        "Faldon Mistela"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "31ad61917c62ddf1acce06b5ecb2eaee9d668a7e21c79d5e7c0aaa53ae47b0ea",
+          "bytes": 115510
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "efdcfb00d8a6a90e0e0833c478dbd3c2b65f5ac5c76641dc2674701cf4ac48e8",
+          "bytes": 69446
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "60f63aa34eb3b00710bb8157aad306c3f2434b7d81c5ad0e36da45e04c7a3374",
+          "bytes": 192834
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "039cee02795408b93f2d6960858bc17f3ef8472d0e8a3a001d21c5c44f21c27f",
+          "bytes": 175626
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "1dbd180cd83bac6ad076bf7de670d75069a6e54aa7ed09a5ebf29a75f4d6e265",
+          "bytes": 137048
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "1cda46ef30a07b1b60443318fed241819c64c64e36b1d0fd644b92e0b9a9f999",
+          "bytes": 126316
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-verde-frente.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "sha256": "3dff3c66dbea4408421651c4384d853c41bfd82a8bc6fd9d3f15fa08fc894db2",
+          "bytes": 191030
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-mistela-verde-espalda.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "espalda",
+          "sha256": "a6e35fbf01599629d73e038854b3058b9fb855aafbf5a588febdc184a1d1a8c8",
+          "bytes": 160510
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P055",
+      "name": "Faldón Urban Jean",
+      "slug": "faldon-urban-jean",
+      "existing_id": 435,
+      "names": [
+        "Faldón Urban Jean",
+        "Faldon Urban Jean"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-faldon-urban-jean-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "4a1fe4f362a784e69ce3a819f839261c20f426c8452a4301deb8b8e110b82df5",
+          "bytes": 226430
+        },
+        {
+          "filename": "uniforma-oct2026-faldon-urban-jean-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "57626001d318414431c6df4c7b453f3931f8fa542d158a9b2f4271757c312e16",
+          "bytes": 164318
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P065",
+      "name": "Pantalón náutico",
+      "slug": "pantalon-nautico",
+      "existing_id": 445,
+      "names": [
+        "Pantalón náutico",
+        "Pantalon Nautico"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-pantalon-nautico-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "4102ecf0357da0f3d9099623c5c0f182f79e388f3f8a9fd2634c22b492dffb55",
+          "bytes": 33746
+        },
+        {
+          "filename": "uniforma-oct2026-pantalon-nautico-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "ce6e0d652557263bdbee3301830b2cde9444fb2fe23d219d57d68a0857743503",
+          "bytes": 32976
+        },
+        {
+          "filename": "uniforma-oct2026-pantalon-nautico-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "1fd29ce28f2b3214b8a43d11e05451816102a117cc2028a6d06e8c9e43ab5ad8",
+          "bytes": 33136
+        },
+        {
+          "filename": "uniforma-oct2026-pantalon-nautico-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "814f33fec21d8f9b827773b8fe7f68fefcfe650b5a98ae1c10bd496ac8c6d785",
+          "bytes": 36978
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P102",
+      "name": "Pantalón bombacha de campo",
+      "slug": "pantalon-bombacha-de-campo",
+      "existing_id": 0,
+      "names": [
+        "Pantalón bombacha de campo",
+        "Pantalon Bombacha campo"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "61a2877cfcceda7d2fe232ed0d35c921f9cd133f9b3ffb4f804c60ebe53634d8",
+          "bytes": 44392
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "4a6b878dd31fcf4ade101b65872578f4e4d5acc56ca2b4c14d05375764680486",
+          "bytes": 36340
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "aecb4099e742f756fbbae41ab529146fe23666f82a5d2b0b3f2a67553976994c",
+          "bytes": 46594
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "0f0fa02e91a3a3fa564866bb64f345ec21d348f3b104b05266e233468bf5c7bf",
+          "bytes": 38408
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "fdb18317924772ceba282aa680d5d48735351043e66aa9f4af119e73e22fb763",
+          "bytes": 80788
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "1fc61ff2edb0b54f3e2c767e70c1b3e07cbfc7254f9316c7365bc13763ac15dd",
+          "bytes": 51162
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "b767f54c04c13305656a2efd12b5552612ecbd6406c9cad4357045d5ed91046b",
+          "bytes": 90000
+        },
+        {
+          "filename": "uniforma-oct2026-bombacha-campo-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "22fc11704671fb3351ba0ebe22325d81d23c61dc33a5c3d018a6ee2b28911ce7",
+          "bytes": 70608
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P126",
+      "name": "Ambo médico Milo",
+      "slug": "ambo-medico-milo",
+      "existing_id": 0,
+      "names": [
+        "Ambo médico Milo",
+        "Ambo medico Milo"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-ambo-milo-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "3567c8e06d247eb74d845f196d178f140217d04af203caa482827a484cde430d",
+          "bytes": 49430
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "ff57a903b213f49c1a90d946fc736fda27de84c6ff1fb19dc31ee700a0be5fe1",
+          "bytes": 39718
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-bordo-frente.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "frente",
+          "sha256": "fdb7a5b2eb5e7a2dab04779662b3d61b0d6e37afd44288265f037ebec4cc2b7d",
+          "bytes": 61960
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-bordo-espalda.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "espalda",
+          "sha256": "8728747e870555314df3a6dda4d6fee56bdacc5fd5996316c8205b0ede679ae5",
+          "bytes": 52668
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-lila-frente.webp",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "frente",
+          "sha256": "c33e11d49748cc4f05cd9488479e9cbce76d60396335e686a31bafb37d3ddc87",
+          "bytes": 58154
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-lila-espalda.webp",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "espalda",
+          "sha256": "9a404946696ea1da5c899a6b72fd8430956aed9355a1c2038d2c752d72395ed2",
+          "bytes": 49698
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "3afb8450ff6f20ce0374d9ea7e790832da9409de9342b38316f9aa46f37691a3",
+          "bytes": 62194
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "6a78284d59d07be3a5fea5829f8ed818b48e52273314d7bc87d46eda5f7e4dca",
+          "bytes": 52658
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-verde-acqua-frente.webp",
+          "color": "Verde Acqua",
+          "color_slug": "verde-acqua",
+          "view": "frente",
+          "sha256": "615b6d7eedc1aab263095bad6b03a7c481041cc1942db740ca8496bc3a574386",
+          "bytes": 58974
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-milo-verde-acqua-espalda.webp",
+          "color": "Verde Acqua",
+          "color_slug": "verde-acqua",
+          "view": "espalda",
+          "sha256": "1602cbd0d19058fafa537cdccc3f3a4b90aea360a95ada5a6bf887808ce56e25",
+          "bytes": 52122
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P127",
+      "name": "Ambo médico Mao",
+      "slug": "ambo-medico-mao",
+      "existing_id": 0,
+      "names": [
+        "Ambo médico Mao",
+        "Ambo medico Mao"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-ambo-mao-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "98f9723b0a36ae4e04e8c8488f2108503b3113c25f592065826e48302a285cd6",
+          "bytes": 38650
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-mao-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "9a74607c1bb1aae1c60dad3bfd54c0a74c580e665d6b53fef7c1e30d4b3b88fc",
+          "bytes": 39600
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-mao-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "5a8658c87ccf465a444682124fb1a60732b31b9dab3a58dca30671c5b6d5e852",
+          "bytes": 40838
+        },
+        {
+          "filename": "uniforma-oct2026-ambo-mao-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "35d51af378d4d563116b1567730da867602f4a380e71ea43af4d9930dfe3281b",
+          "bytes": 39788
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P070",
+      "name": "Gorro hongo de chef de gabardina",
+      "slug": "gorro-hongo-de-chef-de-gabardina",
+      "existing_id": 450,
+      "names": [
+        "Gorro hongo de chef de gabardina",
+        "Gorro Hongo Chef Gabardina"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorro-chef-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "d3bed5e8f47abdbf6b240fe64b6c6248aed310dc47f1585c892c679479197e64",
+          "bytes": 138152
+        },
+        {
+          "filename": "uniforma-oct2026-gorro-chef-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "7f3879ad9a1aa8b7de41418b4261742c9cd8715853acdb45c1301535485e43e0",
+          "bytes": 148052
+        },
+        {
+          "filename": "uniforma-oct2026-gorro-chef-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "826a011dc4e1dee71144139672af3ef3f4112d7d2b60a94f9920a5c561d1a948",
+          "bytes": 263036
+        },
+        {
+          "filename": "uniforma-oct2026-gorro-chef-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "4a43e73645e447d90aa90c70bbd0d6fba6dd19221ca8145ec7ffa2d214303c08",
+          "bytes": 286478
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P073",
+      "name": "Gorro pirata de jean",
+      "slug": "gorro-pirata-de-jean",
+      "existing_id": 453,
+      "names": [
+        "Gorro pirata de jean",
+        "Gorro Pirata Jean"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorro-pirata-jean-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "1809cdda2e3100b61aef1cd991cc6e2ebfcd65b1276ac95837f9df8e639df1ba",
+          "bytes": 221888
+        },
+        {
+          "filename": "uniforma-oct2026-gorro-pirata-jean-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "c90d51a20c2e03024cd6a7ae9d1164840790c4b49516b3a8a605f8714e70d11b",
+          "bytes": 261114
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P090",
+      "name": "Australianos impermeables",
+      "slug": "australianos-impermeables",
+      "existing_id": 470,
+      "names": [
+        "Australianos impermeables"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-australiano-impermeable-gris-frente.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "sha256": "07a7607cace6106874a43c57b4ff540bf24187772f64a67e30aa21499f5f5606",
+          "bytes": 155170
+        },
+        {
+          "filename": "uniforma-oct2026-australiano-impermeable-gris-espalda.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "espalda",
+          "sha256": "62d5f6fff335f5da5108bcf5c327cb9f6a97d74106cbfb8014ebc00a088eada8",
+          "bytes": 151718
+        },
+        {
+          "filename": "uniforma-oct2026-australiano-impermeable-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "a6f54bfda78cbff7e9ae33a35021077cd08598ce0a7bc25ad57072a639d34304",
+          "bytes": 162482
+        },
+        {
+          "filename": "uniforma-oct2026-australiano-impermeable-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "21423b46c313908e72fb7619964ab56467bbb5732a3c2a1c7225f0cb5126fcbd",
+          "bytes": 165376
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P093",
+      "name": "Snapback clásicos",
+      "slug": "snapback-clasicos",
+      "existing_id": 473,
+      "names": [
+        "Snapback clásicos",
+        "Snapback clasicos"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "f12b60c0a71185b855c83519540b41e487ed1a5452a9bae18eb00a527a39495c",
+          "bytes": 218032
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "1beb75f9b255a6d4c99bfb920b343d20b647586158e6977264b9b8345fe39deb",
+          "bytes": 144794
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "1bf66dd0c53f91f75a2edb5ebfb580cf623cf214fda94bf76c5069d7c3f8f50a",
+          "bytes": 218366
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "4893040a70e261e227ab045a809fc88970a4f2abca9b2cf9c1d1013efd0dc64f",
+          "bytes": 161294
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-verde-frente.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "sha256": "36376f3e392588d0b700cce470fc32f367dd81969b53a4de77498a8654a78b63",
+          "bytes": 240396
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-verde-espalda.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "espalda",
+          "sha256": "811fd7cd8dc0b321ba671a7f362ae1e3e55e3874d546782b898287d1638c7a16",
+          "bytes": 176902
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "cecbbce0902eb8607a4f66c45f204a12491c57ee9331aad9a88f9722128ba611",
+          "bytes": 223122
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-snapback-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "eef264762168181cd4a9fe80e8a8a8e7ab877c6aa67604ddaa85e32ee45806e4",
+          "bytes": 186412
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P080",
+      "name": "Trucker clásicas",
+      "slug": "trucker-clasicas",
+      "existing_id": 460,
+      "names": [
+        "Trucker clásicas",
+        "Trucker clasicas"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "fb6df55d0026a4fd0e98b8a3e75e052679fc3e2fb98dfa021e58ecce32e56049",
+          "bytes": 149878
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "a803a8aedaaa9445c992f84f616a799043e1efb3dc83c02f5d2ef70e3ca63b64",
+          "bytes": 170354
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-rojo-frente.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "frente",
+          "sha256": "8d1b64b40ae0d48e48eb1309542c76e5a42f2971b19d02a74b4c9107ea442f78",
+          "bytes": 229640
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-rojo-espalda.webp",
+          "color": "Rojo",
+          "color_slug": "rojo",
+          "view": "espalda",
+          "sha256": "404fef48690b8b0e84dfef8692f4fecb7c2909c6e0ec460c105972c39073acd8",
+          "bytes": 286356
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "87eb1b7254b7f2438d88765397eb026e32e3342d0806e770582c53c6d8638e97",
+          "bytes": 216234
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-trucker-clasica-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "5e847098cd156813767bdb2f2269512a9465c7a1f06b5eb18799b0e153d6353c",
+          "bytes": 281566
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P087",
+      "name": "Gorra de jean",
+      "slug": "gorra-de-jean",
+      "existing_id": 467,
+      "names": [
+        "Gorra de jean",
+        "Gorra de Jean"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorra-jean-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "f7ae9cf79cd2e4dff89a975758d91bb4db33e420f2dca167e91f7b756afc74f1",
+          "bytes": 317494
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-jean-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "8721cf84c317cf5e9b708985a1548f6172076e4e5161ca5942b7e92c6c64a970",
+          "bytes": 295704
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-jean-celeste-frente.webp",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "frente",
+          "sha256": "d6e73198678baf7d178713255f1a0cfa9383d745fd8bea3da21e039f7782627d",
+          "bytes": 375974
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-jean-celeste-espalda.webp",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "espalda",
+          "sha256": "df377bad378da666cec969ffd04dca075cf4f53cc82aeb58e1bd8ed07bf85fa3",
+          "bytes": 327842
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P088",
+      "name": "Pilusos clásicos",
+      "slug": "pilusos-clasicos",
+      "existing_id": 468,
+      "names": [
+        "Pilusos clásicos",
+        "Pilusos clasicos"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "5893da9c7888e4a4b0f34354cb4b0a7bc12baedac51e3f0e7c4d28b2e0a98903",
+          "bytes": 112034
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "831d5ee1de09f527a4b17abe3af7130799da0c779412e9fcc8439b0ea9518129",
+          "bytes": 142034
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-amarillo-frente.webp",
+          "color": "Amarillo",
+          "color_slug": "amarillo",
+          "view": "frente",
+          "sha256": "0c20e6c412361919e5cee1bae5b989b783b0b9f5bc9b6d7ee12de6071214d2a9",
+          "bytes": 184642
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-amarillo-espalda.webp",
+          "color": "Amarillo",
+          "color_slug": "amarillo",
+          "view": "espalda",
+          "sha256": "83d7a53b6ab8e6112e8d578cba2e94f16ae22e9b64e1222800157972a42657bd",
+          "bytes": 201246
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-celeste-frente.webp",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "frente",
+          "sha256": "202406dcb9ff934ce49dac9fff3496d88111ff79da1e590f48166671da040859",
+          "bytes": 178592
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-celeste-espalda.webp",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "espalda",
+          "sha256": "e682cf808ada38b148c4bf746329b00afc97972f6e7cdc65ef5184e915981700",
+          "bytes": 183224
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-rosa-frente.webp",
+          "color": "Rosa",
+          "color_slug": "rosa",
+          "view": "frente",
+          "sha256": "9407ce7d19874afac2e1ed2a1685ad4a9b39a8b4203b25dbad869b7de44bf033",
+          "bytes": 187786
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-rosa-espalda.webp",
+          "color": "Rosa",
+          "color_slug": "rosa",
+          "view": "espalda",
+          "sha256": "d8b37f93b5ed010e68319c55732720e2e251af377011a89408e901a8d6602b24",
+          "bytes": 196764
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-verde-frente.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "sha256": "dd8ddb23e6e0406e1f6fc83854f78621a5033405b9ff0000ec9c556401ea0804",
+          "bytes": 185776
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-clasico-verde-espalda.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "espalda",
+          "sha256": "d81cae645ee3893ca571e2b1f61ccef5e2a628af10c16e2bd09ed18fe5af78f7",
+          "bytes": 196898
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P089",
+      "name": "Pilusos vintage",
+      "slug": "pilusos-vintage",
+      "existing_id": 469,
+      "names": [
+        "Pilusos vintage",
+        "Pilusos Vintage"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "70153846e8e2311bfba2c0b8677ea6c5502be77f6148924339f022180a15209d",
+          "bytes": 183262
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "039434e7dda17cd746c4becf39b7a9ae83016f61d416f2288583022801be7ae7",
+          "bytes": 178142
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-gris-frente.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "sha256": "1bde2d9fc5319a1ad820667336b1c72f005de921f09df1b3c4d1bc136314d240",
+          "bytes": 225160
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-gris-espalda.webp",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "espalda",
+          "sha256": "c752e221a3425a6b450f0227259e3b870ef0617b1eb8c906de6facfdac4aadb1",
+          "bytes": 217972
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-beige-frente.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "sha256": "6ed77e1e5bd96c31b9949b777b03f67a180b2a21bcfb1931e74d39e8d106d75c",
+          "bytes": 216248
+        },
+        {
+          "filename": "uniforma-oct2026-piluso-vintage-beige-espalda.webp",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "espalda",
+          "sha256": "48629def38125278f54b93ea4b1f9c07046b04f2f803ee31ae9feef486ebb1b7",
+          "bytes": 219694
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P092",
+      "name": "Gorra de corderoy clásica",
+      "slug": "gorra-de-corderoy-clasica",
+      "existing_id": 472,
+      "names": [
+        "Gorra de corderoy clásica",
+        "Gorra Corderoy Clasica"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-chocolate-frente.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "frente",
+          "sha256": "21ab82b4d632c6ecf857263e7f7cd1d0de6242d33eae4fe3f831c6bed56a8f6c",
+          "bytes": 208230
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-chocolate-espalda.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "espalda",
+          "sha256": "12e1b1348bcb944c69294428151b4ada6064c2532f0ac437914905c8911caea2",
+          "bytes": 164794
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "17c797482b4b06cfe9151cc3b1cbf320c53c0a610c3406ec02f8efe26ef4de49",
+          "bytes": 123590
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "f7ec4b18d7b3ee18c29edfcaca9e264554b53b094a09de4d7a4d3a7f146884bc",
+          "bytes": 112996
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "36eb45886fc30d015c8057a3f890efbff7e121cb928a028d6c6b9b7f8276a5c7",
+          "bytes": 166066
+        },
+        {
+          "filename": "uniforma-oct2026-gorra-corderoy-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "9f6effdfb920e25806377cda23f423a96c99b14de182e81aac0319dd4bb4a969",
+          "bytes": 132046
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P111",
+      "name": "Boinas de hilo",
+      "slug": "boinas-de-hilo",
+      "existing_id": 0,
+      "names": [
+        "Boinas de hilo"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "f39abc2aa6398681417963f8d88e79098905facf83f3316cc64215fc32e7a254",
+          "bytes": 199636
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "4a4f4f19750f813969c5febb7c315c61dbb3e9fc5928127aa0dadf159d8f8eb4",
+          "bytes": 180058
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "1a4837502a18d30fb99d16aaa2ea7d9a6d03fd929840328e2c0be1e7c37c4be7",
+          "bytes": 223340
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "24532004ddcac21a8ff5bea4386801a7bfcc783e41ba9e36b7e96a3db04b77c9",
+          "bytes": 227668
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-chocolate-frente.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "frente",
+          "sha256": "76106c703f30c8b33ba595fe5fd0997d89d1ab7fe0085a5cc09c37ca8c252504",
+          "bytes": 216118
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-chocolate-espalda.webp",
+          "color": "Chocolate",
+          "color_slug": "chocolate",
+          "view": "espalda",
+          "sha256": "86b7379ec53725909bdfc25ed1e3f63c787da5ffa745c223056a4ee9af3daf24",
+          "bytes": 206290
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-bordo-frente.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "frente",
+          "sha256": "e4c2ae0243dd4855861f51204f9dd14da84c159c69151c92801622026c2fc4ba",
+          "bytes": 222242
+        },
+        {
+          "filename": "uniforma-oct2026-boina-hilo-pampa-bordo-espalda.webp",
+          "color": "Bordo",
+          "color_slug": "bordo",
+          "view": "espalda",
+          "sha256": "0fe609217d127e92e8045362fee6976653d4a143c3c77e3051c6419d651e3d69",
+          "bytes": 216810
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P074",
+      "name": "Calzado Comfort",
+      "slug": "calzado-comfort",
+      "existing_id": 454,
+      "names": [
+        "Calzado Comfort"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-calzado-comfort-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "63b5c30e26327674428b672d4a3687a70a14cf70e96fed9f56c0eb1dba71066b",
+          "bytes": 97082
+        },
+        {
+          "filename": "uniforma-oct2026-calzado-comfort-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "077acf2d49aa0f98b4ca40bb9a52e33ab0893d64074eb5ea101f4b42719576fa",
+          "bytes": 95670
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P110",
+      "name": "Alpargatas",
+      "slug": "alpargatas",
+      "existing_id": 0,
+      "names": [
+        "Alpargatas"
+      ],
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-negro-frente.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "sha256": "89bc556373d475020cf5d2ceb10e75d0d506b8fa07a599e46aa7c3998b901c67",
+          "bytes": 121564
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-negro-espalda.webp",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "espalda",
+          "sha256": "e4656de5522fe49829631a81066e2965f16d9dfc4fdba76cf8fe3062bd3796c9",
+          "bytes": 107354
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-azul-frente.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "sha256": "bd704bf67871f44cd7534c804d8b6b84778ccb5b6a6bfc52ed365177f9d8cf80",
+          "bytes": 135798
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-azul-espalda.webp",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "espalda",
+          "sha256": "af6a1a67452ca56592f3879ee3328b0b505e7f2d2528d43e2965ffffc67bb883",
+          "bytes": 118394
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-verde-frente.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "sha256": "0423e09d294b828b269d9dfa02fb6206bfea9516efecb666eda25300fbea5352",
+          "bytes": 143462
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-verde-espalda.webp",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "espalda",
+          "sha256": "8b686d10ea894a9580d4057ca4c4967fd4130d9c30f8d458f4d478fc0a82e2c8",
+          "bytes": 124628
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-blanco-frente.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "sha256": "a486a5c0c1fdf0eed766920adb1385e85c0fb4648ca997698f0cd0aa09b94d36",
+          "bytes": 94016
+        },
+        {
+          "filename": "uniforma-oct2026-alpargatas-lisas-blanco-espalda.webp",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "espalda",
+          "sha256": "bb06cda46f5263f7cfde5db6e6e9d62cca4ff80da8fff705da6ebbed7160ed84",
+          "bytes": 96978
+        }
+      ]
+    },
+    {
+      "sku": "UNI-P006",
+      "name": "Remera mujer con lycra",
+      "slug": "remera-mujer-con-lycra",
+      "existing_id": 386,
+      "names": [
+        "Remera mujer con lycra"
+      ],
+      "operation": "draft",
+      "images": []
+    }
+  ]
+}

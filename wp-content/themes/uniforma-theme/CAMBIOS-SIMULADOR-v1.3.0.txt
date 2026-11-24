@@ -1,0 +1,54 @@
+UNIFORMA Theme v1.3.0 - Simulador avanzado
+Fecha: 29/08/2026
+
+CAMBIOS PRINCIPALES
+
+1. Todos los productos publicados
+- El simulador toma el catalogo publicado de WooCommerce.
+- Incluye buscador y selector agrupado por categoria.
+- Desde la PDP abre directamente el producto, color, talle y cantidad seleccionados.
+
+2. Frente y espalda por color
+- Selector independiente Frente / Espalda.
+- Cambiar el color cambia las dos fotografias correspondientes.
+- Usa los pares importados por nombre y metadatos.
+- Cuando falta una imagen exacta mantiene el simulador operativo y avisa que la vista es referencial.
+
+3. Colores, talles y cantidades
+- Muestras de color para todos los tonos actuales, incluidos combinados y melange.
+- Talles ordenados de forma logica.
+- Cantidad libre con accesos rapidos 5, 10, 20 y 50.
+- Bloqueo al agregar al pedido si la cantidad es menor que 5.
+
+4. Varios logos editables
+- Carga multiple de PNG, JPG, WEBP y SVG, hasta 10 MB por archivo.
+- Cada logo puede estar en frente o espalda.
+- Cada logo tiene configuracion independiente de tecnica, ubicacion, ancho, alto, rotacion y proporcion.
+- Arrastre, redimension, duplicado y eliminacion individual.
+- Medidas guardadas en centimetros; la escala en pantalla se presenta como referencia visual.
+
+5. Quitar fondo
+- Eliminacion local de fondos lisos sin enviar el logo a servicios externos.
+- Tolerancia regulable, recalculo y restauracion del original.
+- Funciona mejor con fondos uniformes; los fondos complejos requieren revision.
+
+6. Pedido y WhatsApp
+- Guarda una vista de frente y otra de espalda por prenda.
+- Muestra ambas miniaturas en el pedido.
+- Envia por WhatsApp producto, color, talle, cantidad y el detalle de cada logo: vista, tecnica, ubicacion, ancho, alto, rotacion y fondo.
+
+7. Rendimiento y mantenimiento
+- Cache de seis horas para el mapa completo de productos e imagenes.
+- La cache se invalida al editar productos, variaciones, colores, talles o tecnicas.
+- Versionado de CSS y JavaScript por fecha de modificacion para evitar archivos viejos en cache.
+
+ARCHIVOS PRINCIPALES MODIFICADOS
+- style.css
+- functions.php
+- shortcodes/uniforma-customizer.php
+- assets/js/uniforma-customizer.js
+- assets/css/uniforma-customizer.css
+- assets/js/uniforma-single-product.js
+
+NOTA
+La eliminacion de fondo esta pensada para logos con fondo liso o casi uniforme. La vista previa de medidas es orientativa porque cada fotografia de prenda puede tener un encuadre diferente; el pedido conserva los centimetros ingresados como especificacion.

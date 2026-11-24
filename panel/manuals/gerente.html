@@ -1,0 +1,83 @@
+<section id="vision">
+  <h2>Tu mirada del negocio</h2>
+  <p>Como gerente comercial ves ventas, clientes, producción y reportes. Lo más útil para empezar el día es <b>Mi día</b>: las 4 tarjetas de arriba resumen el estado.</p>
+  <table class="m-table">
+    <tr><th>Tarjeta</th><th>Qué mide</th><th>Qué hacer si está mal</th></tr>
+    <tr><td>Propuestas activas</td><td>Todo lo que no está rechazado ni entregado</td><td>Mirar cuántas están en negociación y cuántas enfriándose</td></tr>
+    <tr><td>Por cobrar</td><td>Saldo de pedidos aprobados, en producción, listos y entregados (solo pagos <b>validados</b>)</td><td>Pedir saldos; revisar con Administración los pagos por validar</td></tr>
+    <tr><td>En taller</td><td>Pedidos aprobados, en producción o listos</td><td>Revisar entregas de los próximos 7 días</td></tr>
+    <tr><td>A resolver</td><td>Cantidad de avisos del día (rojos = urgentes)</td><td>Repartirlos entre el equipo</td></tr>
+  </table>
+</section>
+
+<section id="embudo">
+  <h2>Embudo y tablero de propuestas</h2>
+  <ul>
+    <li>El <b>embudo</b> de «Mi día» muestra cuántas propuestas hay en cada estado; tocar un estado abre Propuestas filtrada.</li>
+    <li>En <b>Propuestas → Kanban</b> se arrastran las tarjetas entre estados. La etiqueta «N d en estado» marca lo que se demora.</li>
+    <li>Reglas de aviso: enviada sin respuesta 3 días (amarillo) y 7 (rojo); aprobada sin producir 2 y 4 días; lista sin retirar 7 y 14.</li>
+  </ul>
+</section>
+
+<section id="costos">
+  <h2>Costos, margen y precios</h2>
+  <ul>
+    <li>En <b>Configuración</b> cargás costo por logo y preparación de <b>bordado</b> y <b>DTF</b>, y el <b>margen objetivo</b>.</li>
+    <li>En cada propuesta aparece <b>Costos y margen estimado</b> (solo con permiso). Si falta algún costo, el panel avisa que la estimación es incompleta.</li>
+    <li>En <b>Productos</b> cargás el costo y el stock por color y talle; sirven para «Prendas por conseguir».</li>
+  </ul>
+  <div class="m-callout warn">Los costos son internos: nunca salen en el presupuesto ni en la ficha para el cliente.</div>
+</section>
+
+<section id="equipo">
+  <h2>Equipo y permisos</h2>
+  <ul>
+    <li><b>Usuarios</b> (solo Administrador) crea personas y asigna rol: Administrador, Gerente comercial, Administración, Vendedor, Diseño/producción, Solo lectura.</li>
+    <li>Validar pagos lo hacen únicamente Administrador y Administración. Vos podés ver la pantalla de Pagos pero no validar.</li>
+    <li>Asignar y repartir: usá <b>Tareas</b> para dejar seguimientos con fecha a cada persona.</li>
+  </ul>
+</section>
+
+<section id="entregas">
+  <h2>Entregas y excepciones</h2>
+  <p>Una propuesta con saldo no se entrega: solo un administrador puede autorizarlo escribiendo un motivo, que queda en el historial. Si hay una excepción frecuente conviene cobrar antes en vez de autorizar.</p>
+</section>
+
+<section id="reportes">
+  <h2>Reportes y respaldo</h2>
+  <ul>
+    <li><b>Reportes:</b> ventas aprobadas, cobrado (solo validado), por cobrar, propuestas por estado, próximas entregas y actividad reciente.</li>
+    <li><b>Configuración → Exportar backup</b> descarga una copia de todo el panel (incluye las versiones de diseño aprobadas). Hacelo antes de cambios grandes.</li>
+  </ul>
+</section>
+
+<section id="nuevas">
+  <h2>Calendario, stock y rentabilidad</h2>
+  <ul>
+    <li><b>Calendario:</b> entregas por día y carga semanal contra la capacidad del taller (se configura en Configuración → «Capacidad del taller»). Usalo antes de prometer fechas.</li>
+    <li><b>Stock:</b> reservas y faltantes por variante; al aprobar una propuesta se avisa lo que falta.</li>
+    <li><b>Rentabilidad</b> (Reportes): venta sin IVA, ganancia y margen por cliente, por rubro y los pedidos con peor margen. Las garantías y los rehacer se cuentan aparte. Los pedidos con costos incompletos se marcan.</li>
+    <li><b>Mensajes rápidos:</b> editá los textos en Configuración. Variables: {cliente} {pedido} {total} {saldo} {entrega} {validez} {link}.</li>
+    <li><b>Importar desde Excel (CSV):</b> clientes y productos, con plantilla y vista previa.</li>
+  </ul>
+</section>
+<section id="tablero">
+  <h2>Tablero, avisos automáticos y compras</h2>
+  <ul>
+    <li><b>Tablero:</b> ventas aprobadas de los últimos 12 meses, tasa de cierre, días del presupuesto a la aprobación, tiempo en cada etapa del taller, clientes que más compran, ranking de vendedores con comisión y satisfacción promedio de las encuestas.</li>
+    <li><b>Avisos automáticos por mail</b> (Configuración): elegí en qué estados el cliente recibe un mail con el link para seguir su pedido y editá los textos. Se manda una sola vez por estado y solo si el cliente tiene email.</li>
+    <li><b>Consultas de la web:</b> mirá la tasa de conversión (consultas que terminaron en propuesta) en el Tablero.</li>
+    <li><b>Compras y talleres:</b> órdenes de compra, insumos con stock mínimo, trabajos tercerizados con plazo y costo, y lo que hay que pagar. Con eso la rentabilidad del pedido incluye el costo tercerizado real cuando se carga.</li>
+    <li><b>Seguridad:</b> activá la verificación en dos pasos en tu cuenta y, si querés, <b>separar funciones</b> en pagos.</li>
+  </ul>
+</section>
+<section id="rutina">
+  <h2>Rutina diaria de gerencia</h2>
+  <ul class="m-routine">
+    <li>Abrir <b>Mi día</b>: ¿cuántos rojos hay? ¿quién los resuelve?</li>
+    <li>Mirar el embudo: ¿hay propuestas enviadas hace más de una semana?</li>
+    <li>Revisar «Por cobrar» y hablar con Administración sobre pagos por validar.</li>
+    <li>Revisar producción: entregas vencidas y faltantes de prendas.</li>
+    <li>Viernes: exportar backup.</li>
+  </ul>
+</section>

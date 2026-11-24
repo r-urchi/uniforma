@@ -1,0 +1,55 @@
+UNIFORMA theme 1.6.8 - Revision completa de escritorio y celular
+Fecha: 28/10/2026
+
+CORRECCIONES
+
+1. Portada de la home en celular: el parrafo se cortaba en una columna de 109 px ("Personalizamo / s").
+   Ahora ocupa todo el ancho. (assets/css/uniforma-home.css)
+2. Portadas de categoria y de Nosotros en celular y tablet (hasta 900 px): el texto iba encima de la foto
+   y no se leia. Ahora el texto queda sobre papel liso y la foto va debajo. La foto se pasa a la regla CSS
+   mediante la variable --uniforma-hero-image. (woocommerce/archive-product.php, shortcodes/uniforma-about.php,
+   assets/css/uniforma-category.css, assets/css/uniforma-about.css)
+3. Fotos grises en la tienda: LiteSpeed deja un GIF gris hasta que la foto entra en pantalla. Ahora ese
+   marcador es transparente y se ve el fondo beige. (style.css)
+4. Ficha de producto: si una variacion apunta a una foto que ya no existe en la biblioteca de medios, se
+   ignora en vez de mostrar la imagen generica en blanco. El color sin fotos usa las de otro color.
+   (woocommerce/single-product.php)
+5. Categorias vacias: "Por tipo de prenda", el menu (escritorio y celular) y el pie ocultan las categorias
+   sin productos. (functions.php: uniforma_category_has_products y uniforma_catalog_categories)
+6. "Guardapolvos" se quito de los textos visibles; queda "Ambos". La direccion de la categoria no cambia.
+7. Carrito vacio: sin 8 px de scroll horizontal en celular y con la estetica de la marca. (style.css)
+8. Zonas tactiles en celular: boton de menu 44x44 px, indice de la portada 40 px de ancho, enlaces del pie
+   de 44 px de alto. (uniforma-header.css, uniforma-home.css, uniforma-footer.css)
+9. Instagram del pie apunta a instagram.com/uniforma_ar (antes iba a la portada de Instagram).
+   (shortcodes/uniforma-footer.php)
+
+10. Descripcion para Google y vista previa al compartir (WhatsApp, redes): cada pagina, categoria y
+    producto lleva su meta descripcion y sus etiquetas Open Graph. La portada tiene titulo propio
+    ("UNIFORMA - Indumentaria personalizada para empresas y equipos") y las paginas informativas
+    corrigen el titulo de la pestana (acentos y mayusculas). No agrega nada en busqueda, carrito,
+    finalizar compra ni mi cuenta, y se desactiva sola si se instala un plugin de SEO.
+    (inc/uniforma-seo.php, functions.php)
+
+11. Ficha de producto: el precio incluye 1 estampado DTF de hasta 10 x 3 cm por prenda; el bordado ya
+    no figura como incluido y se cotiza aparte. Cambia la nota junto al precio y el bloque "1 logo DTF
+    incluido". (woocommerce/single-product.php)
+
+12. Carga de productos desde el ERP (inc/uniforma-erp-products.php): crea y actualiza productos variables
+    (color x talle) con estado Publicado / Borrador / Pendiente / Privado, modo "verificar sin publicar" y
+    cambio de estado. Valida todo antes de escribir, rechaza productos con otros atributos de variacion,
+    no pisa descripciones con formato, no borra variaciones (las sobrantes quedan privadas) y bloquea
+    guardados simultaneos. El catalogo que lee el ERP ahora incluye borradores, pendientes y privados.
+13. Los colores elegidos en el ERP se guardan en el termino (meta uniforma_hex) y la ficha, el listado,
+    la busqueda y el personalizador los usan.
+14. SEGURIDAD: la clave de conexion ya no esta escrita en el theme. Debe definirse en wp-config.php
+    (UNIFORMA_CATALOG_SYNC_TOKEN, 24 caracteres o mas); sin ella el catalogo y la carga quedan cerrados.
+    Ver INSTRUCCIONES-PUBLICAR-DESDE-EL-ERP.md.
+
+PENDIENTE (no se puede resolver desde el theme)
+- Facebook del pie sigue apuntando a facebook.com/ (falta la direccion de la pagina).
+- Delantal Urban Whisky: el color Azul no tiene fotos cargadas.
+- Cargar productos en la categoria "Ambos" (hoy esta vacia y se oculta sola).
+- Para ajustar la descripcion de una categoria, escribirla en Productos > Categorias > Descripcion:
+  el theme la usa como descripcion para Google.
+
+Despues de subir: purgar LiteSpeed Cache y Ctrl+F5.

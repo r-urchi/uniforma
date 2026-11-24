@@ -1,0 +1,222 @@
+/*
+Theme Name: Uniforma Divi Child
+Theme URI: https://uniforma.com.ar/
+Description: Child theme for UNIFORMA based on Divi.
+Author: UNIFORMA
+Template: Divi
+Version: 1.0.0
+Text Domain: uniforma-divi-child
+*/
+
+:root {
+  --uniforma-primary: #b77a2b;
+  --uniforma-primary-dark: #8a5a20;
+  --uniforma-footer: #3a2718;
+  --uniforma-bg: #f7f3ee;
+  --uniforma-surface: #fbf8f4;
+  --uniforma-text: #2b211b;
+  --uniforma-muted: #6d625a;
+  --uniforma-border: #e4d8cc;
+  --uniforma-white: #ffffff;
+  --uniforma-radius: 6px;
+}
+
+body {
+  background: var(--uniforma-bg);
+  color: var(--uniforma-text);
+  font-family: "Inter", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.et_pb_button,
+.et_pb_menu__menu,
+#top-menu {
+  color: var(--uniforma-text);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+a {
+  color: var(--uniforma-primary);
+}
+
+a:hover {
+  color: var(--uniforma-primary-dark);
+}
+
+.et_pb_button,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.uniforma-button {
+  background: var(--uniforma-primary);
+  border: 1px solid var(--uniforma-primary);
+  border-radius: var(--uniforma-radius);
+  color: var(--uniforma-white) !important;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.2;
+  padding: 14px 24px !important;
+  text-transform: uppercase;
+}
+
+.et_pb_button:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.uniforma-button:hover {
+  background: var(--uniforma-primary-dark);
+  border-color: var(--uniforma-primary-dark);
+  color: var(--uniforma-white) !important;
+}
+
+.uniforma-button-outline,
+.woocommerce a.uniforma-button-outline {
+  background: transparent;
+  border: 1px solid var(--uniforma-primary);
+  color: var(--uniforma-primary-dark) !important;
+}
+
+.uniforma-button-outline:hover,
+.woocommerce a.uniforma-button-outline:hover {
+  background: var(--uniforma-primary);
+  color: var(--uniforma-white) !important;
+}
+
+.uniforma-section-soft {
+  background: var(--uniforma-surface);
+}
+
+.uniforma-kicker {
+  color: var(--uniforma-primary-dark);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.uniforma-divider {
+  background: var(--uniforma-primary);
+  display: block;
+  height: 2px;
+  margin: 14px 0 24px;
+  width: 52px;
+}
+
+.woocommerce ul.products li.product {
+  background: var(--uniforma-white);
+  border: 1px solid var(--uniforma-border);
+  border-radius: var(--uniforma-radius);
+  overflow: hidden;
+  padding: 0 0 18px;
+}
+
+.woocommerce ul.products li.product a img {
+  background: var(--uniforma-surface);
+  margin: 0 0 14px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  color: var(--uniforma-text);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  padding: 0 16px;
+  text-transform: uppercase;
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: var(--uniforma-primary-dark);
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.uniforma-product-actions {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 16px;
+}
+
+.uniforma-single-actions {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.woocommerce div.product .uniforma-single-actions a.button {
+  text-align: center;
+}
+
+.woocommerce div.product .product_title {
+  color: var(--uniforma-text);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  color: var(--uniforma-muted);
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.woocommerce .woocommerce-breadcrumb a {
+  color: var(--uniforma-primary-dark);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-color: var(--uniforma-border);
+  border-radius: var(--uniforma-radius) var(--uniforma-radius) 0 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  border-bottom-color: var(--uniforma-white);
+}
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+  background: var(--uniforma-surface);
+  border-top-color: var(--uniforma-primary);
+  color: var(--uniforma-text);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  border: 1px solid var(--uniforma-border);
+  border-radius: var(--uniforma-radius);
+  color: var(--uniforma-text);
+  font-family: "Inter", Arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .uniforma-product-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .et_pb_button,
+  .woocommerce a.button,
+  .woocommerce button.button,
+  .woocommerce input.button,
+  .uniforma-button {
+    width: 100%;
+  }
+}

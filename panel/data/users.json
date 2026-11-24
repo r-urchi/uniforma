@@ -1,0 +1,41 @@
+[
+    {
+        "id": "user-admin",
+        "name": "Fernando",
+        "email": "",
+        "username": "admin",
+        "role": "admin",
+        "active": true,
+        "permissionsOverride": [],
+        "createdAt": "2026-06-30T15:26:39+00:00",
+        "updatedAt": "2026-10-28T15:48:31+00:00",
+        "lastLoginAt": "2026-10-28T15:48:31+00:00",
+        "password_hash": "$2y$10$kwQCnHlpWYwCYb3zUk3xRO/eMBL0X.5e15M5j38dkv2NXSvdYE6Si"
+    },
+    {
+        "id": "user-1320f1ef5954",
+        "name": "Yanina Carrara",
+        "email": "contacto@uniforma.com.ar",
+        "username": "Yanina132",
+        "role": "admin",
+        "permissionsOverride": [
+            "users.manage",
+            "dashboard.view",
+            "clients.view",
+            "clients.manage",
+            "tasks.view",
+            "tasks.manage",
+            "catalog.view",
+            "catalog.manage",
+            "proposals.view",
+            "proposals.manage",
+            "editor.use",
+            "reports.view"
+        ],
+        "active": true,
+        "createdAt": "2026-06-30T20:44:56+00:00",
+        "updatedAt": "2026-11-24T18:15:13+00:00",
+        "lastLoginAt": "2026-11-24T18:15:13+00:00",
+        "password_hash": "$2y$10$fPPi7gXGQVfy0dt2EZ82RugOuz0JnoCgkzLaz5AWnjXucV6HhE2La"
+    }
+]

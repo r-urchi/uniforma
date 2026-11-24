@@ -1,0 +1,50 @@
+{
+    "id": "d537496df6d07dcc4d03",
+    "name": "Logo sin título",
+    "clientId": "",
+    "doc": {
+        "v": 1,
+        "widthCm": 12.1,
+        "heightCm": 6,
+        "bg": "transparent",
+        "bgColor": "#ffffff",
+        "nodes": [
+            {
+                "t": "Image",
+                "a": {
+                    "name": "obj",
+                    "draggable": true,
+                    "assetId": "a5a244e863497869d73ce042eaad7444",
+                    "origAssetId": "a5a244e863497869d73ce042eaad7444",
+                    "rootAssetId": "8eadebb58b602fa7d2a144d36420725a",
+                    "kind": "image",
+                    "fx": {
+                        "bg": {
+                            "color": null,
+                            "tol": 24,
+                            "mode": "edge"
+                        }
+                    },
+                    "label": "logo remeras Imprimer",
+                    "x": 2.1458797858941962e-13,
+                    "y": 49.65888841631074,
+                    "width": 568,
+                    "height": 153.99111111111085,
+                    "scaleX": 0.7826889544660544,
+                    "scaleY": 0.9354098006746265,
+                    "rotation": 0,
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "skewX": 0,
+                    "skewY": 0,
+                    "palette": []
+                }
+            }
+        ]
+    },
+    "rev": 1,
+    "createdAt": "2026-10-29T14:07:11+00:00",
+    "createdBy": "Yanina Carrara",
+    "updatedAt": "2026-10-29T14:07:11+00:00",
+    "updatedBy": "Yanina Carrara"
+}

@@ -1,0 +1,1126 @@
+/* uniforma-contact.css: estructura base heredada + capa "Taller editorial" (unificados en v1.6.0).
+   La capa editorial (abajo) define la apariencia vigente y pisa lo anterior. */
+
+/* =========================================
+   UNIFORMA — CONTACT PAGE
+========================================= */
+
+body:has(#uniformaContact) {
+    background: #fbf8f4 !important;
+}
+
+body:has(#uniformaContact) #sidebar,
+body:has(#uniformaContact) #main-content .container:before,
+body:has(#uniformaContact) h1.entry-title.main_title {
+    display: none !important;
+}
+
+body:has(#uniformaContact) #left-area,
+body:has(#uniformaContact) article,
+body:has(#uniformaContact) .entry-content,
+body:has(#uniformaContact) #main-content .container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.uniforma-contact {
+    width: 100%;
+    background: #fbf8f4;
+    color: var(--uniforma-text, #2b211b);
+    font-family: var(--font-body);
+}
+
+/* HERO */
+
+.uniforma-contact-hero {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.uniforma-contact-hero__inner {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 62px 72px 58px;
+}
+
+.uniforma-contact-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 54px;
+    color: #1d1611;
+    font-size: 14px;
+}
+
+.uniforma-contact-breadcrumb a {
+    color: #1d1611;
+    text-decoration: none;
+}
+
+.uniforma-contact-breadcrumb span,
+.uniforma-contact-breadcrumb strong {
+    color: var(--uniforma-muted, #6d625a);
+    font-weight: 500;
+}
+
+.uniforma-contact-hero h1 {
+    max-width: 560px;
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-hero i {
+    display: block;
+    width: 54px;
+    height: 2px;
+    margin: 24px 0 26px;
+    background: var(--uniforma-primary, #b77a2b);
+}
+
+.uniforma-contact-hero p {
+    max-width: 390px;
+    margin: 0 0 34px;
+    color: var(--uniforma-ink);
+    font-size: 20px;
+    line-height: 1.55;
+}
+
+.uniforma-contact-hero__actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.uniforma-contact-btn {
+    display: inline-flex;
+    min-height: 52px;
+    padding: 0 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.uniforma-contact-btn svg {
+    width: 21px;
+    height: 21px;
+    stroke: currentColor;
+    stroke-width: 1.7;
+}
+
+.uniforma-contact-btn--primary {
+    border: 1px solid var(--uniforma-primary, #b77a2b);
+    background: linear-gradient(135deg, var(--uniforma-primary, #b77a2b), var(--uniforma-primary-dark, #8a5a20));
+    color: #ffffff !important;
+}
+
+.uniforma-contact-btn--secondary {
+    border: 1px solid var(--uniforma-primary, #b77a2b);
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--uniforma-primary-dark, #8a5a20) !important;
+}
+
+.uniforma-contact-btn:hover {
+    transform: translateY(-1px);
+}
+
+/* MAIN */
+
+.uniforma-contact-main {
+    padding: 44px 72px 34px;
+}
+
+.uniforma-contact-main__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 560px;
+    gap: 24px;
+    align-items: start;
+}
+
+.uniforma-contact-form-card,
+.uniforma-contact-info-card {
+    min-height: 100%;
+    padding: 38px 38px 36px;
+    border: 1px solid rgba(228, 216, 204, 0.9);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.62);
+    box-shadow: 0 18px 42px rgba(43, 33, 27, 0.045);
+}
+
+.uniforma-contact-form-card h2,
+.uniforma-contact-info-card h2 {
+    margin: 0 0 30px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+/* FORM */
+
+.uniforma-contact-form {
+    display: block;
+}
+
+.uniforma-contact-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+
+.uniforma-contact-field {
+    margin-bottom: 22px;
+}
+
+.uniforma-contact-field label {
+    display: block;
+    margin: 0 0 9px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.uniforma-contact-field label span {
+    color: #b00020;
+}
+
+.uniforma-contact-field label em {
+    color: var(--uniforma-muted, #6d625a);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.uniforma-contact-field input,
+.uniforma-contact-field select,
+.uniforma-contact-field textarea {
+    width: 100%;
+    min-height: 47px;
+    padding: 0 15px;
+    border: 1px solid rgba(109, 98, 90, 0.25);
+    border-radius: 5px;
+    background: #ffffff;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    transition: 0.2s ease;
+}
+
+.uniforma-contact-field textarea {
+    min-height: 112px;
+    padding: 14px 15px;
+    resize: vertical;
+}
+
+.uniforma-contact-field input:focus,
+.uniforma-contact-field select:focus,
+.uniforma-contact-field textarea:focus {
+    border-color: var(--uniforma-primary, #b77a2b);
+    box-shadow: 0 0 0 3px rgba(183, 122, 43, 0.08);
+}
+
+/* UPLOAD */
+
+.uniforma-contact-upload {
+    min-height: 78px;
+    padding: 15px 18px;
+    display: grid !important;
+    grid-template-columns: 66px 1fr;
+    align-items: center;
+    column-gap: 18px;
+    border: 1px dashed rgba(138, 90, 32, 0.42);
+    border-radius: 6px;
+    background: rgba(255, 253, 249, 0.9);
+    cursor: pointer;
+}
+
+.uniforma-contact-upload input {
+    display: none;
+}
+
+.uniforma-contact-upload span {
+    grid-row: 1 / 3;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(228, 216, 204, 0.9);
+    padding-right: 18px;
+    color: var(--uniforma-ink);
+}
+
+.uniforma-contact-upload svg {
+    width: 30px;
+    height: 30px;
+    stroke: currentColor;
+    stroke-width: 1.6;
+}
+
+.uniforma-contact-upload strong {
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.uniforma-contact-upload small {
+    margin-top: 5px;
+    color: var(--uniforma-muted, #6d625a);
+    font-size: 13px;
+}
+
+.uniforma-contact-file-name {
+    display: none;
+    margin: 9px 0 0;
+    color: var(--uniforma-primary-dark, #8a5a20);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.uniforma-contact-file-name.is-visible {
+    display: block;
+}
+
+.uniforma-contact-submit {
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid var(--uniforma-primary, #b77a2b);
+    border-radius: 5px;
+    background: linear-gradient(135deg, var(--uniforma-primary, #b77a2b), var(--uniforma-primary-dark, #8a5a20));
+    color: #ffffff;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.uniforma-contact-submit:hover {
+    transform: translateY(-1px);
+    background: var(--uniforma-primary-dark, #8a5a20);
+}
+
+.uniforma-contact-security {
+    display: flex;
+    margin: 18px 0 0;
+    align-items: center;
+    gap: 9px;
+    color: var(--uniforma-muted, #6d625a);
+    font-size: 13px;
+}
+
+.uniforma-contact-security svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 1.8;
+}
+
+/* INFO CARD */
+
+.uniforma-contact-info-list {
+    display: grid;
+    gap: 28px;
+}
+
+.uniforma-contact-info-item {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 18px;
+    align-items: start;
+    color: var(--uniforma-ink);
+    text-decoration: none;
+}
+
+.uniforma-contact-info-item > span {
+    width: 58px;
+    height: 58px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(228, 216, 204, 0.82);
+    border-radius: 999px;
+    background: rgba(251, 248, 244, 0.9);
+    color: var(--uniforma-primary, #b77a2b);
+}
+
+.uniforma-contact-info-item svg {
+    width: 29px;
+    height: 29px;
+    stroke: currentColor;
+    stroke-width: 1.55;
+}
+
+.uniforma-contact-info-item h3 {
+    margin: 0 0 7px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-info-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--uniforma-ink);
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.uniforma-contact-info-item p {
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+a.uniforma-contact-info-item:hover h3,
+a.uniforma-contact-info-item:hover strong {
+    color: var(--uniforma-primary-dark, #8a5a20);
+}
+
+.uniforma-contact-help {
+    margin-top: 56px;
+    padding: 35px 34px;
+    display: grid;
+    grid-template-columns: 76px 1fr;
+    gap: 22px;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(183, 122, 43, 0.08), rgba(251, 248, 244, 0.96));
+}
+
+.uniforma-contact-help > span {
+    width: 66px;
+    height: 66px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--uniforma-primary, #b77a2b), var(--uniforma-primary-dark, #8a5a20));
+    color: #ffffff;
+}
+
+.uniforma-contact-help svg {
+    width: 36px;
+    height: 36px;
+    stroke: currentColor;
+    stroke-width: 1.7;
+}
+
+.uniforma-contact-help h3 {
+    margin: 0 0 8px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-help p {
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+/* BENEFITS */
+
+.uniforma-contact-benefits {
+    padding: 0 72px 34px;
+}
+
+.uniforma-contact-benefits__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 27px 32px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border: 1px solid rgba(228, 216, 204, 0.88);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.58);
+}
+
+.uniforma-contact-benefits article {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 18px;
+    align-items: center;
+    padding: 0 24px;
+    border-right: 1px solid rgba(138, 90, 32, 0.22);
+}
+
+.uniforma-contact-benefits article:last-child {
+    border-right: 0;
+}
+
+.uniforma-contact-benefits svg {
+    width: 44px;
+    height: 44px;
+    color: var(--uniforma-primary, #b77a2b);
+    stroke: currentColor;
+    stroke-width: 1.35;
+}
+
+.uniforma-contact-benefits h3 {
+    margin: 0 0 7px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-benefits p {
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1180px) {
+    .uniforma-contact-main__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .uniforma-contact-info-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .uniforma-contact-help {
+        margin-top: 34px;
+    }
+
+    .uniforma-contact-benefits__inner {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px;
+    }
+
+    .uniforma-contact-benefits article {
+        border-right: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body:has(#uniformaContact) {
+        overflow-x: hidden !important;
+    }
+
+    body:has(#uniformaContact) #main-content,
+    body:has(#uniformaContact) #main-content .container,
+    body:has(#uniformaContact) #left-area,
+    body:has(#uniformaContact) article,
+    body:has(#uniformaContact) .entry-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+
+    .uniforma-contact,
+    .uniforma-contact * {
+        box-sizing: border-box;
+    }
+
+    .uniforma-contact-hero {
+        min-height: auto;
+        background-position: center right;
+    }
+
+    .uniforma-contact-hero__inner {
+        padding: 34px 18px 38px;
+    }
+
+    .uniforma-contact-breadcrumb {
+        margin-bottom: 34px;
+        font-size: 12px;
+    }
+
+    .uniforma-contact-hero h1 {
+        max-width: 280px;
+        font-size: 34px;
+        line-height: 1;
+        letter-spacing: -0.8px;
+    }
+
+    .uniforma-contact-hero i {
+        width: 40px;
+        margin: 18px 0 20px;
+    }
+
+    .uniforma-contact-hero p {
+        max-width: 280px;
+        margin-bottom: 24px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .uniforma-contact-hero__actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        max-width: 280px;
+    }
+
+    .uniforma-contact-btn {
+        min-height: 48px;
+        padding: 0 16px;
+        font-size: 11px;
+    }
+
+    .uniforma-contact-main {
+        padding: 22px 12px 22px;
+    }
+
+    .uniforma-contact-main__inner {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .uniforma-contact-form-card,
+    .uniforma-contact-info-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 22px 16px;
+        border-radius: 8px;
+    }
+
+    .uniforma-contact-form-card h2,
+    .uniforma-contact-info-card h2 {
+        margin-bottom: 24px;
+        font-size: 19px;
+    }
+
+    .uniforma-contact-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .uniforma-contact-field {
+        margin-bottom: 18px;
+    }
+
+    .uniforma-contact-field label {
+        font-size: 11px;
+    }
+
+    .uniforma-contact-field input,
+    .uniforma-contact-field select,
+    .uniforma-contact-field textarea {
+        min-height: 44px;
+        font-size: 13px;
+    }
+
+    .uniforma-contact-upload {
+        min-height: 96px;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .uniforma-contact-upload span {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border-right: 0;
+        justify-content: center;
+    }
+
+    .uniforma-contact-upload strong {
+        font-size: 12px;
+        line-height: 1.35;
+    }
+
+    .uniforma-contact-upload small {
+        font-size: 11px;
+        line-height: 1.35;
+    }
+
+    .uniforma-contact-info-list {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .uniforma-contact-info-item {
+        grid-template-columns: 54px 1fr;
+        gap: 14px;
+    }
+
+    .uniforma-contact-info-item > span {
+        width: 48px;
+        height: 48px;
+    }
+
+    .uniforma-contact-info-item svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .uniforma-contact-info-item h3 {
+        font-size: 13px;
+    }
+
+    .uniforma-contact-info-item strong {
+        font-size: 15px;
+    }
+
+    .uniforma-contact-info-item p {
+        font-size: 12px;
+    }
+
+    .uniforma-contact-help {
+        margin-top: 30px;
+        padding: 24px 18px;
+        grid-template-columns: 58px 1fr;
+        gap: 16px;
+    }
+
+    .uniforma-contact-help > span {
+        width: 54px;
+        height: 54px;
+    }
+
+    .uniforma-contact-help h3 {
+        font-size: 17px;
+    }
+
+    .uniforma-contact-help p {
+        font-size: 13px;
+    }
+
+    .uniforma-contact-benefits {
+        padding: 0 12px 28px;
+    }
+
+    .uniforma-contact-benefits__inner {
+        padding: 22px 16px;
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .uniforma-contact-benefits article {
+        grid-template-columns: 48px 1fr;
+        gap: 14px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid rgba(138, 90, 32, 0.16);
+    }
+
+    .uniforma-contact-benefits article:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .uniforma-contact-benefits svg {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+/* ##########  CAPA TALLER EDITORIAL  ########## */
+
+/* =========================================================
+   CONTACTO — capa «Taller editorial»
+   ========================================================= */
+
+body:has(#uniformaContact) {
+    background: var(--uniforma-bg) !important;
+}
+
+.uniforma-contact {
+    background: var(--uniforma-bg);
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+}
+
+.uniforma-contact i {
+    display: none;
+}
+
+.uniforma-contact-hero {
+    border-bottom: 1px solid var(--uniforma-ink);
+    background: transparent;
+}
+
+.uniforma-contact-hero__inner,
+.uniforma-contact-main__inner,
+.uniforma-contact-benefits__inner {
+    max-width: var(--max);
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+}
+
+.uniforma-contact-breadcrumb {
+    color: var(--uniforma-muted);
+    font-family: var(--font-label);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-breadcrumb a,
+.uniforma-contact-breadcrumb strong {
+    color: var(--uniforma-ink);
+    font-weight: 500;
+}
+
+.uniforma-contact-hero h1 {
+    color: var(--uniforma-ink);
+    font-family: var(--font-display);
+    font-size: clamp(2.58rem, 6.364vw, 5.59rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-hero p {
+    color: var(--uniforma-muted);
+    font-size: var(--text-lg);
+}
+
+/* Botones */
+.uniforma-contact-btn {
+    min-height: 0;
+    padding: 16px 24px;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-btn--primary {
+    border: 1px solid var(--uniforma-ink);
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg) !important;
+}
+
+.uniforma-contact-btn--secondary {
+    border: 1px solid var(--uniforma-ink);
+    background: transparent;
+    color: var(--uniforma-ink) !important;
+}
+
+.uniforma-contact-btn:hover {
+    transform: none;
+}
+
+.uniforma-contact-btn--primary:hover {
+    background: var(--uniforma-primary);
+    border-color: var(--uniforma-primary);
+    color: var(--uniforma-on-accent) !important;
+}
+
+.uniforma-contact-btn--secondary:hover {
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg) !important;
+}
+
+/* Formulario y datos: sin tarjetas con sombra */
+.uniforma-contact-form,
+.uniforma-contact-info-card {
+    border: 0;
+    border-top: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.uniforma-contact-info-card h2,
+.uniforma-contact-form > h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.376rem, 2.064vw, 1.892rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-field label {
+    color: var(--uniforma-ink);
+    font-family: var(--font-label);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-field label em {
+    color: var(--uniforma-muted);
+    font-style: normal;
+}
+
+.uniforma-contact-field input,
+.uniforma-contact-field select,
+.uniforma-contact-field textarea {
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: var(--uniforma-surface);
+    color: var(--uniforma-ink);
+    box-shadow: none;
+}
+
+.uniforma-contact-field input:focus,
+.uniforma-contact-field select:focus,
+.uniforma-contact-field textarea:focus {
+    border-color: var(--uniforma-ink);
+    box-shadow: inset 0 0 0 1px var(--uniforma-ink);
+    outline: 0;
+}
+
+.uniforma-contact-upload {
+    border: 1px dashed var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+}
+
+.uniforma-contact-upload svg {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-contact-submit {
+    min-height: 54px;
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: var(--uniforma-ink);
+    box-shadow: none;
+    color: var(--uniforma-bg);
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-submit:hover {
+    background: var(--uniforma-primary);
+    border-color: var(--uniforma-primary);
+    color: var(--uniforma-on-accent);
+    transform: none;
+}
+
+.uniforma-contact-security {
+    color: var(--uniforma-muted);
+    font-family: var(--font-label);
+    font-size: 12px;
+}
+
+/* Medios de contacto: lista con líneas */
+.uniforma-contact-info-item {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--uniforma-border);
+}
+
+.uniforma-contact-info-item > span {
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: var(--uniforma-ink);
+}
+
+.uniforma-contact-info-item svg {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-contact-info-item h3 {
+    color: var(--uniforma-muted);
+    font-family: var(--font-label);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.uniforma-contact-info-item strong {
+    color: var(--uniforma-ink);
+    font-size: var(--text-lg);
+    font-weight: 600;
+}
+
+.uniforma-contact-info-item p {
+    color: var(--uniforma-muted);
+}
+
+a.uniforma-contact-info-item:hover strong {
+    color: var(--uniforma-primary-dark);
+}
+
+.uniforma-contact-help {
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.uniforma-contact-help > span {
+    border-radius: 0;
+    background: var(--uniforma-ink);
+    box-shadow: none;
+    color: var(--uniforma-bg);
+}
+
+.uniforma-contact-help h3 {
+    font-family: var(--font-display);
+    font-stretch: var(--display-stretch);
+    text-transform: uppercase;
+}
+
+/* Beneficios: texto con líneas, sin íconos */
+.uniforma-contact-benefits {
+    border-top: 1px solid var(--uniforma-ink);
+    background: transparent;
+}
+
+.uniforma-contact-benefits__inner {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.uniforma-contact-benefits svg {
+    display: none;
+}
+
+.uniforma-contact-benefits h3 {
+    font-family: var(--font-body);
+    font-size: var(--text-lg);
+    font-stretch: 100%;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.uniforma-contact-benefits p {
+    color: var(--uniforma-muted);
+    font-size: var(--text-sm);
+}
+
+/* ---------- Estructura sin tarjetas ---------- */
+.uniforma-contact-main,
+.uniforma-contact-benefits {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.uniforma-contact-main__inner {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: clamp(32px, 5vw, 80px);
+}
+
+.uniforma-contact-form-card,
+.uniforma-contact-info-card {
+    min-height: 0;
+    padding: 24px 0 0;
+    border: 0;
+    border-top: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.uniforma-contact-form-card h2,
+.uniforma-contact-info-card h2 {
+    margin-bottom: 24px;
+    font-family: var(--font-display);
+    font-size: clamp(1.376rem, 2.064vw, 1.892rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.uniforma-contact-form {
+    border-top: 0;
+}
+
+.uniforma-contact-info-item {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+}
+
+.uniforma-contact-help {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 18px;
+    align-items: center;
+    padding: 18px;
+    margin-top: 28px;
+}
+
+.uniforma-contact-benefits article {
+    display: block;
+    padding: 22px 24px 0 0;
+    border-right: 0;
+    border-top: 1px solid var(--uniforma-border);
+}
+
+.uniforma-contact-benefits__inner {
+    padding-top: 0;
+    padding-bottom: clamp(32px, 4vw, 56px);
+}
+
+.uniforma-contact-upload strong {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.uniforma-contact-upload small {
+    font-family: var(--font-label);
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+@media (max-width: 900px) {
+    .uniforma-contact-main__inner {
+        grid-template-columns: 1fr;
+    }
+}
+
+.uniforma-contact-benefits {
+    margin-top: clamp(40px, 5vw, 72px);
+}

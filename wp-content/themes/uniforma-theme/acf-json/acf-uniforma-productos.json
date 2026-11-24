@@ -1,0 +1,235 @@
+[
+    {
+        "key": "group_uniforma_product_data",
+        "title": "UNIFORMA - Datos extra del producto",
+        "fields": [
+            {
+                "key": "field_uniforma_precio_x5",
+                "label": "Precio unitario X5",
+                "name": "uniforma_precio_x5",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Precio por unidad aplicable desde 5 unidades.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": "",
+                "step": "0.01",
+                "placeholder": "",
+                "prepend": "$",
+                "append": "por unidad"
+            },
+            {
+                "key": "field_uniforma_precio_x10",
+                "label": "Precio unitario X10",
+                "name": "uniforma_precio_x10",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Precio por unidad aplicable desde 10 unidades.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": "",
+                "step": "0.01",
+                "placeholder": "",
+                "prepend": "$",
+                "append": "por unidad"
+            },
+            {
+                "key": "field_uniforma_precio_x20",
+                "label": "Precio unitario X20",
+                "name": "uniforma_precio_x20",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Precio por unidad aplicable desde 20 unidades.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": "",
+                "step": "0.01",
+                "placeholder": "",
+                "prepend": "$",
+                "append": "por unidad"
+            },
+            {
+                "key": "field_uniforma_precio_x50",
+                "label": "Precio unitario X50",
+                "name": "uniforma_precio_x50",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "Precio por unidad aplicable desde 50 unidades.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": "",
+                "step": "0.01",
+                "placeholder": "",
+                "prepend": "$",
+                "append": "por unidad"
+            },
+            {
+                "key": "field_uniforma_detalles",
+                "label": "Detalles del producto",
+                "name": "uniforma_detalles",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "Contenido que se muestra en la columna Detalles de la ficha de producto. Podés usar listas, negritas y saltos de línea.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_uniforma_tabla_talles",
+                "label": "Tabla de talles",
+                "name": "uniforma_tabla_talles",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "Tabla HTML o texto de talles que se muestra en la ficha del producto. Para accesorios podés cargar medidas únicas.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_uniforma_cuidados",
+                "label": "Cuidados",
+                "name": "uniforma_cuidados",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "Indicaciones de cuidado/lavado. Recomendado cargarlo como lista.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            },
+            {
+                "key": "field_uniforma_producto_nuevo",
+                "label": "Mostrar etiqueta Nuevo",
+                "name": "uniforma_producto_nuevo",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "Activalo para mostrar la etiqueta NUEVO sobre la imagen principal.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Mostrar etiqueta NUEVO",
+                "default_value": 1,
+                "ui": 1,
+                "ui_on_text": "Sí",
+                "ui_off_text": "No"
+            },
+            {
+                "key": "field_uniforma_texto_boton_personalizar",
+                "label": "Texto botón personalizar",
+                "name": "uniforma_texto_boton_personalizar",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Opcional. Si lo dejás vacío, se usa “Personalizar prenda”.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "Personalizar prenda",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_uniforma_texto_boton_presupuesto",
+                "label": "Texto botón presupuesto",
+                "name": "uniforma_texto_boton_presupuesto",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Opcional. Si lo dejás vacío, se usa “Pedir presupuesto”.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "Pedir presupuesto",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "product"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Campos personalizados para controlar la ficha de producto de UNIFORMA.",
+        "show_in_rest": 0,
+        "modified": 1782397653
+    }
+]

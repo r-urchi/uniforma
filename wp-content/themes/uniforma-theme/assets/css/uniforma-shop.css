@@ -1,0 +1,432 @@
+/* =========================================================
+   TIENDA — título grande con contador, categorías como pestañas,
+   filtros en una línea (plegados en mobile), grilla de fotos.
+   ========================================================= */
+
+.uniforma-shop-page {
+    background: var(--uniforma-bg);
+    color: var(--uniforma-text);
+}
+
+/* ---------- Encabezado ---------- */
+.uniforma-shop-head {
+    padding: clamp(32px, 5vw, 64px) 0 clamp(24px, 3vw, 40px);
+}
+
+.uniforma-shop-head__inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.uniforma-shop-head .uniforma-label {
+    margin: 0 0 14px;
+}
+
+.uniforma-shop-head h1 {
+    margin: 0;
+    font-size: var(--text-display);
+    line-height: 0.88;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.uniforma-shop-head__count {
+    margin-left: 6px;
+    color: var(--uniforma-primary-dark);
+    font-family: var(--font-label);
+    font-size: 0.16em;
+    font-stretch: 100%;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    vertical-align: top;
+    position: relative;
+    top: 0.4em;
+}
+
+.uniforma-shop-head__aside {
+    max-width: 34ch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.uniforma-shop-head__aside p {
+    margin: 0;
+    color: var(--uniforma-muted);
+    font-size: var(--text-base);
+}
+
+/* ---------- Categorías: pestañas de texto ---------- */
+.uniforma-shop-categories {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 28px;
+    overflow-x: auto;
+    border-top: 1px solid var(--uniforma-ink);
+    scrollbar-width: none;
+}
+
+.uniforma-shop-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.uniforma-shop-categories__item {
+    position: relative;
+    flex: none;
+    padding: 16px 0;
+    color: var(--uniforma-muted);
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.uniforma-shop-categories__item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    height: 3px;
+    background: var(--uniforma-ink);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.18s ease;
+}
+
+.uniforma-shop-categories__item:hover {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-shop-categories__item.is-active {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-shop-categories__item.is-active::after,
+.uniforma-shop-categories__item:hover::after {
+    transform: scaleX(1);
+}
+
+/* ---------- Filtros ---------- */
+.uniforma-shop-filters {
+    border-top: 1px solid var(--uniforma-border);
+    border-bottom: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-shop-filters__panel > summary {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    cursor: pointer;
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.uniforma-shop-filters__panel > summary::-webkit-details-marker {
+    display: none;
+}
+
+.uniforma-shop-filters__panel > summary::after {
+    content: "+";
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.uniforma-shop-filters__panel[open] > summary::after {
+    content: "−";
+}
+
+.uniforma-shop-filters__badge {
+    margin-left: 10px;
+    min-width: 20px;
+    padding: 3px 6px;
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg);
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+}
+
+.uniforma-shop-filters__fields {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 24px;
+    align-items: end;
+    padding: 18px 0 20px;
+}
+
+.uniforma-shop-filters__fields label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+
+.uniforma-shop-filters__fields select {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    background: var(--uniforma-surface);
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    color: var(--uniforma-ink);
+    font-size: var(--text-sm);
+    cursor: pointer;
+}
+
+.uniforma-shop-filters__apply {
+    height: 44px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.uniforma-shop-filters.is-enhanced .uniforma-shop-filters__apply {
+    display: none;
+}
+
+/* ---------- Resultados y filtros activos ---------- */
+.uniforma-shop-results {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    padding: 18px 0 28px;
+}
+
+.uniforma-shop-results p {
+    margin: 0;
+}
+
+.uniforma-shop-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uniforma-shop-chips a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    border: 1px solid var(--uniforma-ink);
+    color: var(--uniforma-ink);
+    font-family: var(--font-label);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.uniforma-shop-chips a:hover {
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg);
+}
+
+.uniforma-shop-chips__clear a {
+    border-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* ---------- Grilla ---------- */
+.uniforma-shop-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(32px, 3.4vw, 52px) 24px;
+}
+
+/* ---------- Paginación ---------- */
+.uniforma-shop-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: clamp(40px, 5vw, 64px);
+}
+
+.uniforma-shop-pagination .page-numbers {
+    min-width: 44px;
+    height: 44px;
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--uniforma-ink);
+    color: var(--uniforma-ink);
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    text-decoration: none;
+}
+
+.uniforma-shop-pagination a.page-numbers:hover,
+.uniforma-shop-pagination .page-numbers.current {
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg);
+}
+
+.uniforma-shop-pagination .page-numbers.dots {
+    border-color: transparent;
+}
+/* ---------- Sin resultados ---------- */
+.uniforma-shop-empty {
+    padding: clamp(40px, 6vw, 80px) 0;
+    border-top: 1px solid var(--uniforma-border);
+}
+
+.uniforma-shop-empty h2 {
+    margin: 0 0 12px;
+    font-size: var(--text-xl);
+    text-transform: uppercase;
+}
+
+.uniforma-shop-empty p {
+    max-width: 52ch;
+    margin: 0 0 24px;
+    color: var(--uniforma-muted);
+}
+
+.uniforma-shop-empty__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* ---------- Presupuesto + beneficios (papel: el pie ya cierra con tinta) ---------- */
+.uniforma-shop-cta {
+    margin-top: clamp(56px, 8vw, 104px);
+    border-top: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-shop-cta__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding-top: clamp(32px, 4vw, 52px);
+    padding-bottom: clamp(32px, 4vw, 52px);
+}
+
+.uniforma-shop-cta h2 {
+    max-width: 18ch;
+    margin: 0 0 12px;
+    font-size: var(--text-xl);
+    line-height: 0.98;
+    text-transform: uppercase;
+}
+
+.uniforma-shop-cta p {
+    max-width: 56ch;
+    margin: 0;
+    color: var(--uniforma-muted);
+}
+
+.uniforma-shop-cta .uniforma-btn {
+    flex: none;
+}
+
+.uniforma-shop-benefits {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 0;
+    padding: 0 0 clamp(48px, 6vw, 80px);
+    list-style: none;
+}
+
+.uniforma-shop-benefits li {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 18px 24px 0 0;
+    border-top: 1px solid var(--uniforma-border);
+    color: var(--uniforma-muted);
+    font-size: var(--text-sm);
+}
+
+.uniforma-shop-benefits li .uniforma-label {
+    color: var(--uniforma-primary-dark);
+}
+
+.uniforma-shop-benefits strong {
+    color: var(--uniforma-ink);
+    font-size: var(--text-lg);
+    font-weight: 600;
+}
+/* ---------- Responsive ---------- */
+@media (max-width: 1200px) {
+    .uniforma-shop-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 899px) {
+    .uniforma-shop-head__inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .uniforma-shop-benefits {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 24px;
+    }
+
+    .uniforma-shop-cta__inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Filtros plegados: el resumen es el botón */
+    .uniforma-shop-filters__panel > summary {
+        display: flex;
+    }
+
+    .uniforma-shop-filters__fields {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 4px;
+    }
+
+    .uniforma-shop-filters__apply {
+        grid-column: 1 / -1;
+    }
+
+    .uniforma-shop-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 28px 14px;
+    }
+
+    .uniforma-shop-categories {
+        margin-right: calc(var(--gutter) * -1);
+        padding-right: var(--gutter);
+    }
+
+    .uniforma-product-card__actions {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .uniforma-shop-benefits {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,12 @@
+UNIFORMA Theme v1.4.1 — Filtros plegables en mobile
+
+Cambios:
+- En pantallas de hasta 900 px, el bloque completo de filtros queda plegado por defecto.
+- Se muestra un botón compacto con icono, descripción y cantidad de filtros activos.
+- Al tocar el botón, se despliegan todos los filtros múltiples existentes.
+- El botón actualiza aria-expanded y permite cerrar el panel con la tecla Escape.
+- En desktop, los filtros permanecen siempre visibles como antes.
+- Tras aplicar filtros y recargar la categoría, el panel vuelve a quedar plegado y muestra el contador activo.
+- Sin JavaScript, el formulario continúa visible como alternativa segura.
+
+No se modifican productos, variaciones, imágenes, precios ni asignaciones de categorías.

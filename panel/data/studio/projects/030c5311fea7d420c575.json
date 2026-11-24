@@ -1,0 +1,50 @@
+{
+    "id": "030c5311fea7d420c575",
+    "name": "Logo sin título",
+    "clientId": "client-1794425966884-uhjys",
+    "doc": {
+        "v": 1,
+        "widthCm": 20,
+        "heightCm": 10,
+        "bg": "transparent",
+        "bgColor": "#ffffff",
+        "nodes": [
+            {
+                "t": "Image",
+                "a": {
+                    "name": "obj",
+                    "draggable": true,
+                    "assetId": "5702362fcfeda2c251a5d1bb30f88b2d",
+                    "origAssetId": "5702362fcfeda2c251a5d1bb30f88b2d",
+                    "rootAssetId": "e44e5bafcc4bca3fbf8484dca76542c8",
+                    "kind": "image",
+                    "fx": {
+                        "bg": {
+                            "color": null,
+                            "tol": 24,
+                            "mode": "edge"
+                        }
+                    },
+                    "label": "image0",
+                    "x": 4.065251919376986,
+                    "y": 2.9640044260076377,
+                    "width": 525.2762119503946,
+                    "height": 272.423900789177,
+                    "rotation": 0,
+                    "scaleX": 1.509006259007275,
+                    "scaleY": 1.4479696691658133,
+                    "skewX": 0,
+                    "skewY": 0,
+                    "palette": [],
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            }
+        ]
+    },
+    "rev": 2,
+    "createdAt": "2026-11-11T19:45:43+00:00",
+    "createdBy": "Yanina Carrara",
+    "updatedAt": "2026-11-11T19:46:06+00:00",
+    "updatedBy": "Yanina Carrara"
+}

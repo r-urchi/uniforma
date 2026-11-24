@@ -1,0 +1,273 @@
+/* =========================================================
+   PÁGINAS DE INFORMACIÓN — «Taller editorial»
+   Preguntas frecuentes, Términos y condiciones, Botón de arrepentimiento.
+   Título grande a la izquierda y texto en columna de lectura.
+   ========================================================= */
+
+.uniforma-info-page {
+    width: 100%;
+    background: var(--uniforma-bg);
+    color: var(--uniforma-ink);
+    font-family: var(--font-body);
+}
+
+/* ---------- Encabezado ---------- */
+.uniforma-info-hero {
+    width: 100%;
+    padding: clamp(32px, 5vw, 72px) 0 clamp(24px, 3vw, 40px);
+    border-bottom: 1px solid var(--uniforma-ink);
+    background: transparent;
+    text-align: left;
+}
+
+.uniforma-info-hero__inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+}
+
+.uniforma-info-hero span {
+    display: block;
+    color: var(--uniforma-primary-dark);
+    font-family: var(--font-label);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.uniforma-info-hero h1 {
+    max-width: 14ch;
+    margin: 14px 0 0;
+    color: var(--uniforma-ink);
+    font-family: var(--font-display);
+    font-size: clamp(2.58rem, 6.88vw, 6.02rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 0.88;
+    text-transform: uppercase;
+}
+
+.uniforma-info-hero p {
+    max-width: 46ch;
+    margin: 22px 0 0;
+    color: var(--uniforma-muted);
+    font-size: var(--text-lg);
+    line-height: 1.4;
+}
+
+/* ---------- Contenido ---------- */
+.uniforma-info-content {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: clamp(32px, 4vw, 56px) var(--gutter) clamp(56px, 7vw, 104px);
+}
+
+.uniforma-info-content > *:not(.uniforma-faq-list):not(.uniforma-info-cta) {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uniforma-info-content h2 {
+    margin: 48px auto 14px;
+    padding-top: 18px;
+    border-top: 1px solid var(--uniforma-ink);
+    color: var(--uniforma-ink);
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 2.2vw, 1.9rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    line-height: 1.05;
+    text-transform: uppercase;
+}
+
+.uniforma-info-content h2:first-child {
+    margin-top: 0;
+}
+
+.uniforma-info-content p {
+    margin: 0 auto 14px;
+    color: var(--uniforma-ink);
+    font-size: var(--text-base);
+    line-height: 1.7;
+}
+
+.uniforma-info-content ul {
+    margin: 0 auto 14px;
+    padding-left: 20px;
+    color: var(--uniforma-ink);
+    font-size: var(--text-base);
+    line-height: 1.7;
+}
+
+.uniforma-info-content li {
+    margin-bottom: 6px;
+}
+
+.uniforma-info-content strong {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-info-content a:not(.uniforma-info-cta) {
+    color: var(--uniforma-ink);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.uniforma-info-content a:not(.uniforma-info-cta):hover {
+    color: var(--uniforma-primary-dark);
+}
+
+/* Aviso de borrador: debe verse, no pasar por texto definitivo */
+.uniforma-info-notice {
+    margin: 0 auto 36px !important;
+    padding: 16px 20px;
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: var(--uniforma-surface);
+    color: var(--uniforma-ink) !important;
+    font-family: var(--font-label);
+    font-size: 13px !important;
+    letter-spacing: 0.02em;
+    line-height: 1.6 !important;
+}
+
+.uniforma-info-notice::before {
+    content: "Borrador sin validar — ";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.uniforma-info-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: 54px;
+    margin: 28px auto 0;
+    padding: 16px 28px;
+    border: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: var(--uniforma-ink);
+    box-shadow: none;
+    color: var(--uniforma-bg) !important;
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.uniforma-info-cta:hover {
+    background: var(--uniforma-primary);
+    border-color: var(--uniforma-primary);
+    color: var(--uniforma-on-accent) !important;
+    transform: none;
+}
+
+/* ---------- Acordeón de preguntas frecuentes ---------- */
+.uniforma-faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-faq-item {
+    border: 0;
+    border-top: 1px solid var(--uniforma-ink);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.uniforma-faq-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 0;
+    padding: 24px 0;
+    color: var(--uniforma-ink);
+    cursor: pointer;
+    font-size: var(--text-lg);
+    font-weight: 600;
+    line-height: 1.25;
+    list-style: none;
+}
+
+.uniforma-faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.uniforma-faq-item summary:hover {
+    color: var(--uniforma-primary-dark);
+}
+
+.uniforma-faq-item__icon {
+    position: relative;
+    flex: none;
+    width: 14px;
+    height: 14px;
+}
+
+.uniforma-faq-item__icon::before,
+.uniforma-faq-item__icon::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 14px;
+    height: 2px;
+    border-radius: 0;
+    background: var(--uniforma-ink);
+    transform: none;
+    transition: transform 0.2s ease;
+}
+
+.uniforma-faq-item__icon::after {
+    transform: rotate(90deg);
+}
+
+.uniforma-faq-item[open] .uniforma-faq-item__icon::after {
+    transform: rotate(0);
+}
+
+.uniforma-faq-answer {
+    padding: 0 40px 28px 0;
+    color: var(--uniforma-muted);
+    font-size: var(--text-base);
+    line-height: 1.65;
+}
+
+.uniforma-faq-answer p {
+    max-width: 62ch;
+    margin: 0;
+    color: inherit;
+}
+
+.uniforma-faq-empty {
+    padding: 32px 0;
+    color: var(--uniforma-muted);
+    font-size: var(--text-base);
+}
+
+@media (max-width: 640px) {
+    .uniforma-faq-item summary {
+        padding: 18px 0;
+        font-size: var(--text-base);
+    }
+
+    .uniforma-faq-answer {
+        padding-right: 0;
+    }
+
+    .uniforma-info-cta {
+        width: 100%;
+    }
+}

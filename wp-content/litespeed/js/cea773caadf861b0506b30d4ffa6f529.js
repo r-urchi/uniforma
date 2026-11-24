@@ -1,0 +1,2 @@
+(function(){window.uniformaSendLead=function(data){try{if(!window.uniformaLeads||!window.uniformaLeads.endpoint)return;var body=Object.assign({page:location.href},data||{});fetch(window.uniformaLeads.endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),keepalive:!0,credentials:'omit'}).catch(function(){})}catch(e){}}})()
+;

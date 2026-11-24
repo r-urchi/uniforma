@@ -1,0 +1,3 @@
+document.addEventListener('DOMContentLoaded',function(){const form=document.querySelector('#uniformaShopFilters');if(!form)return;const panel=form.querySelector('.uniforma-shop-filters__panel');const mobile=window.matchMedia('(max-width: 767px)');const syncPanel=function(){if(!panel)return;if(mobile.matches){if(!panel.dataset.userToggled)panel.open=!1}else{panel.open=!0}};if(panel){panel.addEventListener('toggle',function(){if(mobile.matches)panel.dataset.userToggled='1'});syncPanel();mobile.addEventListener('change',syncPanel)}
+form.classList.add('is-enhanced');form.querySelectorAll('select').forEach(function(select){select.addEventListener('change',function(){form.submit()})})})
+;

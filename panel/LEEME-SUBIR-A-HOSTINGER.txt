@@ -1,0 +1,54 @@
+UNIFORMA - ACTUALIZACION DEL PANEL / ERP EN HOSTINGER
+Version 15 de octubre de 2026 (panel v3)
+
+Este ZIP trae el codigo completo del panel. NO trae datos ni claves. Los usuarios, clientes,
+propuestas, pagos y respaldos que ya estan en el hosting se conservan.
+
+REQUISITOS
+- PHP 8.1 o posterior (en hPanel: Sitios web > Avanzado > Configuracion de PHP).
+- Extensiones PHP activas: zip (para respaldos), openssl (verificacion en dos pasos), curl, mbstring, gd no hace falta.
+- Permiso de escritura (775) en public_html/panel/data/ y en las carpetas que se crean dentro.
+
+ANTES DE SUBIR (obligatorio)
+1. Descarga un respaldo COMPLETO de public_html/panel (incluida la carpeta data/ y el archivo config.php).
+2. Anota o copia el contenido de tu config.php actual: tiene el token del catalogo, que vas a necesitar abajo.
+   ATENCION: este ZIP incluye un config.php NUEVO, sin claves, que reemplaza al viejo.
+3. Si tenes un entorno de prueba (subdominio), subi primero ahi.
+
+INSTALACION
+1. Administrador de archivos > public_html/panel/ > subir este ZIP > Extraer ahi mismo
+   (index.php debe quedar en public_html/panel/index.php, NO en panel/panel/index.php).
+2. Acepta reemplazar los archivos existentes. No borres la carpeta data/ ni assets/prendas/.
+3. Crea el archivo public_html/panel/config.local.php copiando config.local.example.php y completa:
+   - catalog_sync > token : el token NUEVO del catalogo (rotalo: el anterior estuvo escrito en archivos).
+     El mismo valor debe estar en la web (UNIFORMA_CATALOG_SYNC_TOKEN del theme).
+   - lead_token : un texto largo y secreto (40 letras y numeros al azar) para recibir las consultas de la web.
+   - mail : dejalo en 'off' al principio; despues probalo en 'test'.
+   - (opcional) data_dir : ruta de data/ FUERA de public_html para mayor seguridad.
+   config.local.php NUNCA se comparte ni se sube a repositorios.
+4. Abri el panel y presiona Ctrl+F5.
+
+VERIFICACIONES DE SEGURIDAD (2 minutos)
+- Abri https://TU-DOMINIO/panel/data/state.json  -> debe dar 403 o 404 (si descarga el archivo, mover data/ fuera de public_html).
+- Abri https://TU-DOMINIO/panel/manuals/general.html y /panel/config.local.php -> deben dar 403.
+
+PRIMEROS PASOS DESPUES DE ACTUALIZAR
+1. Entra con tu usuario de siempre. Las claves viejas se convierten solas a un formato seguro.
+2. Los pagos que ya estaban cargados quedan como VALIDADOS (para no cambiar saldos). Desde ahora los nuevos entran
+   como pendientes y los valida Administracion.
+3. Usuarios > asigna el rol "Administracion" a quien valide pagos. Los usuarios Gerente y Vendedor creados antes
+   no reciben permisos nuevos solos: editalos si necesitan ver Pagos o Compras.
+4. Tocá tu nombre (arriba a la derecha) > Mi cuenta: cambia tu contrasena y activa la verificacion en dos pasos.
+5. Configuracion: carga la capacidad del taller, la comision de vendedores, los textos de mensajes y, si queres,
+   los avisos automaticos por mail.
+6. Prueba un flujo completo: crear cliente > propuesta > crear el link del cliente > abrirlo en el celular >
+   registrar un pago > validarlo > descargar un respaldo (Configuracion).
+
+CONEXION CON LA WEB (consultas)
+En el wp-config.php de WordPress (no en el theme), antes de "That's all, stop editing":
+  define('UNIFORMA_ERP_LEAD_URL',   'https://TU-DOMINIO/panel/lead.php');
+  define('UNIFORMA_ERP_LEAD_TOKEN', 'el mismo valor de lead_token');
+Subi tambien el theme 1.6.6 (ZIP de la web) y purga LiteSpeed Cache. Envia una consulta de prueba desde el sitio.
+
+NO uses en Hostinger el ZIP llamado actualizador-control-integral ni el .bat: son para la instalacion local de Windows.
+Mas detalle en LEEME-PANEL-LOCAL.md (carpeta del proyecto).

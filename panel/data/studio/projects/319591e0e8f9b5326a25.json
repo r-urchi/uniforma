@@ -1,0 +1,42 @@
+{
+    "id": "319591e0e8f9b5326a25",
+    "name": "Logo sin título",
+    "clientId": "client-1791210610645-46w6c",
+    "doc": {
+        "v": 1,
+        "widthCm": 12,
+        "heightCm": 3,
+        "bg": "transparent",
+        "bgColor": "#ffffff",
+        "nodes": [
+            {
+                "t": "Image",
+                "a": {
+                    "name": "obj",
+                    "draggable": true,
+                    "assetId": "12dac79d86e622d34374c4b0b83b9424",
+                    "origAssetId": "12dac79d86e622d34374c4b0b83b9424",
+                    "rootAssetId": "881993a619f7e614f3eda9e73d5dbf06",
+                    "kind": "image",
+                    "fx": [],
+                    "label": "Diseño con Texto Nítido (1)",
+                    "x": 1.7685622994978465,
+                    "y": 2.7921382842472204,
+                    "width": 247.96800000000002,
+                    "height": 68.208,
+                    "palette": [],
+                    "rotation": 0,
+                    "scaleX": 1.9279798676831235,
+                    "scaleY": 1.686207201359827,
+                    "skewX": 0,
+                    "skewY": 0
+                }
+            }
+        ]
+    },
+    "rev": 2,
+    "createdAt": "2026-10-16T14:23:02+00:00",
+    "createdBy": "Yanina Carrara",
+    "updatedAt": "2026-10-16T14:23:22+00:00",
+    "updatedBy": "Yanina Carrara"
+}

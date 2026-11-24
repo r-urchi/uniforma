@@ -1,0 +1,81 @@
+(function () {
+    'use strict';
+
+    var mobileQuery = window.matchMedia('(max-width: 900px)');
+
+    function setPanelState(sidebar, open) {
+        var toggle = sidebar.querySelector('.uniforma-category-filters-toggle');
+        var panel = sidebar.querySelector('.uniforma-category-filters-panel');
+
+        if (!toggle || !panel) {
+            return;
+        }
+
+        if (!mobileQuery.matches) {
+            sidebar.classList.remove('is-open');
+            panel.hidden = false;
+            toggle.setAttribute('aria-expanded', 'true');
+            toggle.setAttribute('aria-label', 'Filtros de productos');
+            return;
+        }
+
+        sidebar.classList.toggle('is-open', open);
+        panel.hidden = !open;
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        toggle.setAttribute(
+            'aria-label',
+            open ? 'Cerrar filtros de productos' : 'Abrir filtros de productos'
+        );
+    }
+
+    function initialiseSidebar(sidebar) {
+        var toggle = sidebar.querySelector('.uniforma-category-filters-toggle');
+        var panel = sidebar.querySelector('.uniforma-category-filters-panel');
+
+        if (!toggle || !panel) {
+            return;
+        }
+
+        setPanelState(sidebar, false);
+
+        toggle.addEventListener('click', function () {
+            var shouldOpen = toggle.getAttribute('aria-expanded') !== 'true';
+            setPanelState(sidebar, shouldOpen);
+        });
+
+        sidebar.addEventListener('keydown', function (event) {
+            if (
+                event.key !== 'Escape' ||
+                !mobileQuery.matches ||
+                toggle.getAttribute('aria-expanded') !== 'true'
+            ) {
+                return;
+            }
+
+            setPanelState(sidebar, false);
+            toggle.focus();
+        });
+    }
+
+    function handleBreakpointChange() {
+        document.querySelectorAll('[data-uniforma-category-filters]').forEach(function (sidebar) {
+            setPanelState(sidebar, false);
+        });
+    }
+
+    function init() {
+        document.querySelectorAll('[data-uniforma-category-filters]').forEach(initialiseSidebar);
+
+        if (typeof mobileQuery.addEventListener === 'function') {
+            mobileQuery.addEventListener('change', handleBreakpointChange);
+        } else if (typeof mobileQuery.addListener === 'function') {
+            mobileQuery.addListener(handleBreakpointChange);
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+}());

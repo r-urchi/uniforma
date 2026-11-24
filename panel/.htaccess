@@ -1,0 +1,11 @@
+Options -Indexes
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<FilesMatch "^(config\.php|config\.local\.php|config\.local\.example\.php|bootstrap\.php|lib-ops\.php|lib-extra\.php)$">
+  Require all denied
+</FilesMatch>

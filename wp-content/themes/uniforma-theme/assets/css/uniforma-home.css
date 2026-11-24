@@ -1,0 +1,697 @@
+/* =========================================================
+   HOME — «Taller editorial»
+   Portada con foto + índice numerado, rubros como láminas,
+   catálogo en fila, índice de prendas, simulador en bloque de tinta.
+   ========================================================= */
+
+.uniforma-home {
+    background: var(--uniforma-bg);
+    color: var(--uniforma-text);
+}
+
+.uniforma-home section {
+    position: relative;
+}
+
+/* ---------- 1. Portada ---------- */
+.uniforma-hero-slider {
+    border-bottom: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-hero-slider__viewport {
+    overflow: hidden;
+}
+
+.uniforma-hero-slider__track {
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.uniforma-hero {
+    position: relative;
+    flex: 0 0 100%;
+    min-width: 0;
+    aspect-ratio: 2.1 / 1;
+    min-height: 440px;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.uniforma-hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 75% center;
+}
+
+.uniforma-hero__content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: var(--max);
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 22px;
+}
+
+.uniforma-hero__title {
+    /* El tercio izquierdo de cada banner es pared libre: el texto no pasa de ahí */
+    max-width: min(8.2em, 33vw);
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-size: clamp(2.3rem, 4.3vw, 4.2rem);
+    line-height: 0.92;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+
+.uniforma-hero__text {
+    max-width: min(32ch, 29vw);
+    margin: 0;
+    color: var(--uniforma-ink);
+    font-size: var(--text-lg);
+    line-height: 1.4;
+}
+
+/* Barra índice: contador, rótulos numerados, flechas */
+.uniforma-hero-slider__bar {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: stretch;
+    gap: 32px;
+    border-top: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-hero-slider__count {
+    margin: 0;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--uniforma-ink);
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
+
+.uniforma-hero-slider__dots {
+    display: flex;
+    align-items: stretch;
+    gap: 28px;
+    min-width: 0;
+}
+
+.uniforma-hero-slider__dots button {
+    position: relative;
+    padding: 14px 0;
+    border: 0;
+    background: transparent;
+    color: var(--uniforma-muted);
+    cursor: pointer;
+    font-family: var(--font-label);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.uniforma-hero-slider__dots button span {
+    margin-right: 6px;
+}
+
+.uniforma-hero-slider__dots button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    height: 3px;
+    background: var(--uniforma-ink);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.uniforma-hero-slider__dots button:hover {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-hero-slider__dots button.is-active {
+    color: var(--uniforma-ink);
+}
+
+.uniforma-hero-slider__dots button.is-active::after {
+    transform: scaleX(1);
+}
+
+.uniforma-hero-slider__arrows {
+    display: flex;
+    align-items: stretch;
+}
+
+.uniforma-hero-slider__arrow,
+.uniforma-best-sellers__arrows button {
+    width: 48px;
+    border: 0;
+    border-left: 1px solid var(--uniforma-ink);
+    background: transparent;
+    color: var(--uniforma-ink);
+    cursor: pointer;
+    font-family: var(--font-label);
+    font-size: 16px;
+    line-height: 1;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.uniforma-hero-slider__arrow:last-child {
+    border-right: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-hero-slider__arrow:hover,
+.uniforma-best-sellers__arrows button:hover {
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg);
+}
+
+/* ---------- 2. Forma de trabajar ---------- */
+.uniforma-working-band {
+    border-bottom: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-working-band__inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 22px var(--gutter) 0;
+}
+
+.uniforma-working-band__inner h2 {
+    margin: 0;
+    font-stretch: 100%;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
+
+.uniforma-working-band__list {
+    margin: 22px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.uniforma-working-band__list li {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0 28px clamp(28px, 4vw, 52px);
+    border-left: 1px solid var(--uniforma-border);
+    font-family: var(--font-display);
+    font-size: clamp(1.505rem, 2.924vw, 2.795rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 0.98;
+    text-transform: uppercase;
+}
+
+.uniforma-working-band__list li:first-child {
+    padding-left: 0;
+    border-left: 0;
+}
+
+/* ---------- Bloques de sección ---------- */
+.uniforma-rubros,
+.uniforma-best-sellers,
+.uniforma-prendas {
+    padding-top: clamp(56px, 8vw, 112px);
+}
+
+/* ---------- 3. Rubros ---------- */
+.uniforma-rubros__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(28px, 3vw, 44px) 24px;
+    margin-top: 28px;
+}
+
+.uniforma-rubro {
+    display: block;
+    color: var(--uniforma-ink);
+    text-decoration: none;
+}
+
+.uniforma-rubro__image {
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: var(--uniforma-tile);
+}
+
+.uniforma-rubro__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 82% center;
+    transition: transform 0.5s ease;
+}
+
+.uniforma-rubro:hover .uniforma-rubro__image img {
+    transform: scale(1.04);
+}
+
+.uniforma-rubro__caption {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 14px;
+    padding-top: 14px;
+}
+
+.uniforma-rubro__name {
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 2.1vw, 2rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.uniforma-rubro__arrow {
+    font-family: var(--font-label);
+    transition: transform 0.2s ease;
+}
+
+.uniforma-rubro:hover .uniforma-rubro__arrow {
+    transform: translateX(6px);
+}
+
+/* ---------- 4. Más pedidos ---------- */
+.uniforma-best-sellers .uniforma-section-head {
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.uniforma-best-sellers .uniforma-section-head h2 {
+    padding-bottom: 14px;
+}
+
+.uniforma-best-sellers__arrows {
+    display: flex;
+    align-self: stretch;
+}
+
+.uniforma-best-sellers__arrows button:last-child {
+    border-right: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-best-sellers__track {
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.uniforma-best-sellers__track::-webkit-scrollbar {
+    display: none;
+}
+
+.uniforma-best-sellers__track .uniforma-product-card {
+    flex: 0 0 clamp(220px, 22vw, 300px);
+    scroll-snap-align: start;
+}
+
+.uniforma-best-sellers__more {
+    margin: 32px 0 0;
+}
+
+/* ---------- 5. Prendas (índice) ---------- */
+.uniforma-prendas__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: clamp(28px, 4vw, 64px);
+}
+
+.uniforma-prendas__list a {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr) auto auto;
+    align-items: baseline;
+    gap: 10px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--uniforma-border);
+    color: var(--uniforma-ink);
+    text-decoration: none;
+}
+
+.uniforma-prendas__name {
+    font-family: var(--font-display);
+    font-size: clamp(1.3rem, 1.9vw, 1.75rem);
+    font-stretch: var(--display-stretch);
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.uniforma-prendas__arrow {
+    font-family: var(--font-label);
+    transition: transform 0.2s ease;
+}
+
+.uniforma-prendas__list a:hover {
+    border-bottom-color: var(--uniforma-ink);
+}
+
+.uniforma-prendas__list a:hover .uniforma-prendas__arrow {
+    transform: translateX(6px);
+}
+
+/* ---------- 6. Simulador (bloque de tinta) ---------- */
+.uniforma-simulator-preview {
+    margin-top: clamp(56px, 8vw, 112px);
+    background: var(--uniforma-ink);
+    color: var(--uniforma-bg);
+}
+
+.uniforma-simulator-preview__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    align-items: center;
+    gap: clamp(36px, 7vw, 104px);
+    padding-top: clamp(48px, 7vw, 96px);
+    padding-bottom: clamp(48px, 7vw, 96px);
+}
+
+.uniforma-simulator-preview .uniforma-label {
+    color: rgba(242, 236, 224, 0.7);
+}
+
+.uniforma-simulator-preview__copy > .uniforma-label {
+    margin: 0 0 18px;
+    color: var(--uniforma-primary);
+}
+
+.uniforma-simulator-preview h2 {
+    max-width: 11ch;
+    margin: 0 0 36px;
+    color: var(--uniforma-bg);
+    font-size: clamp(2.064rem, 4.3vw, 3.87rem);
+    line-height: 0.94;
+    text-transform: uppercase;
+}
+
+.uniforma-simulator-preview__steps {
+    margin: 0 0 40px;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid rgba(242, 236, 224, 0.22);
+}
+
+.uniforma-simulator-preview__steps li {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 8px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(242, 236, 224, 0.22);
+}
+
+.uniforma-simulator-preview__steps h3 {
+    margin: 0 0 4px;
+    color: var(--uniforma-bg);
+    font-family: var(--font-body);
+    font-size: var(--text-lg);
+    font-stretch: 100%;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+.uniforma-simulator-preview__steps p {
+    margin: 0;
+    max-width: 44ch;
+    color: rgba(242, 236, 224, 0.78);
+    font-size: var(--text-base);
+}
+
+.uniforma-simulator-preview .uniforma-btn {
+    background: var(--uniforma-bg);
+    border-color: var(--uniforma-bg);
+    color: var(--uniforma-ink) !important;
+}
+
+.uniforma-simulator-preview .uniforma-btn:hover {
+    background: var(--uniforma-primary);
+    border-color: var(--uniforma-primary);
+}
+
+.uniforma-simulator-preview__product {
+    margin: 0;
+}
+
+.uniforma-simulator-preview__product img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    background: var(--uniforma-tile);
+    mix-blend-mode: normal;
+}
+
+.uniforma-simulator-preview__product p {
+    margin: 12px 0 0;
+}
+
+/* ---------- 7. Preguntas frecuentes ---------- */
+.uniforma-home-faq {
+    padding: clamp(56px, 8vw, 112px) 0;
+}
+
+.uniforma-home-faq__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: clamp(32px, 6vw, 96px);
+    align-items: start;
+}
+
+.uniforma-home-faq__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.uniforma-home-faq__intro h2 {
+    margin: 0;
+    font-size: clamp(1.935rem, 3.784vw, 3.44rem);
+    line-height: 0.95;
+    text-transform: uppercase;
+}
+
+.uniforma-home-faq__list {
+    border-bottom: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-home-faq__item {
+    border-top: 1px solid var(--uniforma-ink);
+}
+
+.uniforma-home-faq__item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 22px 0;
+    cursor: pointer;
+    font-size: var(--text-lg);
+    font-weight: 600;
+    line-height: 1.25;
+    list-style: none;
+}
+
+.uniforma-home-faq__item summary::-webkit-details-marker {
+    display: none;
+}
+
+.uniforma-home-faq__icon {
+    position: relative;
+    flex: none;
+    width: 14px;
+    height: 14px;
+}
+
+.uniforma-home-faq__icon::before,
+.uniforma-home-faq__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6px;
+    height: 2px;
+    background: var(--uniforma-ink);
+    transition: transform 0.2s ease;
+}
+
+.uniforma-home-faq__icon::after {
+    transform: rotate(90deg);
+}
+
+.uniforma-home-faq__item[open] .uniforma-home-faq__icon::after {
+    transform: rotate(0);
+}
+
+.uniforma-home-faq__answer {
+    padding: 0 40px 26px 0;
+}
+
+.uniforma-home-faq__answer p {
+    max-width: 62ch;
+    margin: 0;
+    color: var(--uniforma-muted);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1050px) {
+    .uniforma-rubros__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .uniforma-prendas__list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .uniforma-simulator-preview__inner,
+    .uniforma-home-faq__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .uniforma-simulator-preview__product {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 899px) {
+    /* La portada pasa a foto arriba y texto debajo: sin texto sobre la imagen */
+    .uniforma-hero {
+        display: flex;
+        flex-direction: column;
+        aspect-ratio: auto;
+        min-height: 0;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .uniforma-hero__image {
+        position: static;
+        aspect-ratio: 4 / 3;
+        height: auto;
+        object-position: 70% center;
+    }
+
+    .uniforma-hero__content {
+        height: auto;
+        padding-top: 28px;
+        padding-bottom: 32px;
+        align-items: stretch;
+    }
+
+    .uniforma-hero__title {
+        max-width: 11em;
+        font-size: clamp(2.3rem, 4.3vw, 4.2rem);
+    }
+
+    .uniforma-hero__text {
+        max-width: 36ch;
+        font-size: var(--text-base);
+    }
+
+    .uniforma-hero__content .uniforma-btn {
+        align-self: stretch;
+        justify-content: space-between;
+    }
+
+    .uniforma-hero-slider__bar {
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        gap: 16px;
+    }
+
+    .uniforma-hero-slider__dots {
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .uniforma-hero-slider__dots button {
+        font-size: 0;
+    }
+
+    .uniforma-hero-slider__dots button span {
+        margin: 0;
+        font-size: var(--text-xs);
+    }
+
+    .uniforma-working-band__list {
+        grid-template-columns: 1fr;
+    }
+
+    .uniforma-working-band__list li,
+    .uniforma-working-band__list li:first-child {
+        padding: 18px 0;
+        border-left: 0;
+        border-top: 1px solid var(--uniforma-border);
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .uniforma-working-band__list li:first-child {
+        border-top: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .uniforma-rubros__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .uniforma-prendas__list {
+        grid-template-columns: 1fr;
+    }
+
+    .uniforma-best-sellers__track .uniforma-product-card {
+        flex-basis: 62vw;
+    }
+
+    .uniforma-simulator-preview__steps li {
+        grid-template-columns: 40px minmax(0, 1fr);
+    }
+}
+
+
+/* ---------- Índice de la portada: zona táctil más ancha en celular (v1.6.8) ---------- */
+@media (max-width: 899px) {
+    .uniforma-hero-slider__dots {
+        gap: 4px;
+    }
+
+    .uniforma-hero-slider__dots button {
+        min-width: 40px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}

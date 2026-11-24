@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "proposalId": "proposal-1790697308205-9cr4u",
+    "publicId": "#2026-0004",
+    "title": "ijij",
+    "client": {
+        "company": "Filtro cafe",
+        "contact": "Natalia"
+    },
+    "revision": 1,
+    "approval": {
+        "revision": 1,
+        "approvedAt": "2026-09-29",
+        "approvedBy": "Natalia",
+        "note": ""
+    },
+    "designs": [
+        {
+            "design": {
+                "productId": "woo-470",
+                "color": "Beige",
+                "colorHex": "#d8d1c7",
+                "size": "Talle único",
+                "qty": 5,
+                "note": "",
+                "logos": [],
+                "colorSizeQuantities": [
+                    {
+                        "color": "Beige",
+                        "hex": "#d8d1c7",
+                        "size": "Talle único",
+                        "qty": 5
+                    }
+                ],
+                "colorQuantities": [
+                    {
+                        "color": "Beige",
+                        "hex": "#d8d1c7",
+                        "qty": 5
+                    }
+                ],
+                "id": "design-1790697922637-dj1tf"
+            },
+            "product": {
+                "id": "woo-470",
+                "name": "Australianos impermeables",
+                "image": "https://uniforma.com.ar/wp-content/uploads/2026/08/Australianos-impermeables-frente.webp",
+                "imageBack": "https://uniforma.com.ar/wp-content/uploads/2026/08/Australianos-impermeables-espalda.webp"
+            }
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+<section id="tablero">
+  <h2>El tablero de Producción</h2>
+  <p>En <b>Producción</b> ves las propuestas aprobadas en cuatro columnas: <b>Aprobada → En producción → Lista → Entregada</b>. Cada tarjeta muestra el cliente, cuántas prendas tiene, la fecha de entrega y hace cuántos días está en esa etapa.</p>
+  <ul>
+    <li><b>Arrastrá</b> la tarjeta a la columna siguiente cuando avance (o usá el selector de estado).</li>
+    <li>Las etiquetas rojas «Vencida» / «Próxima» avisan entregas atrasadas o a 3 días o menos.</li>
+    <li>Con la vista <b>Lista</b> tenés una tabla ordenada por fecha de entrega.</li>
+  </ul>
+  <div class="m-callout"><b>Aviso automático:</b> una propuesta Aprobada sin pasar a producción a los 2 días aparece en «Mi día» como «Sin producir».</div>
+</section>
+
+<section id="antes">
+  <h2>Antes de producir</h2>
+  <ol class="m-steps">
+    <li>Abrí la propuesta y mirá cada prenda: color, talles, cantidades, logos, <b>lado</b> (frente/espalda), <b>técnica</b> y medidas.</li>
+    <li>Imprimí la <b>Ficha de producción</b> (botón en la propuesta) para llevar al taller.</li>
+    <li>Verificá que el <b>diseño esté aprobado</b>. Si no lo está, avisá a Ventas: no se produce a ciegas.</li>
+    <li>Revisá <b>Prendas por conseguir</b> (más abajo en Producción): muestra qué falta comprar según el stock cargado.</li>
+  </ol>
+</section>
+
+<section id="control">
+  <h2>Control por prenda</h2>
+  <p>Cada prenda de la propuesta tiene su propio control. Tocá el botón de la prenda en la tarjeta (o «Producción» dentro de la propuesta) y tildá:</p>
+  <ul>
+    <li><b>Prendas e insumos listos</b></li>
+    <li><b>Bordado / DTF terminado</b></li>
+    <li><b>Terminación y empaque</b></li>
+  </ul>
+  <p>Después marcá la <b>calidad</b>: <b>Aprobada</b> o <b>Rehacer</b> (con nota). Quedan registrados quién revisó y cuándo.</p>
+  <details><summary>¿Qué pasa con «Rehacer»?</summary>
+    <p>La prenda queda en rojo en el tablero y la propuesta no debería pasar a «Lista». Rehacé el trabajo y volvé a controlar.</p>
+  </details>
+</section>
+
+<section id="lista">
+  <h2>Pasar a «Lista» y entregar</h2>
+  <ul>
+    <li>Pasá a <b>Lista</b> solo cuando <b>todas</b> las prendas tengan control aprobado (si no, el sistema te pide confirmar).</li>
+    <li>Avisá al cliente con el mensaje rápido «Pedido listo».</li>
+    <li>Para pasar a <b>Entregada</b> se exige <b>saldo $0 validado</b>. Si el cliente pagó y no se ve reflejado, pedile a Administración que valide el pago.</li>
+  </ul>
+</section>
+
+<section id="rehacer">
+  <h2>Cuando algo no sale bien</h2>
+  <ul>
+    <li>Prenda dañada o logo mal ubicado: marcá <b>Rehacer</b> con una nota clara.</li>
+    <li>El cliente pide un cambio de diseño ya aprobado: Ventas usa <b>Reabrir diseño</b> y se vuelve a aprobar.</li>
+    <li>Faltan prendas: cargá el stock real en <b>Productos → Stock</b> para que el faltante sea exacto.</li>
+  </ul>
+</section>
+
+<section id="qr">
+  <h2>Etiquetas QR y escaneo</h2>
+  <ol class="m-steps">
+    <li>En la propuesta tocá <b>Etiquetas QR</b>: se abre una hoja A4 con 8 etiquetas por página. Elegí «Una por prenda» o «Una por unidad».</li>
+    <li>Pegá la etiqueta en la bolsa o el lote de cada prenda.</li>
+    <li>En el taller tocá <b>Escanear</b> (arriba) y apuntá la cámara al QR. En el celular también sirve la cámara común: el QR abre el panel en ese pedido.</li>
+    <li>Aparece el pedido con su estado y la prenda: <b>Control de esta prenda</b> para tildar pasos y calidad, y atajos para pasarlo a producción o marcarlo listo.</li>
+  </ol>
+</section>
+
+<section id="stock">
+  <h2>Stock, reservas e ingreso de mercadería</h2>
+  <ul>
+    <li><b>Stock</b> muestra por producto, color y talle: lo que hay, lo <b>reservado</b> por pedidos abiertos, lo disponible y el <b>faltante</b>.</li>
+    <li><b>Ingreso de mercadería:</b> elegí el producto, cargá las cantidades que llegaron y el proveedor/remito. Se <u>suma</u> al stock y queda en «Movimientos».</li>
+    <li>Al <b>aprobar</b> una propuesta, si faltan prendas el sistema te avisa y te ofrece crear la tarea «Conseguir prendas».</li>
+    <li>Al pasar un pedido a <b>Entregada</b>, el stock se descuenta solo (una sola vez por pedido).</li>
+  </ul>
+</section>
+
+<section id="calendario">
+  <h2>Calendario y carga del taller</h2>
+  <p>En <b>Calendario</b> ves las entregas por día y, a la derecha de cada semana, cuántas prendas están comprometidas contra la capacidad del taller (verde, amarillo cuando pasa el 80%, rojo si se excede). Antes de prometer una fecha usá <b>¿Puedo prometer una fecha?</b>: te dice si entra o cuál es la primera semana con lugar.</p>
+</section>
+<section id="externos">
+  <h2>Talleres externos y fotos</h2>
+  <ul>
+    <li>Si mandás bordado, estampado o costura afuera, cargalo en <b>Compras y talleres → Talleres externos → Nueva orden de trabajo</b>: taller, prendas, costo, fecha de envío y fecha en que debe volver.</li>
+    <li>Cambiá el estado a medida que avanza (Enviado, En proceso, Recibido, Con problema). Los atrasados aparecen en rojo y en «Mi día».</li>
+    <li><b>Insumos:</b> hilo, film DTF, tintas. Registrá los consumos; el panel avisa cuando bajan del mínimo.</li>
+    <li><b>Fotos:</b> al terminar un pedido, subí fotos desde el celular en la propuesta. Gerencia o Ventas deciden cuáles ve el cliente.</li>
+  </ul>
+</section>
+<section id="rutina">
+  <h2>Rutina diaria del taller</h2>
+  <ul class="m-routine">
+    <li>Mirar <b>Producción</b>: entregas vencidas y próximas primero.</li>
+    <li>Imprimir las fichas de lo que se produce hoy.</li>
+    <li>Actualizar el control de cada prenda a medida que se termina.</li>
+    <li>Mover tarjetas al estado que corresponda al final del día.</li>
+    <li>Avisar a Ventas qué quedó <b>Listo</b> para que avise a los clientes.</li>
+  </ul>
+</section>

@@ -1,0 +1,104 @@
+<section id="idea">
+  <h2>La idea: un pago no cuenta hasta que se valida</h2>
+  <p>Cualquiera del equipo puede <b>registrar</b> un pago, pero solo <b>Administración</b> lo <b>valida</b>. Mientras está pendiente no baja el saldo del cliente ni suma en cobranzas. Así se evita contar plata que todavía no entró.</p>
+  <div class="m-callout"><b>Ve esta pantalla quien tenga el permiso «Validar pagos»</b> (Administrador y rol Administración). Todo queda en el historial de la propuesta y en la auditoría, con tu nombre, fecha y hora.</div>
+</section>
+
+<section id="pantalla">
+  <h2>La pantalla Pagos</h2>
+  <ul>
+    <li><b>Pestañas:</b> Por validar (primero), Validados, Rechazados, Anulados y Todos, cada una con cantidad e importe.</li>
+    <li><b>Período:</b> Hoy, Esta semana, Este mes o Todo (según la fecha del pago).</li>
+    <li><b>Buscador:</b> por propuesta, cliente, referencia o medio de pago.</li>
+    <li><b>Tarjetas:</b> por validar, validado del período, rechazado y cobrado por medio de pago.</li>
+    <li><b>Descargar CSV:</b> exporta lo que estás viendo para contabilidad.</li>
+  </ul>
+</section>
+
+<section id="validar">
+  <h2>Validar un pago</h2>
+  <ol class="m-steps">
+    <li>Entrá a <b>Pagos → Por validar</b>.</li>
+    <li>Abrí el <b>comprobante</b> y compará monto, fecha y referencia con tu cuenta bancaria, Mercado Pago o caja.</li>
+    <li>Si coincide, tocá <b>Validar</b>. También podés tildar varios y usar <b>Validar seleccionados</b>.</li>
+    <li>El saldo de la propuesta se actualiza al instante.</li>
+  </ol>
+</section>
+
+<section id="rechazar">
+  <h2>Rechazar un pago</h2>
+  <p>Si no figura la transferencia, el monto no coincide o el comprobante no se entiende: <b>Rechazar</b> y escribí el motivo (obligatorio). La persona que lo cargó lo ve en la propuesta, lo corrige y vuelve a quedar pendiente.</p>
+</section>
+
+<section id="anular">
+  <h2>Anular un pago ya validado</h2>
+  <p>Un pago validado <b>no se edita ni se borra</b>. Si se cargó por error o hubo una devolución: pestaña Validados → <b>Anular</b> con motivo. El pago queda en el historial como «Anulado» y deja de sumar.</p>
+  <div class="m-callout warn">No existe «deshacer silencioso»: toda corrección deja rastro. Es a propósito.</div>
+</section>
+
+<section id="saldos">
+  <h2>Saldos, cobranzas y entrega</h2>
+  <ul>
+    <li><b>Saldo = total − pagos validados.</b> Lo pendiente de validar se muestra aparte («por validar»).</li>
+    <li>En <b>Mi día</b> aparece «N pagos por validar» y las propuestas con saldo (más urgentes si ya están Listas o Entregadas).</li>
+    <li><b>Compuerta de entrega:</b> no se puede pasar a «Entregada» con saldo validado pendiente; <b>el servidor también lo exige</b>. Un administrador puede autorizarlo escribiendo un motivo; queda registrado.</li>
+    <li>La propuesta muestra «Para poder entregar»: pago completo, control de calidad aprobado, diseño aprobado.</li>
+  </ul>
+</section>
+
+<section id="eliminar">
+  <h2>Qué se puede y qué no</h2>
+  <table class="m-table">
+    <tr><th>Acción</th><th>Pendiente</th><th>Rechazado</th><th>Validado</th></tr>
+    <tr><td>Editar datos</td><td>Sí (quien lo cargó)</td><td>Sí (vuelve a pendiente)</td><td>No</td></tr>
+    <tr><td>Borrar</td><td>Sí</td><td>Sí</td><td>No (se anula)</td></tr>
+    <tr><td>Borrar la propuesta</td><td colspan="3">Si tiene pagos validados, solo quien valida pagos</td></tr>
+  </table>
+</section>
+
+<section id="caja">
+  <h2>Caja diaria y cierre</h2>
+  <ol class="m-steps">
+    <li>En <b>Caja diaria</b> elegí el día: ves los cobros <b>validados</b> con fecha de ese día, por medio de pago.</li>
+    <li>Contá lo que realmente hay (efectivo, transferencias recibidas, Mercado Pago) y cargalo en «Contado». Por defecto viene igual a lo esperado.</li>
+    <li>Escribí una nota si hace falta y tocá <b>Cerrar caja del día</b>. Queda la diferencia, quién cerró y cuándo.</li>
+    <li>Si después del cierre se valida o anula un pago de ese día, la pantalla te avisa que lo esperado cambió.</li>
+  </ol>
+</section>
+
+<section id="documentos">
+  <h2>Recibos y remitos</h2>
+  <ul>
+    <li><b>Recibo:</b> botón «Recibo» en cada pago <u>validado</u> (en la propuesta, en Pagos y en Caja). Imprime la constancia con el importe en letras, el medio de pago y el saldo.</li>
+    <li><b>Remito:</b> botón «Remito» en propuestas Listas o Entregadas, con el detalle por color y talle y espacio para la firma de quien recibe.</li>
+    <li>Son documentos internos: <b>no reemplazan a la factura</b>. La facturación electrónica (ARCA) todavía no está integrada.</li>
+  </ul>
+</section>
+<section id="compras">
+  <h2>Compras, proveedores y pagos a pagar</h2>
+  <ol class="m-steps">
+    <li><b>Proveedores:</b> cargá proveedores de prendas, de insumos y talleres externos.</li>
+    <li><b>Orden de compra:</b> proveedor, renglones (prenda con color y talle, o insumo), cantidad y costo. Podés guardarla como borrador o marcarla <b>pedida</b>.</li>
+    <li><b>Recibir:</b> cuando llega la mercadería, indicá lo recibido (puede ser parcial). Se <u>suma al stock</u> automáticamente y, si querés, actualiza el costo del producto.</li>
+    <li><b>Pagar:</b> registrá los pagos al proveedor; la pestaña <b>Por pagar</b> muestra el saldo por proveedor.</li>
+  </ol>
+</section>
+
+<section id="seguridad">
+  <h2>Separar funciones, comisiones y respaldo</h2>
+  <ul>
+    <li><b>Separar funciones</b> (Configuración): cuando está activado, quien registró un pago no puede validarlo; lo valida otra persona.</li>
+    <li><b>Comisión de vendedores:</b> con el porcentaje cargado, el Tablero calcula la comisión sobre lo cobrado <u>validado</u> de cada vendedor.</li>
+    <li><b>Respaldo:</b> el panel guarda una copia por día en el servidor, pero bajá una completa a tu computadora una vez por semana (Configuración → Descargar respaldo completo).</li>
+  </ul>
+</section>
+<section id="rutina">
+  <h2>Rutina diaria de administración</h2>
+  <ul class="m-routine">
+    <li>Abrir <b>Pagos → Por validar</b> y validar o rechazar todo lo que ya se pudo confirmar.</li>
+    <li>Revisar propuestas <b>Listas</b> o <b>Entregadas</b> con saldo (rojo en «Mi día»).</li>
+    <li>Pedir los saldos por WhatsApp (botón «Pedir saldo»).</li>
+    <li>Descargar el CSV del día si se lleva una planilla aparte.</li>
+    <li>Cierre del mes: filtrar «Este mes», revisar Rechazados y Anulados y descargar CSV.</li>
+  </ul>
+</section>
