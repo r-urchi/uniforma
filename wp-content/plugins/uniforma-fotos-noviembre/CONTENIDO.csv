@@ -1,0 +1,88 @@
+﻿SKU;Producto;Tipo;Preseleccionado;Color;Vista;Origen;Archivo;Nota
+UNI-P039;Delantal tropical mecánico;Existente;Sí;Negro;frente;PDF Gastronomía 1ra p.1;uniforma-nov2026-delantal-tropical-mecanico-negro-frente.webp;
+UNI-P041;Delantal clásico de jean;Existente;Sí;Azul;frente;PDF Gastronomía 1ra p.3;uniforma-nov2026-delantal-clasico-de-jean-azul-frente.webp;
+UNI-P042;Delantal clásico de PVC;Existente;Sí;Negro;frente;PDF Gastronomía 1ra p.4;uniforma-nov2026-delantal-clasico-de-pvc-negro-frente.webp;
+UNI-P043;Delantal bandera de gabardina 8 oz;Existente;Sí;Negro;frente;PDF Gastronomía 1ra p.6;uniforma-nov2026-delantal-bandera-de-gabardina-8-oz-negro-frente.webp;Bandera italiana.
+UNI-P044;Delantal camuflado con gorro pirata;Existente;Sí;Verde;frente;PDF Gastronomía 1ra p.7;uniforma-nov2026-delantal-camuflado-con-gorro-pirata-verde-frente.webp;Gorro pirata camuflado (viene en el conjunto): va a la galería sin color para que no se tome como espalda.
+UNI-P044;Delantal camuflado con gorro pirata;Existente;Sí;Verde;detalle;PDF Gastronomía 1ra p.10;uniforma-nov2026-delantal-camuflado-con-gorro-pirata-gorro-pirata-detalle.webp;Gorro pirata camuflado (viene en el conjunto): va a la galería sin color para que no se tome como espalda.
+UNI-P045;Delantal Lite cruzado;Existente;Sí;Verde;frente;PDF Gastronomía 1ra p.9;uniforma-nov2026-delantal-lite-cruzado-verde-frente.webp;
+UNI-P047;Delantal Urban Bitter;Existente;Sí;Azul;frente;PDF Gastronomía 2do p.1;uniforma-nov2026-delantal-urban-bitter-azul-frente.webp;
+UNI-P048;Delantal Urban Whisky;Existente;Sí;Azul;frente;PDF Gastronomía 2do p.2;uniforma-nov2026-delantal-urban-whisky-azul-frente.webp;Denim muy oscuro: se tomó como Azul (el Negro ya tiene foto de octubre).
+UNI-P049;Delantal Urban Campari;Existente;Sí;Negro;frente;PDF Gastronomía 2do p.3;uniforma-nov2026-delantal-urban-campari-negro-frente.webp;
+(nuevo);Delantal Aqua repelente;Nuevo (alta de productos);No;Azul;frente;PDF Gastronomía 2do p.5;uniforma-nov2026-delantal-aqua-repelente-azul-frente.webp;El txt dice «hay que modificarla»: NO se preselecciona. Elegir el producto solo si la foto sirve así.
+(nuevo);Delantal Cotton;Nuevo (alta de productos);Sí;Verde;frente;PDF Gastronomía 2do p.6;uniforma-nov2026-delantal-cotton-verde-frente.webp;
+(nuevo);Delantal PU Soft;Nuevo (alta de productos);Sí;Marrón;frente;PDF Gastronomía 2do p.7;uniforma-nov2026-delantal-pu-soft-marron-frente.webp;
+(nuevo);Delantal PVC Flex;Nuevo (alta de productos);Sí;Negro;frente;PDF Gastronomía 2do p.8;uniforma-nov2026-delantal-pvc-flex-negro-frente.webp;
+UNI-P051;Faldón tropical mecánico;Existente;Sí;Negro;frente;PDF Gastronomía 2do p.9;uniforma-nov2026-faldon-tropical-mecanico-negro-frente.webp;
+UNI-P052;Faldón de jean;Existente;Sí;Azul;frente;PDF Gastronomía 2do p.10;uniforma-nov2026-faldon-de-jean-azul-frente.webp;"La foto es denim gris oscuro; el producto solo tiene Azul."
+UNI-P053;Faldón de gabardina;Existente;Sí;Beige;frente;PDF Gastronomía 2do p.11;uniforma-nov2026-faldon-de-gabardina-beige-frente.webp;
+UNI-P055;Faldón Urban Jean;Existente;Sí;Azul;frente;PDF Gastronomía 2do p.13;uniforma-nov2026-faldon-urban-jean-azul-frente.webp;
+UNI-P117;Saco de hombre Milano;Existente;Sí;Negro;frente;PDF Trajes p.1;uniforma-nov2026-saco-de-hombre-milano-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P116;Pantalón de hombre Milano;Existente;Sí;Negro;frente;PDF Trajes p.1;uniforma-nov2026-saco-de-hombre-milano-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P143;Saco de hombre Milano talle especial;Existente;Sí;Negro;frente;PDF Trajes p.2;uniforma-nov2026-saco-de-hombre-milano-talle-especial-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P142;Pantalón de hombre Milano talle especial;Existente;Sí;Negro;frente;PDF Trajes p.2;uniforma-nov2026-saco-de-hombre-milano-talle-especial-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P145;Saco de hombre Turín;Existente;Sí;Azul;frente;PDF Trajes p.3;uniforma-nov2026-saco-de-hombre-turin-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P144;Pantalón de hombre Turín;Existente;Sí;Azul;frente;PDF Trajes p.3;uniforma-nov2026-saco-de-hombre-turin-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P147;Saco de hombre Turín talle especial;Existente;Sí;Negro;frente;PDF Trajes p.4;uniforma-nov2026-saco-de-hombre-turin-talle-especial-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P146;Pantalón de hombre Turín talle especial;Existente;Sí;Negro;frente;PDF Trajes p.4;uniforma-nov2026-saco-de-hombre-turin-talle-especial-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+(nuevo);Saco de hombre Capri;Nuevo (alta de productos);Sí;Negro;frente;PDF Trajes p.5;uniforma-nov2026-saco-de-hombre-capri-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+(nuevo);Pantalón de hombre Capri;Nuevo (alta de productos);Sí;Negro;frente;PDF Trajes p.5;uniforma-nov2026-saco-de-hombre-capri-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+(nuevo);Saco de hombre Capri talle especial;Nuevo (alta de productos);Sí;Azul;frente;PDF Trajes p.6;uniforma-nov2026-saco-de-hombre-capri-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+(nuevo);Pantalón de hombre Capri talle especial;Nuevo (alta de productos);Sí;Azul;frente;PDF Trajes p.6;uniforma-nov2026-saco-de-hombre-capri-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P119;Camisa clásica de hombre;Existente;Sí;Blanco;frente;PDF Trajes p.7;uniforma-nov2026-camisa-clasica-de-hombre-blanco-frente.webp;«Camisa nacional».
+UNI-P120;Camisa clásica de hombre talle especial;Existente;Sí;Negro;frente;PDF Trajes p.8;uniforma-nov2026-camisa-clasica-de-hombre-talle-especial-negro-frente.webp;«Camisa nacional talle especial».
+UNI-P149;Camisa entallada de hombre;Existente;Sí;Negro;frente;PDF Trajes p.9;uniforma-nov2026-camisa-entallada-de-hombre-negro-frente.webp;
+UNI-P118;Chaleco hombre;Existente;Sí;Negro;frente;PDF Trajes p.10;uniforma-nov2026-chaleco-hombre-negro-frente.webp;«Chaleco de vestir».
+UNI-P148;Chaleco de hombre talle especial;Existente;Sí;Azul;frente;PDF Trajes p.11;uniforma-nov2026-chaleco-de-hombre-talle-especial-azul-frente.webp;
+UNI-P154;Zapato Mónaco;Existente;Sí;Negro;frente;PDF Trajes p.12;uniforma-nov2026-zapato-monaco-negro-frente.webp;
+UNI-P155;Zapato Berlín;Existente;Sí;Negro;frente;PDF Trajes p.13;uniforma-nov2026-zapato-berlin-negro-frente.webp;
+UNI-P156;Zapato Londres;Existente;Sí;Negro;frente;PDF Trajes p.14;uniforma-nov2026-zapato-londres-negro-frente.webp;
+UNI-P150;Sweater de hombre;Existente;Sí;Negro;frente;PDF Trajes p.15;uniforma-nov2026-sweater-de-hombre-negro-frente.webp;
+UNI-P122;Sobretodo de paño de hombre;Existente;Sí;Negro;frente;PDF Trajes p.16;uniforma-nov2026-sobretodo-de-pano-de-hombre-negro-frente.webp;
+UNI-P151;Montgomery hombre;Existente;Sí;Negro;frente;PDF Trajes p.17;uniforma-nov2026-montgomery-hombre-negro-frente.webp;
+UNI-P114;Saco de dama Mora;Existente;Sí;Negro;frente;PDF Trajes p.18;uniforma-nov2026-saco-de-dama-mora-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P112;Pantalón sastrero de dama Mora;Existente;Sí;Negro;frente;PDF Trajes p.18;uniforma-nov2026-saco-de-dama-mora-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P131;Saco de dama Mora talle especial;Existente;Sí;Azul;frente;PDF Trajes p.19;uniforma-nov2026-saco-de-dama-mora-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P130;Pantalón sastrero de dama Mora talle especial;Existente;Sí;Azul;frente;PDF Trajes p.19;uniforma-nov2026-saco-de-dama-mora-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P115;Falda;Existente;Sí;Negro;frente;PDF Trajes p.20;uniforma-nov2026-falda-negro-frente.webp;«Traje mujer Siena» (saco + falda). En la web solo existe la Falda: se le pone esta foto. No se creó un «Saco Siena».
+UNI-P132;Falda talle especial;Existente;Sí;Azul;frente;PDF Trajes p.21;uniforma-nov2026-falda-talle-especial-azul-frente.webp;«Siena talle especial» → Falda talle especial (ver Siena).
+UNI-P134;Saco de dama Venecia;Existente;Sí;Negro;frente;PDF Trajes p.22;uniforma-nov2026-saco-de-dama-venecia-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P133;Pantalón de vestir de dama Venecia;Existente;Sí;Negro;frente;PDF Trajes p.22;uniforma-nov2026-saco-de-dama-venecia-negro-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P136;Saco de dama Venecia talle especial;Existente;Sí;Azul;frente;PDF Trajes p.23;uniforma-nov2026-saco-de-dama-venecia-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P135;Pantalón de vestir de dama Venecia talle especial;Existente;Sí;Azul;frente;PDF Trajes p.23;uniforma-nov2026-saco-de-dama-venecia-talle-especial-azul-frente.webp;La foto es el conjunto completo: se usa en el saco y en el pantalón.
+UNI-P139;Camisa de dama de poplín;Existente;Sí;Blanco;frente;PDF Trajes p.24;uniforma-nov2026-camisa-de-dama-de-poplin-blanco-frente.webp;
+UNI-P140;Camisa de dama de poplín talle especial;Existente;Sí;Blanco;frente;PDF Trajes p.25;uniforma-nov2026-camisa-de-dama-de-poplin-talle-especial-blanco-frente.webp;
+UNI-P141;Camisa de dama de poplín talle súper especial;Existente;Sí;Blanco;frente;PDF Trajes p.26;uniforma-nov2026-camisa-de-dama-de-poplin-talle-super-especial-blanco-frente.webp;
+UNI-P113;Chaleco de dama;Existente;Sí;Azul;frente;PDF Trajes p.27;uniforma-nov2026-chaleco-de-dama-azul-frente.webp;
+UNI-P137;Cardigan;Existente;Sí;Negro;frente;PDF Trajes p.28;uniforma-nov2026-cardigan-negro-frente.webp;
+UNI-P123;Sobretodo de paño Velour de dama;Existente;Sí;Negro;frente;PDF Trajes p.29;uniforma-nov2026-sobretodo-de-pano-velour-de-dama-negro-frente.webp;
+UNI-P138;Montgomery de paño Velour de dama;Existente;Sí;Negro;frente;PDF Trajes p.30;uniforma-nov2026-montgomery-de-pano-velour-de-dama-negro-frente.webp;
+UNI-P129;Campera Trucker;Existente;Sí;Azul;frente;PDF Industria p.1;uniforma-nov2026-campera-trucker-azul-frente.webp;
+UNI-P128;Chaleco Trucker;Existente;Sí;Azul;frente;PDF Industria p.2;uniforma-nov2026-chaleco-trucker-azul-frente.webp;
+(nuevo);Mameluco Trucker;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.3;uniforma-nov2026-mameluco-trucker-azul-frente.webp;
+(nuevo);Campera minero;Nuevo (alta de productos);Sí;Negro;frente;PDF Industria p.5;uniforma-nov2026-campera-minero-negro-frente.webp;
+(nuevo);Campera de gabardina;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.7;uniforma-nov2026-campera-de-gabardina-azul-frente.webp;
+(nuevo);Mameluco de gabardina;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.8;uniforma-nov2026-mameluco-de-gabardina-azul-frente.webp;
+(nuevo);Equipo primera piel de microfibra;Nuevo (alta de productos);Sí;Negro;frente;PDF Industria p.9;uniforma-nov2026-equipo-primera-piel-de-microfibra-negro-frente.webp;
+(nuevo);Campera Soft Shell;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.10;uniforma-nov2026-campera-soft-shell-azul-frente.webp;
+(nuevo);Chaleco Soft Shell;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.11;uniforma-nov2026-chaleco-soft-shell-azul-frente.webp;
+(nuevo);Campera Soft Shell mujer Aura;Nuevo (alta de productos);Sí;Turquesa;frente;PDF Industria p.12;uniforma-nov2026-campera-soft-shell-mujer-aura-turquesa-frente.webp;
+(nuevo);Chaleco Soft Shell mujer Aura;Nuevo (alta de productos);Sí;Celeste;frente;PDF Industria p.13;uniforma-nov2026-chaleco-soft-shell-mujer-aura-celeste-frente.webp;
+(nuevo);Campera Cire;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.14;uniforma-nov2026-campera-cire-azul-frente.webp;
+(nuevo);Chaleco Cire;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.15;uniforma-nov2026-chaleco-cire-azul-frente.webp;
+(nuevo);Rompeviento Embalse;Nuevo (alta de productos);Sí;Rojo y Negro;frente;PDF Industria p.16;uniforma-nov2026-rompeviento-embalse-rojo-y-negro-frente.webp;
+(nuevo);Rompeviento Esquel;Nuevo (alta de productos);Sí;Negro;frente;PDF Industria p.17;uniforma-nov2026-rompeviento-esquel-negro-frente.webp;
+(nuevo);Rompeviento Bagual;Nuevo (alta de productos);Sí;Gris y Negro;frente;PDF Industria p.18;uniforma-nov2026-rompeviento-bagual-gris-y-negro-frente.webp;
+UNI-P018;Buzo polar medio cierre;Existente;Sí;Azul;frente;PDF Industria p.21;uniforma-nov2026-buzo-polar-medio-cierre-azul-frente.webp;«Buzo medio cierre micropolar».
+UNI-P017;Campera polar unisex;Existente;Sí;Azul;frente;PDF Industria p.22;uniforma-nov2026-campera-polar-unisex-azul-frente.webp;«Campera micropolar».
+UNI-P020;Chaleco polar;Existente;Sí;Azul;frente;PDF Industria p.23;uniforma-nov2026-chaleco-polar-azul-frente.webp;«Chaleco micropolar».
+(nuevo);Campera Daract;Nuevo (alta de productos);Sí;Gris y Negro;frente;PDF Industria p.24;uniforma-nov2026-campera-daract-gris-y-negro-frente.webp;
+(nuevo);Camisa de trabajo;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.25;uniforma-nov2026-camisa-de-trabajo-azul-frente.webp;
+(nuevo);Pantalón de trabajo clásico;Nuevo (alta de productos);Sí;Beige;frente;PDF Industria p.26;uniforma-nov2026-pantalon-de-trabajo-clasico-beige-frente.webp;
+(nuevo);Pantalón cargo de trabajo rígido;Nuevo (alta de productos);Sí;Beige;frente;PDF Industria p.27;uniforma-nov2026-pantalon-cargo-de-trabajo-rigido-beige-frente.webp;«Pantalón cargo 8 oz» del PDF de Industria, asumido igual al «cargo de trabajo rígido» del txt de Comercio.
+(nuevo);Pantalón de trabajo cargo reforzado;Nuevo (alta de productos);Sí;Beige;frente;PDF Industria p.30;uniforma-nov2026-pantalon-de-trabajo-cargo-reforzado-beige-frente.webp;«Pantalón cargo reforzado tipo cazador».
+(nuevo);Bermuda cargo;Nuevo (alta de productos);Sí;Beige;frente;PDF Industria p.31;uniforma-nov2026-bermuda-cargo-beige-frente.webp;«Bermuda gabardina liviana».
+(nuevo);Camisa de jean de trabajo;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.32;uniforma-nov2026-camisa-de-jean-de-trabajo-azul-frente.webp;
+(nuevo);Pantalón jean de trabajo;Nuevo (alta de productos);Sí;Azul;frente;PDF Industria p.33;uniforma-nov2026-pantalon-jean-de-trabajo-azul-frente.webp;
+(nuevo);Chaleco Pampa;Nuevo (alta de productos);Sí;Negro;frente;PDF Campo p.10;uniforma-nov2026-chaleco-pampa-negro-frente.webp;
+(nuevo);Chaleco Pampa;Nuevo (alta de productos);Sí;Bordó;frente;PDF Campo p.11;uniforma-nov2026-chaleco-pampa-bordo-frente.webp;

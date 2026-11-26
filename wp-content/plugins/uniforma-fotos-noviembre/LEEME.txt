@@ -1,0 +1,71 @@
+UNIFORMA · FOTOS DE NOVIEMBRE · v1.0.0 (26/11/2026)
+
+QUÉ HACE
+Carga las fotos de los catálogos de noviembre en los productos de la web. Solo fotos: no crea productos,
+colores, talles ni variaciones, y no cambia precios, textos, stock, categorías ni estado (los borradores
+siguen en borrador).
+- 77 fotos (WebP, incluidas en el ZIP: no hay que subir nada a Medios) → 87 asignaciones en 85 productos:
+  54 existentes y 31 nuevos (los que crea «Alta de productos UNIFORMA» 1.1.0).
+- Origen: PDF Gastronomía 1ra y 2do, PDF Trajes, PDF Industria (según los txt con los nombres por foto)
+  y 2 fotos del PDF de Campo (chaleco pampa negro y bordó).
+CONTENIDO.csv detalla cada foto: producto, color, vista, página del PDF y nota.
+PENDIENTES.csv enumera las fotos que no se usaron y por qué.
+
+ORDEN
+1. Respaldo en Hostinger (hPanel > Respaldos), como siempre.
+2. Primero «Alta de productos UNIFORMA» 1.1.0: crear los productos nuevos (quedan en borrador).
+3. Después este plugin. No correr los dos a la vez, ni junto con el importador de octubre.
+
+INSTALACIÓN Y USO
+1. Comprimir la carpeta uniforma-fotos-noviembre en un ZIP (la carpeta adentro del ZIP).
+   Pesa unos 5 MB. Plugins > Añadir nuevo > Subir plugin > Instalar > Activar.
+2. WooCommerce > Fotos de noviembre UNIFORMA.
+3. Revisar la tabla. Cada fila muestra las miniaturas y el producto de la web elegido:
+   - Existentes: se eligen solos si coinciden SKU y nombre (si el SKU apunta a un producto con otro nombre,
+     la fila queda vacía para elegirla a mano).
+   - Nuevos: se eligen solos si los creó el alta (o por nombre exacto). Si no se creó, queda vacía y se omite.
+   - Para omitir una fila, vaciarla con la ×. Para asignar una vacía, buscar el producto (aparecen borradores).
+4. «Revisar coincidencias». Avisa colores que la ficha no tiene (esas fotos se saltean).
+5. «Iniciar / reanudar carga» con la pestaña abierta. Si se corta, volver a presionar el mismo botón.
+6. Descargar el registro CSV. Revisar fichas: cambiar de color, galería y personalizador. Purgar LiteSpeed Cache.
+Al terminar, desactivar y borrar el plugin. Las fotos quedan en Medios y en los productos.
+
+CÓMO APLICA CADA FOTO (igual que el importador de octubre)
+- La foto es el FRENTE de ese color: va a las variaciones de ese color (todos los talles), a la galería y
+  al mapa de colores del tema.
+- Saca de la galería las fotos anteriores de ESE color (frente y espalda viejos). Las de otros colores quedan.
+- Imagen principal: si era de un color actualizado, pasa a la nueva. Si era una foto de agosto/septiembre
+  (las generadas al armar la web), pasa a la foto de catálogo y la vieja queda en la galería. Si era una foto
+  de la carga de octubre de otro color, se conserva.
+- Estas fotos son solo de frente: los colores actualizados quedan sin espalda propia.
+- Reutiliza fotos ya subidas (por huella SHA-256): repetir la carga no duplica nada.
+- Antes del primer cambio de cada producto guarda un respaldo (principal, galería, mapa de colores e imágenes
+  de variaciones). «Descargar respaldo de asignaciones» lo baja en JSON.
+
+DECISIONES A REVISAR
+- Trajes (Milano, Turín, Mora, Venecia, Capri y talles especiales): la foto es el conjunto saco + pantalón;
+  se usa la misma en el saco y en el pantalón (en octubre habían quedado pendientes por esto).
+- «Siena» y «Siena talle especial» (saco + falda) → Falda y Falda talle especial.
+- Delantal Aqua: el txt dice «hay que modificarla». La fila NO viene elegida; asignarla solo si sirve así.
+- Gorro pirata camuflado: se suma a la galería del Delantal camuflado como foto de «detalle» (sin color, para
+  que el personalizador no la tome como espalda).
+- Urban Whisky: denim muy oscuro, se tomó como Azul (el Negro ya tenía foto de octubre).
+- Faldón de jean: la foto es denim gris oscuro; el producto solo tiene Azul.
+- Camisas de hombre y de dama, zapato Berlín y prendas micropolar estaban excluidas en octubre «por pedido».
+  Ahora vinieron en los txt de noviembre, así que se incluyen. Si siguen excluidas, vaciar esas filas.
+- No se reemplazan los colores que ya tienen frente y espalda de octubre: Delantal gabardina Blanco,
+  Delantal bandera Blanco, Mistela Beige, Urban Tequila Negro, Faldón Mistela Beige, Buzo cuello redondo Azul.
+
+NO INCLUIDAS (ver PENDIENTES.csv)
+- Industria p.4 (pantalón acolchado tipo trucker) y p.6 (campera oscura con capucha): el PDF tiene 33 fotos
+  y el txt 31 nombres; esas dos no tienen nombre.
+- Industria: buzo medio cierre, pantalón especial y pantalón cargo («no va» en el txt).
+- Campo: el resto del PDF es material «para revisar» armado con capturas y esos productos ya tienen fotos.
+- Salud y Estética 2025: catálogo del proveedor con fotos de personas reales; distinto estilo que la web.
+
+VERIFICACIÓN REALIZADA
+Prueba funcional con PHP 7.4 y 8.3, en WordPress 7.0.9 + WooCommerce 11.3.1 + tema UNIFORMA (Playground):
+alta de productos nuevos y luego esta carga; coincidencias por SKU+nombre y por la marca del alta; fila con SKU
+de otro nombre queda vacía; reemplazo del color correcto y conservación de las fotos de octubre; principal,
+galería, mapa de colores y variaciones; foto de conjunto compartida entre saco y pantalón; gorro como
+detalle; segunda ejecución sin duplicados; respaldo. No se ejecutó en la web de producción.

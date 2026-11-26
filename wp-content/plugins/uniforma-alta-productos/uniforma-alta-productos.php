@@ -2,7 +2,7 @@
 /**
  * Plugin Name: UNIFORMA - Alta de productos nuevos
  * Description: Crea como BORRADOR los productos de data/productos-nuevos.csv, con la misma función que usa el ERP (producto variable Color x Talle). Omite los que ya existen. No toca productos existentes.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Web Systems
  * Requires at least: 6.4
  * Requires PHP: 7.4
@@ -11,7 +11,7 @@
 defined('ABSPATH') || exit;
 
 final class Uniforma_Alta_Productos_202611 {
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
     const CAP = 'manage_woocommerce';
     const NONCE = 'uniforma_alta_202611';
     const LOG = 'uniforma_alta_202611_log';

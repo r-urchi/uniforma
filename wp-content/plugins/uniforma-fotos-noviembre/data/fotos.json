@@ -1,0 +1,2123 @@
+{
+  "version": "1.0.0",
+  "batch": "uniforma-fotos-2026-11-26",
+  "summary": {
+    "files": 77,
+    "assignments": 87,
+    "products": 85,
+    "existing": 54,
+    "new": 31
+  },
+  "products": [
+    {
+      "key": "UNI-P039",
+      "sku": "UNI-P039",
+      "name": "Delantal tropical mecánico",
+      "names": [
+        "Delantal tropical mecánico"
+      ],
+      "slug": "delantal-tropical-mecanico",
+      "existing_id": 419,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-tropical-mecanico-negro-frente.webp",
+          "sha256": "0e3821f891f0d7b91f1618876a3deb7ec957ca471ad5dd83312a8da05c243bb2",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P041",
+      "sku": "UNI-P041",
+      "name": "Delantal clásico de jean",
+      "names": [
+        "Delantal clásico de jean"
+      ],
+      "slug": "delantal-jean",
+      "existing_id": 421,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-clasico-de-jean-azul-frente.webp",
+          "sha256": "c118cb10e9df65448d980c8ccf7b014b815523853122b15cee2b48c6e8226db3",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P042",
+      "sku": "UNI-P042",
+      "name": "Delantal clásico de PVC",
+      "names": [
+        "Delantal clásico de PVC"
+      ],
+      "slug": "delantal-pvc",
+      "existing_id": 422,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-clasico-de-pvc-negro-frente.webp",
+          "sha256": "ae0fff4e09b0311c4d05fee0c97e9bb877b23ac029e428dc582230def9b222c6",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.4"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P043",
+      "sku": "UNI-P043",
+      "name": "Delantal bandera de gabardina 8 oz",
+      "names": [
+        "Delantal bandera de gabardina 8 oz"
+      ],
+      "slug": "delantal-bandera-gabardina-8oz",
+      "existing_id": 423,
+      "is_new": false,
+      "auto": true,
+      "note": "Bandera italiana.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-bandera-de-gabardina-8-oz-negro-frente.webp",
+          "sha256": "a1ed1901f1a32d25b2829a1cf179dcb50e8fd977943e49d102006f27896f15cd",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.6"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P044",
+      "sku": "UNI-P044",
+      "name": "Delantal camuflado con gorro pirata",
+      "names": [
+        "Delantal camuflado con gorro pirata"
+      ],
+      "slug": "delantal-camuflado",
+      "existing_id": 424,
+      "is_new": false,
+      "auto": true,
+      "note": "Gorro pirata camuflado (viene en el conjunto): va a la galería sin color para que no se tome como espalda.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-camuflado-con-gorro-pirata-verde-frente.webp",
+          "sha256": "5c061181623a117c7e06d28aef63f82afdf8e1d2dc7dca9820949c7e4669701a",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.7"
+        },
+        {
+          "filename": "uniforma-nov2026-delantal-camuflado-con-gorro-pirata-gorro-pirata-detalle.webp",
+          "sha256": "0d86d540b2701c0d124b6f3364f430af5cd0b531ac5251f0cf292de6958c950c",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "detalle",
+          "source": "PDF Gastronomía 1ra p.10"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P045",
+      "sku": "UNI-P045",
+      "name": "Delantal Lite cruzado",
+      "names": [
+        "Delantal Lite cruzado"
+      ],
+      "slug": "delantal-lite-cruzado",
+      "existing_id": 425,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-lite-cruzado-verde-frente.webp",
+          "sha256": "49f271fdec2ac4d249935da3cb91fbfcb68fd38a6b9b3d975b53973a34a4f62e",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "source": "PDF Gastronomía 1ra p.9"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P047",
+      "sku": "UNI-P047",
+      "name": "Delantal Urban Bitter",
+      "names": [
+        "Delantal Urban Bitter"
+      ],
+      "slug": "delantal-urban-bitter",
+      "existing_id": 427,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-urban-bitter-azul-frente.webp",
+          "sha256": "39c1efc32f2568c9e35247a64d096ce6fe3aa315fe07c1d08c1622d834cd9efb",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P048",
+      "sku": "UNI-P048",
+      "name": "Delantal Urban Whisky",
+      "names": [
+        "Delantal Urban Whisky"
+      ],
+      "slug": "delantal-urban-whisky",
+      "existing_id": 428,
+      "is_new": false,
+      "auto": true,
+      "note": "Denim muy oscuro: se tomó como Azul (el Negro ya tiene foto de octubre).",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-urban-whisky-azul-frente.webp",
+          "sha256": "e3eda9a60260ad518cb2d23af0969793a331eda528e59c1304f5ebd866e980ea",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.2"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P049",
+      "sku": "UNI-P049",
+      "name": "Delantal Urban Campari",
+      "names": [
+        "Delantal Urban Campari"
+      ],
+      "slug": "delantal-urban-campari",
+      "existing_id": 429,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-urban-campari-negro-frente.webp",
+          "sha256": "0f859cda1ca3496fe0c5f1118a6704be7afcda31ee910431ba6d1e696c0f2382",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.3"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-delantal-aqua-repelente",
+      "sku": "",
+      "name": "Delantal Aqua repelente",
+      "names": [
+        "Delantal Aqua repelente"
+      ],
+      "slug": "delantal-aqua-repelente",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": false,
+      "note": "El txt dice «hay que modificarla»: NO se preselecciona. Elegir el producto solo si la foto sirve así.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-aqua-repelente-azul-frente.webp",
+          "sha256": "9f72a2d281f2f82e76ee527e7d7094297df2bfe266e2de43f5be54ced34d1b98",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.5"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-delantal-cotton",
+      "sku": "",
+      "name": "Delantal Cotton",
+      "names": [
+        "Delantal Cotton"
+      ],
+      "slug": "delantal-cotton",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-cotton-verde-frente.webp",
+          "sha256": "9b6d22cd5ef66be11ccd1096f98b93af269428bd642fd97fb697a720588d34f2",
+          "color": "Verde",
+          "color_slug": "verde",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.6"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-delantal-pu-soft",
+      "sku": "",
+      "name": "Delantal PU Soft",
+      "names": [
+        "Delantal PU Soft"
+      ],
+      "slug": "delantal-pu-soft",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-pu-soft-marron-frente.webp",
+          "sha256": "12a5ef75c31f73562ef9420a3fbd799831c50fa23519db7d74416862e088781c",
+          "color": "Marrón",
+          "color_slug": "marron",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.7"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-delantal-pvc-flex",
+      "sku": "",
+      "name": "Delantal PVC Flex",
+      "names": [
+        "Delantal PVC Flex"
+      ],
+      "slug": "delantal-pvc-flex",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-delantal-pvc-flex-negro-frente.webp",
+          "sha256": "0abfc828daf616fcaf520e54a18e6b7fa7fef508f37b5998dc7f6ad651d0909d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.8"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P051",
+      "sku": "UNI-P051",
+      "name": "Faldón tropical mecánico",
+      "names": [
+        "Faldón tropical mecánico"
+      ],
+      "slug": "faldon-tropical-mecanico",
+      "existing_id": 431,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-faldon-tropical-mecanico-negro-frente.webp",
+          "sha256": "5b9b4539018a6834808f785696059202fcde4c370dbba7404156da8b5c397373",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.9"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P052",
+      "sku": "UNI-P052",
+      "name": "Faldón de jean",
+      "names": [
+        "Faldón de jean"
+      ],
+      "slug": "faldon-jean",
+      "existing_id": 432,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es denim gris oscuro; el producto solo tiene Azul.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-faldon-de-jean-azul-frente.webp",
+          "sha256": "9ce1a273742ccb26ffccc04ac5685aff86a56b40cfd3fb1d8194d591eda3d95a",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.10"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P053",
+      "sku": "UNI-P053",
+      "name": "Faldón de gabardina",
+      "names": [
+        "Faldón de gabardina"
+      ],
+      "slug": "faldon-de-gabardina",
+      "existing_id": 433,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-faldon-de-gabardina-beige-frente.webp",
+          "sha256": "d77d9023b2156d8e10b5672c86218cd513773e374613cfacaad87f53cfcf8e7f",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.11"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P055",
+      "sku": "UNI-P055",
+      "name": "Faldón Urban Jean",
+      "names": [
+        "Faldón Urban Jean"
+      ],
+      "slug": "faldon-urban-jean",
+      "existing_id": 435,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-faldon-urban-jean-azul-frente.webp",
+          "sha256": "d9575ec2026c470bca260adfcb5bb058ff5259802c2b5572445572e94a90ec6a",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronomía 2do p.13"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P117",
+      "sku": "UNI-P117",
+      "name": "Saco de hombre Milano",
+      "names": [
+        "Saco de hombre Milano"
+      ],
+      "slug": "blazer-de-hombre",
+      "existing_id": 3025,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-milano-negro-frente.webp",
+          "sha256": "e9340f468b9a681a554ac27ba1cf8b5af8c624c8da9bcf2732f065d06f5a9249",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P116",
+      "sku": "UNI-P116",
+      "name": "Pantalón de hombre Milano",
+      "names": [
+        "Pantalón de hombre Milano"
+      ],
+      "slug": "pantalon-de-hombre",
+      "existing_id": 3000,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-milano-negro-frente.webp",
+          "sha256": "e9340f468b9a681a554ac27ba1cf8b5af8c624c8da9bcf2732f065d06f5a9249",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P143",
+      "sku": "UNI-P143",
+      "name": "Saco de hombre Milano talle especial",
+      "names": [
+        "Saco de hombre Milano talle especial"
+      ],
+      "slug": "saco-de-hombre-milano-talle-especial",
+      "existing_id": 3840,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-milano-talle-especial-negro-frente.webp",
+          "sha256": "9367c5793c579eae922c1b17c816cfe24702d3737201c583d14ef4d4e53411c0",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.2"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P142",
+      "sku": "UNI-P142",
+      "name": "Pantalón de hombre Milano talle especial",
+      "names": [
+        "Pantalón de hombre Milano talle especial"
+      ],
+      "slug": "pantalon-de-hombre-milano-talle-especial",
+      "existing_id": 3823,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-milano-talle-especial-negro-frente.webp",
+          "sha256": "9367c5793c579eae922c1b17c816cfe24702d3737201c583d14ef4d4e53411c0",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.2"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P145",
+      "sku": "UNI-P145",
+      "name": "Saco de hombre Turín",
+      "names": [
+        "Saco de hombre Turín"
+      ],
+      "slug": "saco-de-hombre-turin",
+      "existing_id": 3878,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-turin-azul-frente.webp",
+          "sha256": "33108fc2bfbc1b7790378bb86d3b861c9171e8ad86483eaa5f2b15658a1ecca6",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P144",
+      "sku": "UNI-P144",
+      "name": "Pantalón de hombre Turín",
+      "names": [
+        "Pantalón de hombre Turín"
+      ],
+      "slug": "pantalon-de-hombre-turin",
+      "existing_id": 3857,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-turin-azul-frente.webp",
+          "sha256": "33108fc2bfbc1b7790378bb86d3b861c9171e8ad86483eaa5f2b15658a1ecca6",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P147",
+      "sku": "UNI-P147",
+      "name": "Saco de hombre Turín talle especial",
+      "names": [
+        "Saco de hombre Turín talle especial"
+      ],
+      "slug": "saco-de-hombre-turin-talle-especial",
+      "existing_id": 3916,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-turin-talle-especial-negro-frente.webp",
+          "sha256": "a69be1913e7ddfa11075e2e5cbf4f24174fb3db7054496f274e31af96ea9a68d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.4"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P146",
+      "sku": "UNI-P146",
+      "name": "Pantalón de hombre Turín talle especial",
+      "names": [
+        "Pantalón de hombre Turín talle especial"
+      ],
+      "slug": "pantalon-de-hombre-turin-talle-especial",
+      "existing_id": 3899,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-turin-talle-especial-negro-frente.webp",
+          "sha256": "a69be1913e7ddfa11075e2e5cbf4f24174fb3db7054496f274e31af96ea9a68d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.4"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-saco-de-hombre-capri",
+      "sku": "",
+      "name": "Saco de hombre Capri",
+      "names": [
+        "Saco de hombre Capri"
+      ],
+      "slug": "saco-de-hombre-capri",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-capri-negro-frente.webp",
+          "sha256": "c4a9120bfc454b56b3a71e9eb43429e68d3b37864964c60c3ccb20f9589c1a34",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.5"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-de-hombre-capri",
+      "sku": "",
+      "name": "Pantalón de hombre Capri",
+      "names": [
+        "Pantalón de hombre Capri"
+      ],
+      "slug": "pantalon-de-hombre-capri",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-capri-negro-frente.webp",
+          "sha256": "c4a9120bfc454b56b3a71e9eb43429e68d3b37864964c60c3ccb20f9589c1a34",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.5"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-saco-de-hombre-capri-talle-especial",
+      "sku": "",
+      "name": "Saco de hombre Capri talle especial",
+      "names": [
+        "Saco de hombre Capri talle especial"
+      ],
+      "slug": "saco-de-hombre-capri-talle-especial",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-capri-talle-especial-azul-frente.webp",
+          "sha256": "b2c381b98eb62c53723500afaee1f76fa840d63758369bd92eadcca9f2bf7157",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.6"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-de-hombre-capri-talle-especial",
+      "sku": "",
+      "name": "Pantalón de hombre Capri talle especial",
+      "names": [
+        "Pantalón de hombre Capri talle especial"
+      ],
+      "slug": "pantalon-de-hombre-capri-talle-especial",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-hombre-capri-talle-especial-azul-frente.webp",
+          "sha256": "b2c381b98eb62c53723500afaee1f76fa840d63758369bd92eadcca9f2bf7157",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.6"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P119",
+      "sku": "UNI-P119",
+      "name": "Camisa clásica de hombre",
+      "names": [
+        "Camisa clásica de hombre"
+      ],
+      "slug": "camisa-de-hombre",
+      "existing_id": 3060,
+      "is_new": false,
+      "auto": true,
+      "note": "«Camisa nacional».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-clasica-de-hombre-blanco-frente.webp",
+          "sha256": "f225bd0a18b6c12c4024e97c229213d1f28b6a4e8c3d642cd09aaa7f8a394118",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Trajes p.7"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P120",
+      "sku": "UNI-P120",
+      "name": "Camisa clásica de hombre talle especial",
+      "names": [
+        "Camisa clásica de hombre talle especial"
+      ],
+      "slug": "camisa-de-hombre-talle-especial",
+      "existing_id": 3065,
+      "is_new": false,
+      "auto": true,
+      "note": "«Camisa nacional talle especial».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-clasica-de-hombre-talle-especial-negro-frente.webp",
+          "sha256": "345209b026894fc8b0265bc0678b1ce8c8da0cfd3f26ca5f9dd1e44b50617b7d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.8"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P149",
+      "sku": "UNI-P149",
+      "name": "Camisa entallada de hombre",
+      "names": [
+        "Camisa entallada de hombre"
+      ],
+      "slug": "camisa-entallada-de-hombre",
+      "existing_id": 4118,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-entallada-de-hombre-negro-frente.webp",
+          "sha256": "4454b4105cffaa417d4425c1dfb45b6838a5aa98d44b28f809de2d06f31a6b27",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.9"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P118",
+      "sku": "UNI-P118",
+      "name": "Chaleco hombre",
+      "names": [
+        "Chaleco hombre"
+      ],
+      "slug": "chaleco-de-hombre",
+      "existing_id": 3047,
+      "is_new": false,
+      "auto": true,
+      "note": "«Chaleco de vestir».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-hombre-negro-frente.webp",
+          "sha256": "77d3ca096d449e322f654ad8a67fcb42a7ddb1d5762e15572c4aa36c92860836",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.10"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P148",
+      "sku": "UNI-P148",
+      "name": "Chaleco de hombre talle especial",
+      "names": [
+        "Chaleco de hombre talle especial"
+      ],
+      "slug": "chaleco-de-hombre-talle-especial",
+      "existing_id": 3943,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-de-hombre-talle-especial-azul-frente.webp",
+          "sha256": "2d4ca2fa276e7d7e6c089298765de95033a0f837960fbd3b2a2a10272f59129c",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.11"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P154",
+      "sku": "UNI-P154",
+      "name": "Zapato Mónaco",
+      "names": [
+        "Zapato Mónaco"
+      ],
+      "slug": "zapato-monaco",
+      "existing_id": 4203,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-zapato-monaco-negro-frente.webp",
+          "sha256": "14dc256113b0c4067dafdfd6758fceb419197d8daaab9ee0624ebb5692f8684a",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.12"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P155",
+      "sku": "UNI-P155",
+      "name": "Zapato Berlín",
+      "names": [
+        "Zapato Berlín"
+      ],
+      "slug": "zapato-berlin",
+      "existing_id": 4216,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-zapato-berlin-negro-frente.webp",
+          "sha256": "4542c287da05f589e6939059e00e3d8c4bbbfb1a55b09e70b783d50a550b3d6d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.13"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P156",
+      "sku": "UNI-P156",
+      "name": "Zapato Londres",
+      "names": [
+        "Zapato Londres"
+      ],
+      "slug": "zapato-londres",
+      "existing_id": 4229,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-zapato-londres-negro-frente.webp",
+          "sha256": "b2d023f7506a08fa77a3333f6010e38a11abedc4d769018963cc921e3ea36c58",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.14"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P150",
+      "sku": "UNI-P150",
+      "name": "Sweater de hombre",
+      "names": [
+        "Sweater de hombre"
+      ],
+      "slug": "sweater-de-hombre",
+      "existing_id": 4161,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-sweater-de-hombre-negro-frente.webp",
+          "sha256": "f1ee65919ba86d3b8c77b913338b222fd21189740e190f0373858eb8362b7e7e",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.15"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P122",
+      "sku": "UNI-P122",
+      "name": "Sobretodo de paño de hombre",
+      "names": [
+        "Sobretodo de paño de hombre"
+      ],
+      "slug": "tapado-de-pano-hombre",
+      "existing_id": 3075,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-sobretodo-de-pano-de-hombre-negro-frente.webp",
+          "sha256": "0fba3a9ccfe3658994f241669ba1d1249a6e2665d86c893620fdbff675545f47",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.16"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P151",
+      "sku": "UNI-P151",
+      "name": "Montgomery hombre",
+      "names": [
+        "Montgomery hombre"
+      ],
+      "slug": "montgomery-hombre",
+      "existing_id": 4183,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-montgomery-hombre-negro-frente.webp",
+          "sha256": "0e238dd5e8f8c489d6f39004384664e7add29f9a8cde5ef9e08aa9005984e182",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.17"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P114",
+      "sku": "UNI-P114",
+      "name": "Saco de dama Mora",
+      "names": [
+        "Saco de dama Mora"
+      ],
+      "slug": "blazer-de-dama",
+      "existing_id": 2959,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-mora-negro-frente.webp",
+          "sha256": "7955e9ad79b39ad0f380fa04c80055a564d922088df21e923b0045b75bc23006",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.18"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P112",
+      "sku": "UNI-P112",
+      "name": "Pantalón sastrero de dama Mora",
+      "names": [
+        "Pantalón sastrero de dama Mora"
+      ],
+      "slug": "pantalon-sastrero-recto-de-dama",
+      "existing_id": 2921,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-mora-negro-frente.webp",
+          "sha256": "7955e9ad79b39ad0f380fa04c80055a564d922088df21e923b0045b75bc23006",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.18"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P131",
+      "sku": "UNI-P131",
+      "name": "Saco de dama Mora talle especial",
+      "names": [
+        "Saco de dama Mora talle especial"
+      ],
+      "slug": "saco-de-dama-mora-talle-especial",
+      "existing_id": 3632,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-mora-talle-especial-azul-frente.webp",
+          "sha256": "b6fd06d03bd5c9d8d9f741d403988035e69e7f70676ab39fc9868005b9bbbb64",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.19"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P130",
+      "sku": "UNI-P130",
+      "name": "Pantalón sastrero de dama Mora talle especial",
+      "names": [
+        "Pantalón sastrero de dama Mora talle especial"
+      ],
+      "slug": "pantalon-sastrero-de-dama-mora-talle-especial",
+      "existing_id": 3621,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-mora-talle-especial-azul-frente.webp",
+          "sha256": "b6fd06d03bd5c9d8d9f741d403988035e69e7f70676ab39fc9868005b9bbbb64",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.19"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P115",
+      "sku": "UNI-P115",
+      "name": "Falda",
+      "names": [
+        "Falda"
+      ],
+      "slug": "falda",
+      "existing_id": 2981,
+      "is_new": false,
+      "auto": true,
+      "note": "«Traje mujer Siena» (saco + falda). En la web solo existe la Falda: se le pone esta foto. No se creó un «Saco Siena».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-falda-negro-frente.webp",
+          "sha256": "3b4be96b86b5dc9058d163ecc8b93833951ce88474b75b3785233f56c95d11fa",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.20"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P132",
+      "sku": "UNI-P132",
+      "name": "Falda talle especial",
+      "names": [
+        "Falda talle especial"
+      ],
+      "slug": "falda-talle-especial",
+      "existing_id": 3657,
+      "is_new": false,
+      "auto": true,
+      "note": "«Siena talle especial» → Falda talle especial (ver Siena).",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-falda-talle-especial-azul-frente.webp",
+          "sha256": "087de895fbaba4bd4429125d071d15fc6d9051f25aa571bfb72bea8bf44b0de5",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.21"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P134",
+      "sku": "UNI-P134",
+      "name": "Saco de dama Venecia",
+      "names": [
+        "Saco de dama Venecia"
+      ],
+      "slug": "saco-de-dama-venecia",
+      "existing_id": 3683,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-venecia-negro-frente.webp",
+          "sha256": "06214a7cb6bf006650c3494906277275d72d228a3573722675b60994f33c8c08",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.22"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P133",
+      "sku": "UNI-P133",
+      "name": "Pantalón de vestir de dama Venecia",
+      "names": [
+        "Pantalón de vestir de dama Venecia"
+      ],
+      "slug": "pantalon-de-vestir-de-dama-venecia",
+      "existing_id": 3668,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-venecia-negro-frente.webp",
+          "sha256": "06214a7cb6bf006650c3494906277275d72d228a3573722675b60994f33c8c08",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.22"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P136",
+      "sku": "UNI-P136",
+      "name": "Saco de dama Venecia talle especial",
+      "names": [
+        "Saco de dama Venecia talle especial"
+      ],
+      "slug": "saco-de-dama-venecia-talle-especial",
+      "existing_id": 3709,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-venecia-talle-especial-azul-frente.webp",
+          "sha256": "91050b62e6e09e9fc268c2b324c31eea1c49c20335153c0659f01645a0aa5474",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.23"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P135",
+      "sku": "UNI-P135",
+      "name": "Pantalón de vestir de dama Venecia talle especial",
+      "names": [
+        "Pantalón de vestir de dama Venecia talle especial"
+      ],
+      "slug": "pantalon-de-vestir-de-dama-venecia-talle-especial",
+      "existing_id": 3698,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es el conjunto completo: se usa en el saco y en el pantalón.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-saco-de-dama-venecia-talle-especial-azul-frente.webp",
+          "sha256": "91050b62e6e09e9fc268c2b324c31eea1c49c20335153c0659f01645a0aa5474",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.23"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P139",
+      "sku": "UNI-P139",
+      "name": "Camisa de dama de poplín",
+      "names": [
+        "Camisa de dama de poplín"
+      ],
+      "slug": "camisa-de-dama-de-poplin",
+      "existing_id": 3755,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-dama-de-poplin-blanco-frente.webp",
+          "sha256": "d9a96bf14dfa4ae6f8d158548febfd107b454623d1eef03d4610fac05049ddac",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Trajes p.24"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P140",
+      "sku": "UNI-P140",
+      "name": "Camisa de dama de poplín talle especial",
+      "names": [
+        "Camisa de dama de poplín talle especial"
+      ],
+      "slug": "camisa-de-dama-de-poplin-talle-especial",
+      "existing_id": 3764,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-dama-de-poplin-talle-especial-blanco-frente.webp",
+          "sha256": "0a3b94b818e4f68653dd623cdaa0ff1fcb2ded2c9920663e0b896373c170ccb0",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Trajes p.25"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P141",
+      "sku": "UNI-P141",
+      "name": "Camisa de dama de poplín talle súper especial",
+      "names": [
+        "Camisa de dama de poplín talle súper especial"
+      ],
+      "slug": "camisa-de-dama-de-poplin-talle-super-especial",
+      "existing_id": 3771,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-dama-de-poplin-talle-super-especial-blanco-frente.webp",
+          "sha256": "e41cdaf6217cff1b266b8805228bc9bd47eb156461041d0b7ec8c8522a184c4b",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Trajes p.26"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P113",
+      "sku": "UNI-P113",
+      "name": "Chaleco de dama",
+      "names": [
+        "Chaleco de dama"
+      ],
+      "slug": "chaleco-de-dama",
+      "existing_id": 2940,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-de-dama-azul-frente.webp",
+          "sha256": "ef915da49374bb24d8ac5dec0b25784deb17f66153d60d0880f15d03bf7f114f",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Trajes p.27"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P137",
+      "sku": "UNI-P137",
+      "name": "Cardigan",
+      "names": [
+        "Cardigan"
+      ],
+      "slug": "cardigan",
+      "existing_id": 3720,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-cardigan-negro-frente.webp",
+          "sha256": "e1b59257033baefacc2d1e440f2cdd568d38eb5eba29148e07fe5507e9f6861d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.28"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P123",
+      "sku": "UNI-P123",
+      "name": "Sobretodo de paño Velour de dama",
+      "names": [
+        "Sobretodo de paño Velour de dama"
+      ],
+      "slug": "tapado-de-pano-mujer",
+      "existing_id": 3083,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-sobretodo-de-pano-velour-de-dama-negro-frente.webp",
+          "sha256": "eff043f13605171926ad0b989068642a186f32722bfa379cb730062840916495",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.29"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P138",
+      "sku": "UNI-P138",
+      "name": "Montgomery de paño Velour de dama",
+      "names": [
+        "Montgomery de paño Velour de dama"
+      ],
+      "slug": "montgomery-de-pano-velour-de-dama",
+      "existing_id": 3745,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-montgomery-de-pano-velour-de-dama-negro-frente.webp",
+          "sha256": "cd0cd5a1918974680c32805e5e81dc855a1bcd59aa65d364374cb0109794b410",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Trajes p.30"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P129",
+      "sku": "UNI-P129",
+      "name": "Campera Trucker",
+      "names": [
+        "Campera Trucker"
+      ],
+      "slug": "campera-trucker",
+      "existing_id": 3266,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-trucker-azul-frente.webp",
+          "sha256": "4198eba65314d8adf1fc9d4c20428d69f8d4648702bbb4e1594f5f4950cbec8a",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P128",
+      "sku": "UNI-P128",
+      "name": "Chaleco Trucker",
+      "names": [
+        "Chaleco Trucker"
+      ],
+      "slug": "chaleco-trucker",
+      "existing_id": 3247,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-trucker-azul-frente.webp",
+          "sha256": "d96b4fcc51dc8f8cb3d1c8f665db8f22b093232bd234859ba04018c411412180",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.2"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-mameluco-trucker",
+      "sku": "",
+      "name": "Mameluco Trucker",
+      "names": [
+        "Mameluco Trucker"
+      ],
+      "slug": "mameluco-trucker",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-mameluco-trucker-azul-frente.webp",
+          "sha256": "fd3e0ae908845a50634bc137dc5f37cbbeea0ec5b2067314f157b9b4005e119b",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.3"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-minero",
+      "sku": "",
+      "name": "Campera minero",
+      "names": [
+        "Campera minero"
+      ],
+      "slug": "campera-minero",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-minero-negro-frente.webp",
+          "sha256": "d2d49891cb92c496a2e8c526c5302583d4b87290f1521fe8e77d141b4cf99133",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Industria p.5"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-de-gabardina",
+      "sku": "",
+      "name": "Campera de gabardina",
+      "names": [
+        "Campera de gabardina"
+      ],
+      "slug": "campera-de-gabardina",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-de-gabardina-azul-frente.webp",
+          "sha256": "b7d0faa313272091e52c11efaabc7e457ad47e082737f7fafed794de4c351df6",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.7"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-mameluco-de-gabardina",
+      "sku": "",
+      "name": "Mameluco de gabardina",
+      "names": [
+        "Mameluco de gabardina"
+      ],
+      "slug": "mameluco-de-gabardina",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-mameluco-de-gabardina-azul-frente.webp",
+          "sha256": "4de6f0e9710748b49525afea839f66be2dc63b73a065e8f14f309a9cae1c4db8",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.8"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-equipo-primera-piel-de-microfibra",
+      "sku": "",
+      "name": "Equipo primera piel de microfibra",
+      "names": [
+        "Equipo primera piel de microfibra"
+      ],
+      "slug": "equipo-primera-piel-de-microfibra",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-equipo-primera-piel-de-microfibra-negro-frente.webp",
+          "sha256": "5e571d35cd9001e0818d010faf749129a7d40f6a71987aea32c3f9dfbe796d12",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Industria p.9"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-soft-shell",
+      "sku": "",
+      "name": "Campera Soft Shell",
+      "names": [
+        "Campera Soft Shell"
+      ],
+      "slug": "campera-soft-shell",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-soft-shell-azul-frente.webp",
+          "sha256": "67d606a5398c72eada014195d4e37d8165cacbfeb68709d664a042ff9e18e8c4",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.10"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-chaleco-soft-shell",
+      "sku": "",
+      "name": "Chaleco Soft Shell",
+      "names": [
+        "Chaleco Soft Shell"
+      ],
+      "slug": "chaleco-soft-shell",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-soft-shell-azul-frente.webp",
+          "sha256": "8aaf3aaa1b88c68208c44ffd032f1345e454f42ef58036c6bd6062559edd57f8",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.11"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-soft-shell-mujer-aura",
+      "sku": "",
+      "name": "Campera Soft Shell mujer Aura",
+      "names": [
+        "Campera Soft Shell mujer Aura"
+      ],
+      "slug": "campera-soft-shell-mujer-aura",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-soft-shell-mujer-aura-turquesa-frente.webp",
+          "sha256": "20bf945e0af3ebc5332567d2ba387bbb73575f8097ed75adf41b485da701376e",
+          "color": "Turquesa",
+          "color_slug": "turquesa",
+          "view": "frente",
+          "source": "PDF Industria p.12"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-chaleco-soft-shell-mujer-aura",
+      "sku": "",
+      "name": "Chaleco Soft Shell mujer Aura",
+      "names": [
+        "Chaleco Soft Shell mujer Aura"
+      ],
+      "slug": "chaleco-soft-shell-mujer-aura",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-soft-shell-mujer-aura-celeste-frente.webp",
+          "sha256": "3e5708805dba467318960a07303ac302e649baec2addfc279bd00b89745cddf1",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "frente",
+          "source": "PDF Industria p.13"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-cire",
+      "sku": "",
+      "name": "Campera Cire",
+      "names": [
+        "Campera Cire"
+      ],
+      "slug": "campera-cire",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-cire-azul-frente.webp",
+          "sha256": "769f172e400a32ab08dd3067665fe9e8af681718a5ebf28e6b5d2b106bd37f55",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.14"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-chaleco-cire",
+      "sku": "",
+      "name": "Chaleco Cire",
+      "names": [
+        "Chaleco Cire"
+      ],
+      "slug": "chaleco-cire",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-cire-azul-frente.webp",
+          "sha256": "c1f0c1a27718238dbbd85ad651f255b64cdf7d33d11d966b0c8c7a8f21ec7b26",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.15"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-rompeviento-embalse",
+      "sku": "",
+      "name": "Rompeviento Embalse",
+      "names": [
+        "Rompeviento Embalse"
+      ],
+      "slug": "rompeviento-embalse",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-rompeviento-embalse-rojo-y-negro-frente.webp",
+          "sha256": "507def7fb42a57df3f7f8dcde760dd2acb66798e11a72d2d1c9bdbed9a3d6fb0",
+          "color": "Rojo y Negro",
+          "color_slug": "rojo-y-negro",
+          "view": "frente",
+          "source": "PDF Industria p.16"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-rompeviento-esquel",
+      "sku": "",
+      "name": "Rompeviento Esquel",
+      "names": [
+        "Rompeviento Esquel"
+      ],
+      "slug": "rompeviento-esquel",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-rompeviento-esquel-negro-frente.webp",
+          "sha256": "c3de772f6dcb5f5601d6eed0245698c3f6e7132f8d8cef4f7a306cd3f25c6ad4",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Industria p.17"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-rompeviento-bagual",
+      "sku": "",
+      "name": "Rompeviento Bagual",
+      "names": [
+        "Rompeviento Bagual"
+      ],
+      "slug": "rompeviento-bagual",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-rompeviento-bagual-gris-y-negro-frente.webp",
+          "sha256": "62dfd4e00c0935b3528aa24e477e4e196f752ae3283928b74be8c790b8a54745",
+          "color": "Gris y Negro",
+          "color_slug": "gris-y-negro",
+          "view": "frente",
+          "source": "PDF Industria p.18"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P018",
+      "sku": "UNI-P018",
+      "name": "Buzo polar medio cierre",
+      "names": [
+        "Buzo polar medio cierre"
+      ],
+      "slug": "buzo-polar-medio-cierre",
+      "existing_id": 398,
+      "is_new": false,
+      "auto": true,
+      "note": "«Buzo medio cierre micropolar».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-buzo-polar-medio-cierre-azul-frente.webp",
+          "sha256": "3f41c95375329775f477e1c9f8134e33402b23bae3312253cf020543bdd47571",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.21"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P017",
+      "sku": "UNI-P017",
+      "name": "Campera polar unisex",
+      "names": [
+        "Campera polar unisex"
+      ],
+      "slug": "campera-polar-unisex",
+      "existing_id": 397,
+      "is_new": false,
+      "auto": true,
+      "note": "«Campera micropolar».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-polar-unisex-azul-frente.webp",
+          "sha256": "992e096293fe05b8cf6a24c44014a0b44811cf327e7672afb0c629e5af077332",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.22"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P020",
+      "sku": "UNI-P020",
+      "name": "Chaleco polar",
+      "names": [
+        "Chaleco polar"
+      ],
+      "slug": "chaleco-polar",
+      "existing_id": 400,
+      "is_new": false,
+      "auto": true,
+      "note": "«Chaleco micropolar».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-polar-azul-frente.webp",
+          "sha256": "c5188e5aac489b697f606da3650e98516faef5cbcbc7deca494850615dda7246",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.23"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-campera-daract",
+      "sku": "",
+      "name": "Campera Daract",
+      "names": [
+        "Campera Daract"
+      ],
+      "slug": "campera-daract",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-campera-daract-gris-y-negro-frente.webp",
+          "sha256": "b1e03385d16dc655906491a19b376029079d7f0f545461db91428ca96a0a4fee",
+          "color": "Gris y Negro",
+          "color_slug": "gris-y-negro",
+          "view": "frente",
+          "source": "PDF Industria p.24"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-camisa-de-trabajo",
+      "sku": "",
+      "name": "Camisa de trabajo",
+      "names": [
+        "Camisa de trabajo"
+      ],
+      "slug": "camisa-de-trabajo",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-trabajo-azul-frente.webp",
+          "sha256": "ceeae6a0e6d04ec780b2e1acfebccca5a279146d6765e299eaee0f603150d02c",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.25"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-de-trabajo-clasico",
+      "sku": "",
+      "name": "Pantalón de trabajo clásico",
+      "names": [
+        "Pantalón de trabajo clásico"
+      ],
+      "slug": "pantalon-de-trabajo-clasico",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-de-trabajo-clasico-beige-frente.webp",
+          "sha256": "f2966fc25ac7e5d1b38203c4c532332fabf28ff92c0bf7821bc5e8954afe6306",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Industria p.26"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-cargo-de-trabajo-rigido",
+      "sku": "",
+      "name": "Pantalón cargo de trabajo rígido",
+      "names": [
+        "Pantalón cargo de trabajo rígido"
+      ],
+      "slug": "pantalon-cargo-de-trabajo-rigido",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "«Pantalón cargo 8 oz» del PDF de Industria, asumido igual al «cargo de trabajo rígido» del txt de Comercio.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-cargo-de-trabajo-rigido-beige-frente.webp",
+          "sha256": "a375978f9d8515b85ab2ab7449bdcdb1104cb56b7432d427ad4159667d0e0166",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Industria p.27"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-de-trabajo-cargo-reforzado",
+      "sku": "",
+      "name": "Pantalón de trabajo cargo reforzado",
+      "names": [
+        "Pantalón de trabajo cargo reforzado"
+      ],
+      "slug": "pantalon-de-trabajo-cargo-reforzado",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "«Pantalón cargo reforzado tipo cazador».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-de-trabajo-cargo-reforzado-beige-frente.webp",
+          "sha256": "7d93f56ad21e21d43638982038449fe265c2b0b4b564e0895794684e340b3585",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Industria p.30"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-bermuda-cargo",
+      "sku": "",
+      "name": "Bermuda cargo",
+      "names": [
+        "Bermuda cargo"
+      ],
+      "slug": "bermuda-cargo",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "«Bermuda gabardina liviana».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-bermuda-cargo-beige-frente.webp",
+          "sha256": "dee8e343fb3ad81c492fbe3b5a6a7524ff095c01ef09d84f0257f23680545be2",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Industria p.31"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-camisa-de-jean-de-trabajo",
+      "sku": "",
+      "name": "Camisa de jean de trabajo",
+      "names": [
+        "Camisa de jean de trabajo"
+      ],
+      "slug": "camisa-de-jean-de-trabajo",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-jean-de-trabajo-azul-frente.webp",
+          "sha256": "643df49731d0cdf3f30efed1e14cb3789c68204ec8fbe1ccdb6bc17876c9b55c",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.32"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-pantalon-jean-de-trabajo",
+      "sku": "",
+      "name": "Pantalón jean de trabajo",
+      "names": [
+        "Pantalón jean de trabajo"
+      ],
+      "slug": "pantalon-jean-de-trabajo",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-jean-de-trabajo-azul-frente.webp",
+          "sha256": "c794acb7d621eaa9c32ec50d021a91a7fb22736ed641fbb46e61bd9e65e3ccd7",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Industria p.33"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-chaleco-pampa",
+      "sku": "",
+      "name": "Chaleco Pampa",
+      "names": [
+        "Chaleco Pampa"
+      ],
+      "slug": "chaleco-pampa",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaleco-pampa-negro-frente.webp",
+          "sha256": "eda43d22c1d8ff8cd7553380f4364eb4516427fb097683a621b7a23f91c1a7ff",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Campo p.10"
+        },
+        {
+          "filename": "uniforma-nov2026-chaleco-pampa-bordo-frente.webp",
+          "sha256": "bd843b635f2fd74091e3d0160e3b65317c8663a487f44c8eccd207e585119cf6",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "frente",
+          "source": "PDF Campo p.11"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "source": "PDF Gastronomía 1ra p.2",
+      "reason": "Delantal clásico de gabardina (UNI-P040) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronomía 1ra p.5",
+      "reason": "Delantal bandera de gabardina 8 oz (UNI-P043) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronomía 1ra p.8",
+      "reason": "Delantal Mistela cruzado (UNI-P046) Beige: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronomía 2do p.4",
+      "reason": "Delantal Urban Tequila (UNI-P050) Negro: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronomía 2do p.12",
+      "reason": "Faldón Mistela (UNI-P054) Beige: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Industria p.19",
+      "reason": "Buzo frizado cuello redondo (UNI-P016) Azul: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Industria p.4",
+      "reason": "Pantalón acolchado tipo trucker: no figura en la lista de nombres. No se usó."
+    },
+    {
+      "source": "PDF Industria p.6",
+      "reason": "Campera oscura con capucha: no figura en la lista de nombres (sobran 2 fotos sobre 33). No se usó."
+    },
+    {
+      "source": "PDF Industria p.20",
+      "reason": "Buzo medio cierre: el txt dice «este no va»."
+    },
+    {
+      "source": "PDF Industria p.28",
+      "reason": "Pantalón especial: el txt dice «no va»."
+    },
+    {
+      "source": "PDF Industria p.29",
+      "reason": "Pantalón cargo: el txt dice «no va»."
+    },
+    {
+      "source": "PDF Campo (resto)",
+      "reason": "Camisas de trabajo, bombachas, boinas y pantalón cargo: el PDF es material «para revisar» armado con capturas, y esos productos ya tienen fotos de octubre. Solo se usaron los chalecos pampa negro y bordó."
+    },
+    {
+      "source": "PDF Salud y Estética 2025",
+      "reason": "Catálogo del proveedor con fotos de personas reales y fondos variados (distinto estilo que la web). No se usó. Podría servir para el Ambo médico clásico si se decide."
+    }
+  ]
+}

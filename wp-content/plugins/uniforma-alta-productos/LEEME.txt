@@ -1,28 +1,44 @@
-UNIFORMA · ALTA DE PRODUCTOS NUEVOS · v1.0.0 (noviembre 2026)
+UNIFORMA · ALTA DE PRODUCTOS NUEVOS · v1.1.0 (26/11/2026)
 
 QUÉ HACE
-Crea en BORRADOR los 35 productos de data/productos-nuevos.csv, que son los del txt "Tipos y Modelos
-faltantes" y del PDF de Gastronomía que NO existen en la web.
+Crea en BORRADOR los 55 productos de data/productos-nuevos.csv: los que NO existen en la web según
+el txt "Tipos y Modelos faltantes", el PDF de Gastronomía de noviembre y (nuevo en 1.1.0) los txt
+"nombres por foto" de Industria, "modelos trajes" y "gastronomia 1/2".
 Usa la misma función del tema que usa el ERP (uniforma_erp_product_handle), así que quedan iguales a
 los actuales: producto variable con Color x Talle, SKU UNI-P### (el siguiente libre), descripción corta,
 "Detalles" (ACF) y descripción larga con el mismo formato.
 - No toca ningún producto existente, ni precios, ni fotos.
 - No crea categorías. Si una no existe, avisa y no la asigna.
-- Puede crear colores o talles nuevos en el atributo global (la revisión dice cuáles, p. ej. "Naranja").
-- Sin foto: la web muestra la imagen genérica de WooCommerce.
+- Puede crear colores o talles nuevos en el atributo global (la revisión dice cuáles: «Naranja»,
+  «Turquesa», «Rojo y Negro», los bicolores de los botines Chars, etc.).
+- Sin foto. Las fotos se cargan DESPUÉS con el plugin «UNIFORMA - Fotos de noviembre».
 - Sin precios: el PDF es el catálogo del proveedor (Full Complements) con precios + IVA, que son COSTO.
   No se cargaron. OJO: el ERP no deja publicar sin "Precio unitario X5", pero desde el admin de
   WordPress sí se puede. No publicar ninguno sin cargar antes sus precios.
+
+NOVEDADES 1.1.0
+20 productos nuevos:
+- Industria (16): Mameluco Trucker, Campera minero, Campera de gabardina, Equipo primera piel de
+  microfibra, Campera y Chaleco Soft Shell, Campera y Chaleco Soft Shell mujer Aura, Campera y Chaleco
+  Cire, Rompevientos Embalse, Esquel y Bagual, Campera Daract, Camisa de jean de trabajo y Pantalón jean
+  de trabajo.
+- Trajes (4): Saco y Pantalón de hombre Capri, y sus talles especiales (separados en saco y pantalón
+  como Milano y Turín; talles copiados de Milano).
+Filas que ya estaban y se corrigieron con las fotos/specs nuevas: Chaleco Pampa (colores de las fotos:
+Negro, Bordó, Azul, Verde, Blanco; tejido con guarda pampa), Camisa de trabajo, Mameluco de gabardina,
+Pantalón de trabajo clásico (8 oz), Pantalón cargo de trabajo rígido (= «cargo 8 oz» de Industria),
+Pantalón de trabajo cargo reforzado (tipo cazador) y Bermuda cargo (gabardina liviana).
 
 ANTES DE EMPEZAR (producción)
 1. Respaldo: hPanel de Hostinger > Respaldos > generar uno (archivos + base de datos). Esperar a que termine.
 2. No hacer el mismo día actualizaciones de WordPress, WooCommerce, plugins o tema.
 3. No usar Apariencia > Editor de archivos de temas ni editar wp-config.php.
-4. No usar a la vez el importador de fotos de octubre (son independientes).
+4. No correr a la vez con ningún importador de fotos. Primero este, después «Fotos de noviembre».
 
 INSTALACIÓN
 1. Comprimir la carpeta uniforma-alta-productos en un ZIP (la carpeta adentro del ZIP, con este archivo).
-2. Plugins > Añadir nuevo > Subir plugin > elegir el ZIP > Instalar > Activar.
+2. Plugins > Añadir nuevo > Subir plugin > elegir el ZIP > Instalar (si ya estaba la 1.0.0, «Reemplazar
+   la actual por la subida») > Activar.
 3. WooCommerce > Alta de productos UNIFORMA.
 
 USO
@@ -33,7 +49,8 @@ USO
    - "A revisar": supuestos que hice (colores/talles no indicados en el txt).
 2. Destildar lo que no se quiera crear y presionar «Crear seleccionados en borrador».
 3. Descargar el registro CSV.
-4. En Productos > Borradores, abrir cada uno, cargar precios X5/X10/X20/X50 (y el precio de las variaciones),
+4. Cargar las fotos con «UNIFORMA - Fotos de noviembre» (ver su LEEME).
+5. En Productos > Borradores, abrir cada uno, cargar precios X5/X10/X20/X50 (y el precio de las variaciones),
    revisar colores y talles, y recién ahí Publicar. Purgar LiteSpeed Cache.
 Si algo salió mal: «Deshacer» manda a la papelera los productos creados por este plugin que sigan en
 borrador (se pueden restaurar desde Productos > Papelera). No borra nada definitivamente.
@@ -45,7 +62,20 @@ en la ficha > Datos del producto > Variaciones > "Acciones masivas" > "Establece
 poner el precio X5. Alternativa: completar las columnas de precio del CSV ANTES de crear, y el plugin
 lo hace todo (precio X5 en las variaciones incluido).
 
-DEL TXT/PDF QUE YA EXISTE EN WORDPRESS (no crear; según la copia del ERP del 29/09/2026)
+VALIDACIÓN DE LOS TXT NUEVOS (contra la copia del ERP del 29/09/2026)
+Ya existen (no se crean; reciben fotos con «Fotos de noviembre»):
+- gastronomia 1 y 2: todos los delantales y faldones (P039-P055) menos Aqua, Cotton, PU Soft y PVC Flex,
+  que ya estaban en este CSV desde la 1.0.0.
+- modelos trajes: Milano, Turín, Mora, Venecia y sus talles especiales (saco y pantalón), camisa nacional
+  (= Camisa clásica de hombre P119/P120), camisa entallada, chalecos, zapatos Mónaco/Berlín/Londres,
+  sweater, sobretodos, Montgomery, camisas de dama (poplín, TE y súper especial), chaleco de dama y cardigan.
+  «Siena» (traje de mujer con falda) se tomó como la Falda / Falda talle especial existentes: no se creó
+  un «Saco Siena». Si Siena es otro modelo, avisar.
+- nombres por foto (Industria): Campera y Chaleco Trucker (P129, P128), Buzo cuello redondo (P016) y los
+  tres micropolar (Campera P017, Buzo medio cierre P018, Chaleco P020).
+- Los que dicen «no va» (buzo medio cierre, pantalón especial, pantalón cargo) no se crearon.
+
+DEL TXT/PDF QUE YA EXISTE EN WORDPRESS (versión 1.0.0; según la copia del ERP del 29/09/2026)
 Estos ya están cargados; la mayoría no se ve en la web porque está en BORRADOR o privado.
 Para que aparezcan hay que completarlos y publicarlos, no crearlos de nuevo:
 - Comercio: Remera cuello V (P095), Remera talle súper especial (P096), Pantalón gabardina bolsillo chino
@@ -65,5 +95,11 @@ Para que aparezcan hay que completarlos y publicarlos, no crearlos de nuevo:
 NO INCLUIDOS (decidir)
 - "Gorra" (genérica, txt): no se sabe cuál es.
 - "Gorra jean trucker" (PDF): parece ser la Gorra de jean (P087) o Trucker clásicas (P080).
-- Mantelería (manteles, servilletas, caminos, fundas): en el PDF figura "Consultar", sin colores ni medidas.
 - "Pantalón jeans recto hombre semielastizado": existen P022 (semirrígido) y P023 (elastizado).
+- Ambo médico Premium Flex: no está en el catálogo de Salud. El Ambo médico clásico sí está en ese
+  catálogo, pero con fotos de personas (no se usaron).
+
+VERIFICACIÓN REALIZADA
+Prueba funcional con PHP 7.4 y 8.3, en WordPress 7.0.9 + WooCommerce 11.3.1 + este tema (Playground):
+revisión de las 55 filas sin errores, creación en borrador con SKU siguiente libre, y carga de
+fotos encima con «Fotos de noviembre». No se ejecutó en la web de producción.
