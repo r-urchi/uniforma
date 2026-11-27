@@ -1,11 +1,27 @@
-UNIFORMA · FOTOS DE NOVIEMBRE · v1.0.0 (26/11/2026)
+UNIFORMA · FOTOS DE NOVIEMBRE · v1.1.0 (26/11/2026)
+
+NOVEDADES 1.1.0
+55 fotos más en 25 productos (todos ya existen en la web; no hay que crear ninguno):
+- Gastronómico 3: chaquetas Mao (Negro), gabardina clásica (Blanco), gabardina B/E (Negro), Air respirable
+  (Beige), de jean, Celta (Celeste); pantalones pied-de-poule, rayado, de salón hombre y de salón mujer.
+- Gastronómico 4: gorro hongo (Negro), gorro pirata tropical (Negro), bandana tropical (Blanco), camisa de
+  dama manga 3/4 (Negro), camisa de hombre manga larga (Blanco), calzado Comfort (Negro), Comfort
+  antideslizante (Blanco), calzado antideslizante (Gris), botín y zapato dieléctricos (Negro).
+- Calzado antideslizante: el plugin AGREGA el color Gris a la ficha antes de la foto, con la misma función
+  que usa el ERP (crea las variaciones Gris x talle al precio x5; no toca precios, textos ni categorías).
+- Ambos Salud y Estética: Clásico (6 colores), Runa (7), Amba/«Ámbar» (8), Mao (Azul).
+  Líneas para hombre (p.22 a 26): van en las fichas de Runa y Amba como fotos extra de galería, sin color
+  (no reemplazan las de mujer). La de Amba Azul y Blanco (p.25) es el frente de ese color.
+- Ambos Línea Milo (PDF corregido): Negro, Bordó, Lila (reemplazan las de octubre) y Celeste.
+Pendientes y motivos (colores que la ficha no tiene, líneas de hombre, octubre ya cargado): PENDIENTES.csv.
+Si la 1.0.0 ya se ejecutó, repetir «Revisar coincidencias» e «Iniciar»: las fotos ya subidas se reutilizan.
 
 QUÉ HACE
 Carga las fotos de los catálogos de noviembre en los productos de la web. Solo fotos: no crea productos,
 colores, talles ni variaciones, y no cambia precios, textos, stock, categorías ni estado (los borradores
 siguen en borrador).
-- 77 fotos (WebP, incluidas en el ZIP: no hay que subir nada a Medios) → 87 asignaciones en 85 productos:
-  54 existentes y 31 nuevos (los que crea «Alta de productos UNIFORMA» 1.1.0).
+- 122 fotos (WebP, incluidas en el ZIP: no hay que subir nada a Medios) → 132 asignaciones en 110 productos:
+  78 existentes y 32 nuevos (los que crea «Alta de productos UNIFORMA» 1.1.0).
 - Origen: PDF Gastronomía 1ra y 2do, PDF Trajes, PDF Industria (según los txt con los nombres por foto)
   y 2 fotos del PDF de Campo (chaleco pampa negro y bordó).
 CONTENIDO.csv detalla cada foto: producto, color, vista, página del PDF y nota.

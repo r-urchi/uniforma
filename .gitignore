@@ -1,0 +1,5 @@
+.deploy.env
+.deploy-last
+backups/
+local/db*.sql*
+local/debug.log

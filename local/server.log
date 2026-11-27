@@ -1,0 +1,21 @@
+npm notice run npx
+npm notice run ^"wp-playground-cli^" server --php=8.3 --wp=7.0.9 --port=9400 --mount=./wp-content/plugins/woocommerce:/wordpress/wp-content/plugins/woocommerce --mount=./wp-content/plugins/advanced-custom-fields:/wordpress/wp-content/plugins/advanced-custom-fields --mount=./wp-content/plugins/woo-coupons-bulk-editor:/wordpress/wp-content/plugins/woo-coupons-bulk-editor --mount=./wp-content/plugins/uniforma-importador-catalogo:/wordpress/wp-content/plugins/uniforma-importador-catalogo --mount=./wp-content/plugins/uniforma-alta-productos:/wordpress/wp-content/plugins/uniforma-alta-productos --mount=./wp-content/plugins/uniforma-fotos-noviembre:/wordpress/wp-content/plugins/uniforma-fotos-noviembre --mount=./wp-content/themes:/wordpress/wp-content/themes --mount=./wp-content/uploads:/wordpress/wp-content/uploads --mount=./local:/import --blueprint=./local/blueprint.json
+
+WordPress Playground CLI
+
+PHP 8.3  WordPress 7.0.9
+Extensions intl, redis, memcached
+Mount ./wp-content/plugins/woocommerce → /wordpress/wp-content/plugins/woocommerce
+Mount ./wp-content/plugins/advanced-custom-fields → /wordpress/wp-content/plugins/advanced-custom-fields
+Mount ./wp-content/plugins/woo-coupons-bulk-editor → /wordpress/wp-content/plugins/woo-coupons-bulk-editor
+Mount ./wp-content/plugins/uniforma-importador-catalogo → /wordpress/wp-content/plugins/uniforma-importador-catalogo
+Mount ./wp-content/plugins/uniforma-alta-productos → /wordpress/wp-content/plugins/uniforma-alta-productos
+Mount ./wp-content/plugins/uniforma-fotos-noviembre → /wordpress/wp-content/plugins/uniforma-fotos-noviembre
+Mount ./wp-content/themes → /wordpress/wp-content/themes
+Mount ./wp-content/uploads → /wordpress/wp-content/uploads
+Mount ./local → /import
+Blueprint ./local/blueprint.json
+
+
+Ready! WordPress is running on http://127.0.0.1:9400 (6 workers)
+

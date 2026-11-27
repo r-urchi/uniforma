@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
-  "batch": "uniforma-fotos-2026-11-26",
+  "version": "1.1.0",
+  "batch": "uniforma-fotos-2026-11-26b",
   "summary": {
-    "files": 77,
-    "assignments": 87,
-    "products": 85,
-    "existing": 54,
-    "new": 31
+    "files": 132,
+    "assignments": 142,
+    "products": 110,
+    "existing": 78,
+    "new": 32
   },
   "products": [
     {
@@ -2064,6 +2064,849 @@
           "source": "PDF Campo p.11"
         }
       ]
+    },
+    {
+      "key": "UNI-P057",
+      "sku": "UNI-P057",
+      "name": "Chaqueta Mao clásica",
+      "names": [
+        "Chaqueta Mao clásica"
+      ],
+      "slug": "chaqueta-mao-clasica",
+      "existing_id": 437,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-mao-clasica-negro-frente.webp",
+          "sha256": "454f6da37a652c0201ea6ef48ff4a2c098c400efbb859d0827285445f57c7a8f",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.2"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P058",
+      "sku": "UNI-P058",
+      "name": "Chaqueta de gabardina clásica",
+      "names": [
+        "Chaqueta de gabardina clásica"
+      ],
+      "slug": "chaqueta-de-gabardina-clasica",
+      "existing_id": 438,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-de-gabardina-clasica-blanco-frente.webp",
+          "sha256": "b8608bb647b89cde053dfdc3adc7280d55b80e013928e89d5761a64ffa2e4070",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P059",
+      "sku": "UNI-P059",
+      "name": "Chaqueta de gabardina B/E",
+      "names": [
+        "Chaqueta de gabardina B/E"
+      ],
+      "slug": "chaqueta-gabardina-b-e",
+      "existing_id": 439,
+      "is_new": false,
+      "auto": true,
+      "note": "En el txt: «Chaqueta gabardina botón escondido».",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-de-gabardina-b-e-negro-frente.webp",
+          "sha256": "edef04ac66a4aed0678e2b493ecf9fecaad12de66823dd02d14e494c38364acb",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.4"
+        }
+      ]
+    },
+    {
+      "key": "nuevo-chaqueta-air-respirable",
+      "sku": "",
+      "name": "Chaqueta Air respirable",
+      "names": [
+        "Chaqueta Air respirable"
+      ],
+      "slug": "chaqueta-air-respirable",
+      "existing_id": 0,
+      "is_new": true,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-air-respirable-beige-frente.webp",
+          "sha256": "f19171eaaa5c14db85959c524f318b987010e34fe85e3c57264bb63751086a5e",
+          "color": "Beige",
+          "color_slug": "beige",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.6"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P061",
+      "sku": "UNI-P061",
+      "name": "Chaqueta de jean",
+      "names": [
+        "Chaqueta de jean"
+      ],
+      "slug": "chaqueta-jean",
+      "existing_id": 441,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es denim muy oscuro; la ficha solo tiene Azul.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-de-jean-azul-frente.webp",
+          "sha256": "4d83e3409f9289c4d7d9ff501d398338bb0741900f52760aca79265386d660dd",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.7"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P062",
+      "sku": "UNI-P062",
+      "name": "Chaqueta Celta",
+      "names": [
+        "Chaqueta Celta"
+      ],
+      "slug": "chaqueta-celta",
+      "existing_id": 442,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-chaqueta-celta-celeste-frente.webp",
+          "sha256": "0ffaff9aec1658b0800f951d5ddb75378111badf547cd934a6d4b661fd252ceb",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.8"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P066",
+      "sku": "UNI-P066",
+      "name": "Pantalón pied-de-poule",
+      "names": [
+        "Pantalón pied-de-poule"
+      ],
+      "slug": "pantalon-pied-de-poule",
+      "existing_id": 446,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-pied-de-poule-gris-frente.webp",
+          "sha256": "422b9b8db474f2287a4dd43885487f624c207a852610305827273f0200aa1bb9",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.10"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P067",
+      "sku": "UNI-P067",
+      "name": "Pantalón rayado",
+      "names": [
+        "Pantalón rayado"
+      ],
+      "slug": "pantalon-rayado",
+      "existing_id": 447,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-rayado-negro-frente.webp",
+          "sha256": "989ce8bfad0049ed8919832ba41d6b47ecd030d5aa3a6efc89e9affffa0a055d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.11"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P068",
+      "sku": "UNI-P068",
+      "name": "Pantalón de salón hombre",
+      "names": [
+        "Pantalón de salón hombre"
+      ],
+      "slug": "pantalon-de-salon-hombre",
+      "existing_id": 448,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-de-salon-hombre-negro-frente.webp",
+          "sha256": "a86b1f897e799121145d1aef200346b5736c003f6ba19c5b4ace045409b7351d",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.12"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P069",
+      "sku": "UNI-P069",
+      "name": "Pantalón de salón mujer",
+      "names": [
+        "Pantalón de salón mujer"
+      ],
+      "slug": "pantalon-de-salon-mujer",
+      "existing_id": 449,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-pantalon-de-salon-mujer-negro-frente.webp",
+          "sha256": "ad16ebb8091e544452a5476c10f015b03f9cdc01560606202a27af634bef0b60",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 3 p.13"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P070",
+      "sku": "UNI-P070",
+      "name": "Gorro hongo de chef de gabardina",
+      "names": [
+        "Gorro hongo de chef de gabardina"
+      ],
+      "slug": "gorro-hongo-chef-gabardina",
+      "existing_id": 450,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-gorro-hongo-de-chef-de-gabardina-negro-frente.webp",
+          "sha256": "e48d12a91d7e65b50ef7d49a3e51fc991bfe616b58ab55d9e08dbe57a9d6a19c",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.1"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P071",
+      "sku": "UNI-P071",
+      "name": "Gorro pirata tropical",
+      "names": [
+        "Gorro pirata tropical"
+      ],
+      "slug": "gorro-pirata-tropical",
+      "existing_id": 451,
+      "is_new": false,
+      "auto": true,
+      "note": "En el txt: «gorro pirata» (liso).",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-gorro-pirata-tropical-negro-frente.webp",
+          "sha256": "7f5ca77c9dfe0f845bcf88b424df194f051b3ad76d92d83fcf1372fef7fcf936",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.2"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P072",
+      "sku": "UNI-P072",
+      "name": "Bandana tropical",
+      "names": [
+        "Bandana tropical"
+      ],
+      "slug": "bandana-tropical",
+      "existing_id": 452,
+      "is_new": false,
+      "auto": true,
+      "note": "La foto es color crudo; se toma como Blanco.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-bandana-tropical-blanco-frente.webp",
+          "sha256": "a3ab0c3317641b20c6b23082e4bcd28d0049bad7bcca7f8eb777aaaedbac060f",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P105",
+      "sku": "UNI-P105",
+      "name": "Camisa de dama manga 3/4",
+      "names": [
+        "Camisa de dama manga 3/4"
+      ],
+      "slug": "camisa-de-dama-manga-3-4",
+      "existing_id": 2786,
+      "is_new": false,
+      "auto": true,
+      "note": "El txt dice «manga larga, corta y 3/4», pero la foto es de manga 3/4: solo se usa en esa ficha.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-dama-manga-3-4-negro-frente.webp",
+          "sha256": "eba1c7c3a9f239f94b6154ba0625db31aee2a8404e28aaee6acb3ff862afb483",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.5"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P064",
+      "sku": "UNI-P064",
+      "name": "Camisa de hombre manga larga",
+      "names": [
+        "Camisa de hombre manga larga"
+      ],
+      "slug": "camisa-de-hombre-2",
+      "existing_id": 444,
+      "is_new": false,
+      "auto": true,
+      "note": "El txt dice «manga larga y corta», pero la foto es de manga larga: solo se usa en esa ficha.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-camisa-de-hombre-manga-larga-blanco-frente.webp",
+          "sha256": "caf8395ab58e7b1740da599672ee8e86fcd48f70bf490868d5e08a6aeaa559dc",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.6"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P074",
+      "sku": "UNI-P074",
+      "name": "Calzado Comfort",
+      "names": [
+        "Calzado Comfort"
+      ],
+      "slug": "calzado-comfort",
+      "existing_id": 454,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-calzado-comfort-negro-frente.webp",
+          "sha256": "8be81d2c67f8509b8edfad02af8667340283f1c4b3c51fd4f3d64212a15ddeec",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.7"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P075",
+      "sku": "UNI-P075",
+      "name": "Calzado Comfort antideslizante",
+      "names": [
+        "Calzado Comfort antideslizante"
+      ],
+      "slug": "calzado-comfort-antideslizante",
+      "existing_id": 455,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-calzado-comfort-antideslizante-blanco-frente.webp",
+          "sha256": "b42330077d6e575ee5a9e24fd7fa818c60a3b4406313b06bb3537741e22948c9",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.8"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P076",
+      "sku": "UNI-P076",
+      "name": "Calzado antideslizante",
+      "names": [
+        "Calzado antideslizante"
+      ],
+      "slug": "calzado-antideslizante",
+      "existing_id": 456,
+      "is_new": false,
+      "auto": true,
+      "note": "Agrega el color Gris a la ficha (con todos sus talles, al precio x5) y le pone esta foto.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-calzado-antideslizante-gris-frente.webp",
+          "sha256": "af20aac0632ddb30091b1ce6996140d3c990bda3ddf9f740cd5c3589b7ff141b",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.9"
+        }
+      ],
+      "add_colors": [
+        "Gris"
+      ]
+    },
+    {
+      "key": "UNI-P077",
+      "sku": "UNI-P077",
+      "name": "Botín dieléctrico",
+      "names": [
+        "Botín dieléctrico"
+      ],
+      "slug": "botin-dielectrico",
+      "existing_id": 457,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-botin-dielectrico-negro-frente.webp",
+          "sha256": "ad9d9991a19c4606e65c13a45c192fca702155b005331284463ca39638a6c335",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.10"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P078",
+      "sku": "UNI-P078",
+      "name": "Zapato dieléctrico",
+      "names": [
+        "Zapato dieléctrico"
+      ],
+      "slug": "zapato-dielectrico",
+      "existing_id": 458,
+      "is_new": false,
+      "auto": true,
+      "note": "",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-zapato-dielectrico-negro-frente.webp",
+          "sha256": "02ea234305ed17cc61b4aab9337760df00253145b421cec1b357efe125a82ad0",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Gastronómico 4 p.11"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P038",
+      "sku": "UNI-P038",
+      "name": "Ambo médico clásico",
+      "names": [
+        "Ambo médico clásico"
+      ],
+      "slug": "ambo-medico-clasico",
+      "existing_id": 418,
+      "is_new": false,
+      "auto": true,
+      "note": "Línea Clásica (p.1 a 5).",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-negro-frente.webp",
+          "sha256": "4d246f96f00f113db8fe4d4a8be1b3667b2abd1fda06b4545c1dd2cc3a23e327",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.1"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-blanco-frente.webp",
+          "sha256": "f11373c322542a02e00bbb74a4727ce37cc8771c5edb1e579a829ee3acbcc9dc",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.1"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-rosa-frente.webp",
+          "sha256": "01ab2daacb1c6985c9540bbcc6586d69e5193ba2c27441fc7fa5d2d3f37507be",
+          "color": "Rosa",
+          "color_slug": "rosa",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.2"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-bordo-frente.webp",
+          "sha256": "a71288717431cb09552d5fecaba56b115942accb5e7fde63a8866b25629709cc",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.2"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-lila-frente.webp",
+          "sha256": "e38069a754f54b845575d8e4aceb607ca2a795ca33637fc17074dd7aec7d8e1e",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.3"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-clasico-violeta-frente.webp",
+          "sha256": "7748b52581e7ed4b1cbee907d611b0c3941f3d4be7967bfb4ccd5d4a14105b2c",
+          "color": "Violeta",
+          "color_slug": "violeta",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.3"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P124",
+      "sku": "UNI-P124",
+      "name": "Ambo médico Runa",
+      "names": [
+        "Ambo médico Runa"
+      ],
+      "slug": "ambo-medico-runa",
+      "existing_id": 3118,
+      "is_new": false,
+      "auto": true,
+      "note": "Línea Runa (p.5 a 10). Las 4 fotos de la línea para hombre (p.22 y 23) van a la galería, sin color.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-negro-frente.webp",
+          "sha256": "45c35d14d4ddc4cb11a997bcd93e8fa41ec98ae70e33e0b1ec8f5cd86b5db4e5",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.5"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-blanco-frente.webp",
+          "sha256": "55f5a3f087a8e883b4a7345d8e4940d79779c1dd5250e82922bb7442b8608c8f",
+          "color": "Blanco",
+          "color_slug": "blanco",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.6"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-bordo-frente.webp",
+          "sha256": "c651ff5aa537b70b39e3601ee728094b6c802b69a2c27fae95ceee2b17c7b0aa",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.7"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-rosa-frente.webp",
+          "sha256": "e3278dfcf05f3a5a782bbb6cf34063f221f21a1463afea3c562cd7ae94a17569",
+          "color": "Rosa",
+          "color_slug": "rosa",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.7"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-lila-frente.webp",
+          "sha256": "f693f48b40b81cf9839a701e9fd3d4e15252c24bb031e5cc44107c57c45a0fef",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.8"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-verde-acqua-frente.webp",
+          "sha256": "1e7772e2f79164793c89f64dc72e1de62141b21e36f81aaa01dbc519f55f9c4c",
+          "color": "Verde Acqua",
+          "color_slug": "verde-acqua",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.9"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-azul-y-blanco-frente.webp",
+          "sha256": "da9b6dd31d97776f35fd6067c0af3ab23bfed79d7c6b50d1d089683ce1350d17",
+          "color": "Azul y Blanco",
+          "color_slug": "azul-y-blanco",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.10"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-hombre-1.webp",
+          "sha256": "bf188df7f0db2d835e5c99a6a120f10f7e4d85daddf73f003b3582cc2c987fa4",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "hombre-1",
+          "source": "PDF Ambos Salud y Estética p.22"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-hombre-2.webp",
+          "sha256": "af05dd059eb00ceb0e5ca3e61d341715e2aaeba9d9e66179b988e3e0e71c8432",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "hombre-2",
+          "source": "PDF Ambos Salud y Estética p.22"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-hombre-3.webp",
+          "sha256": "c8ce361ae593ee2ce7a59ad1551b95f43d5a57fb19e8e666101d4bd67b09daf5",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "hombre-3",
+          "source": "PDF Ambos Salud y Estética p.23"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-runa-hombre-4.webp",
+          "sha256": "13065a007caba772b5ebf96663c79388bc6c786d32847a78b53298acea756dca",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "hombre-4",
+          "source": "PDF Ambos Salud y Estética p.23"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P125",
+      "sku": "UNI-P125",
+      "name": "Ambo médico Amba",
+      "names": [
+        "Ambo médico Amba"
+      ],
+      "slug": "ambo-medico-amba",
+      "existing_id": 3154,
+      "is_new": false,
+      "auto": true,
+      "note": "En el txt: «Línea Ámbar» (p.11 a 15). De la línea para hombre (p.24 a 26), la de Azul y Blanco es el frente de ese color; las otras 5 van a la galería, sin color.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-gris-frente.webp",
+          "sha256": "c2f1550067fdad5a71ab6a5548808c2967b469ae4f327e593d54f795f3e454af",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.11"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-bordo-frente.webp",
+          "sha256": "fcad8414eb7279343bcf97c55094204b822854945e2f0b7759d6be88f4570600",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.12"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-rosa-frente.webp",
+          "sha256": "1cad8b1a2ede8e570e33deb2dffa44574f298efb90c2ee1c8edff7c16c38289b",
+          "color": "Rosa",
+          "color_slug": "rosa",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.12"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-lila-frente.webp",
+          "sha256": "eff8249b2eaa8c902e6cb2d1ac90481ea630b89e0b9fb8ce6b296f71435e078d",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.13"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-azul-frente.webp",
+          "sha256": "ce90a8201b56b5c136afc44aa1f22352a75a60936c8299e1c7f148fccdb16fba",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.14"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-verde-acqua-frente.webp",
+          "sha256": "04772fb508fe23fb9a85d12732a734fac6ae42b7009a023c1bde700b492259de",
+          "color": "Verde Acqua",
+          "color_slug": "verde-acqua",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.15"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-gris-y-negro-frente.webp",
+          "sha256": "0b63d7416937cab0ae15e5989929d2fc046d0664c6bb6b550f4df99af58407ed",
+          "color": "Gris y Negro",
+          "color_slug": "gris-y-negro",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.15"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-azul-y-blanco-frente.webp",
+          "sha256": "9a0d44d47986b3e4bcdfb985a9bec0c77ac9839d733cd71b2da5fbb1179897b1",
+          "color": "Azul y Blanco",
+          "color_slug": "azul-y-blanco",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.25 (hombre)"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-hombre-1.webp",
+          "sha256": "38d926807dacd6af732bc1194b5f0f9b13e6a04b6acdc0e7b484fa8e711a3363",
+          "color": "Gris",
+          "color_slug": "gris",
+          "view": "hombre-1",
+          "source": "PDF Ambos Salud y Estética p.24"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-hombre-2.webp",
+          "sha256": "ba2d54045b5e090dda3d0b0a9e0e06f1cd55194b4333fd63140f618b7f6dc0ae",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "hombre-2",
+          "source": "PDF Ambos Salud y Estética p.24"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-hombre-3.webp",
+          "sha256": "9b919a1aeb022d10b62c318410180f19aa07855b0d63c881038316de2255d41c",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "hombre-3",
+          "source": "PDF Ambos Salud y Estética p.25"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-hombre-4.webp",
+          "sha256": "8ca0d5e2be6ae22a8e876915586241c8482ba4479713d40530c7728530ca9fb5",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "hombre-4",
+          "source": "PDF Ambos Salud y Estética p.26"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-amba-hombre-5.webp",
+          "sha256": "ee59a635bbb421c6bf36037eb8ca9a2ab623a9f7e8ed91af88b8625a80463b48",
+          "color": "Verde Acqua",
+          "color_slug": "verde-acqua",
+          "view": "hombre-5",
+          "source": "PDF Ambos Salud y Estética p.26"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P126",
+      "sku": "UNI-P126",
+      "name": "Ambo médico Milo",
+      "names": [
+        "Ambo médico Milo"
+      ],
+      "slug": "ambo-medico-milo",
+      "existing_id": 3200,
+      "is_new": false,
+      "auto": true,
+      "note": "Fotos del PDF «Línea Milo» corregido: reemplazan las de octubre de Negro, Bordó y Lila (frente y espalda). Celeste no tenía foto.",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-ambo-medico-milo-negro-frente.webp",
+          "sha256": "12f8399a13209f2c1a85094dd983390b3ccbf4ea261303b08d58e5b87f2aa401",
+          "color": "Negro",
+          "color_slug": "negro",
+          "view": "frente",
+          "source": "PDF Ambos Línea Milo (corregido) p.1"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-milo-bordo-frente.webp",
+          "sha256": "20ca52fa605f20c8e1b26953cada0b7d271a3dae5bfec81aa9e17a0da4bc0e1b",
+          "color": "Bordó",
+          "color_slug": "bordo",
+          "view": "frente",
+          "source": "PDF Ambos Línea Milo (corregido) p.2"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-milo-lila-frente.webp",
+          "sha256": "39796860d0de8b2b16b3677c39dcac79792c2b637360f0beb39409bc5d2b4980",
+          "color": "Lila",
+          "color_slug": "lila",
+          "view": "frente",
+          "source": "PDF Ambos Línea Milo (corregido) p.3"
+        },
+        {
+          "filename": "uniforma-nov2026-ambo-medico-milo-celeste-frente.webp",
+          "sha256": "911242ebd3dadcb8c589736eb1ee86b74aa1c52b8bac1d3d1d81e148630edc74",
+          "color": "Celeste",
+          "color_slug": "celeste",
+          "view": "frente",
+          "source": "PDF Ambos Línea Milo (corregido) p.4"
+        }
+      ]
+    },
+    {
+      "key": "UNI-P127",
+      "sku": "UNI-P127",
+      "name": "Ambo médico Mao",
+      "names": [
+        "Ambo médico Mao"
+      ],
+      "slug": "ambo-medico-mao",
+      "existing_id": 3231,
+      "is_new": false,
+      "auto": true,
+      "note": "Línea Mao (p.21).",
+      "operation": "photos",
+      "images": [
+        {
+          "filename": "uniforma-nov2026-ambo-medico-mao-azul-frente.webp",
+          "sha256": "d2fbf2be0cf48071402f20b3d013102a6e6e73bfdcbd4d2f8ce3e8091cfd3614",
+          "color": "Azul",
+          "color_slug": "azul",
+          "view": "frente",
+          "source": "PDF Ambos Salud y Estética p.21"
+        }
+      ]
     }
   ],
   "pending": [
@@ -2118,6 +2961,86 @@
     {
       "source": "PDF Salud y Estética 2025",
       "reason": "Catálogo del proveedor con fotos de personas reales y fondos variados (distinto estilo que la web). No se usó. Podría servir para el Ambo médico clásico si se decide."
+    },
+    {
+      "source": "PDF Gastronómico 3 p.1",
+      "reason": "Chaqueta Arciel clásica (UNI-P056) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronómico 3 p.5",
+      "reason": "Chaqueta escote V (UNI-P060) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronómico 3 p.9",
+      "reason": "Pantalón náutico (UNI-P065) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronómico 4 p.4",
+      "reason": "Gorro pirata de jean (UNI-P073) Azul: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Gastronómico 4 p.5",
+      "reason": "La foto de camisa de dama (manga 3/4) no se usa en manga larga ni manga corta: no corresponde al modelo."
+    },
+    {
+      "source": "PDF Gastronómico 4 p.6",
+      "reason": "La foto de camisa de hombre (manga larga) no se usa en manga corta: no corresponde al modelo."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.4",
+      "reason": "Ambo médico clásico (UNI-P038): la ficha no tiene el color Azul ni Celeste. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.5 (verde)",
+      "reason": "Ambo médico clásico (UNI-P038): la ficha no tiene el color Verde Acqua. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.6 (coral)",
+      "reason": "Ambo médico Runa (UNI-P124): la ficha no tiene el color Coral/Naranja. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.8 (celeste)",
+      "reason": "Ambo médico Runa (UNI-P124): la ficha no tiene el color Celeste. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.9 (azul)",
+      "reason": "Ambo médico Runa (UNI-P124): la ficha no tiene el color Azul. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.10 (blanco con vivos)",
+      "reason": "No está en el txt (Runa llega hasta el de pantalón azul; Ámbar empieza en la 11). Parece Ámbar Blanco, pero esa ficha no tiene Blanco."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.11 (negro)",
+      "reason": "El txt dice «no el negro»."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.13 (violeta)",
+      "reason": "Ambo médico Amba (UNI-P125): la ficha no tiene el color Violeta. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.14 (celeste)",
+      "reason": "Ambo médico Amba (UNI-P125): la ficha no tiene el color Celeste. Agregar el color y cargarla después si se quiere."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.16 (blanco y azul)",
+      "reason": "No está en el txt (Milo empieza en el negro). Por el estilo parece Ámbar «Azul y Blanco»: confirmar."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.16 (negro) y p.17",
+      "reason": "Línea Milo: se usan las fotos del PDF «Línea Milo» corregido."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.18 a 20",
+      "reason": "No figuran en el txt."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.21 (blanco)",
+      "reason": "Ambo médico Mao (UNI-P127) Blanco: ya tiene foto de frente y espalda de la carga de octubre. No se reemplaza."
+    },
+    {
+      "source": "PDF Ambos Salud y Estética p.27 a 30",
+      "reason": "El txt dice «el resto están mal»."
     }
   ]
 }

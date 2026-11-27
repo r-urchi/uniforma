@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: UNIFORMA - Fotos de noviembre
- * Description: Carga las fotos de los catálogos de noviembre 2026 (Gastronomía, Trajes, Industria y Campo) en productos existentes y en los creados con «Alta de productos UNIFORMA». Solo fotos: no crea productos ni toca precios, textos, talles o stock.
- * Version: 1.0.0
+ * Description: Carga las fotos de los catálogos de noviembre 2026 (Gastronomía 1ra, 2do, 3 y 4, Trajes, Industria, Campo y Ambos de Salud) en productos existentes y en los creados con «Alta de productos UNIFORMA». Solo fotos: no crea productos ni toca precios, textos, talles o stock.
+ * Version: 1.1.0
  * Author: Web Systems
  * Requires at least: 6.4
  * Requires PHP: 7.4
@@ -11,7 +11,7 @@
 defined('ABSPATH') || exit;
 
 final class Uniforma_Photo_Importer_202611 {
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
     const STATE = 'uniforma_photos_202611_state';
     const LOCK = 'uniforma_photos_202611_lock';
     const NONCE = 'uniforma_photos_202611';
@@ -210,13 +210,21 @@ final class Uniforma_Photo_Importer_202611 {
                 $seen[$id] = $item['name'];
                 $target = $p->get_name() . ' (#' . $id . ', ' . $this->status_label($p) . ')';
                 $live = $this->colors($p); $missing = array();
+                // Colores que el paquete agrega a la ficha antes de cargar las fotos (con la función del ERP).
+                $add = array();
+                foreach ((array) ($item['add_colors'] ?? array()) as $color) if (!isset($live[$this->key($color)])) $add[$this->key($color)] = $color;
+                if ($add && !$p->is_type('variable')) throw new RuntimeException($item['name'] . ': para agregar colores el producto tiene que ser variable.');
                 foreach ($item['images'] as $image) {
-                    if (!isset($live[$image['color_slug']])) { $missing[] = $image['color']; continue; }
-                    $image['target_color'] = $live[$image['color_slug']];
+                    if (!$this->is_view($image)) { $image['target_color'] = ''; $images[] = $image; continue; } // detalle: va a la galería sin color
+                    if (isset($add[$image['color_slug']])) $image['target_color'] = $image['color_slug'];
+                    elseif (!isset($live[$image['color_slug']])) { $missing[] = $image['color']; continue; }
+                    else $image['target_color'] = $live[$image['color_slug']];
                     $images[] = $image;
-                    if ($image['view'] === 'frente') $allowed[$image['color_slug']] = $image['target_color'];
+                    if ($image['view'] === 'frente' && !isset($add[$image['color_slug']])) $allowed[$image['color_slug']] = $image['target_color'];
                 }
-                if ($missing) $message = 'Sin importar los colores que la ficha no tiene: ' . implode(', ', array_unique($missing)) . '.';
+                $item['add_colors'] = array_values($add);
+                if ($add) $message = 'Agrega a la ficha el color ' . implode(', ', $add) . ' (con sus talles, sin precio propio: toma el x5). ';
+                if ($missing) $message .= 'Sin importar los colores que la ficha no tiene: ' . implode(', ', array_unique($missing)) . '.';
                 if (!$images) $message = 'Omitido: no hay colores coincidentes. ' . $message;
                 if ($images) {
                     $item['product_id'] = $id; $item['images'] = $images; $item['color_targets'] = $allowed;
@@ -251,6 +259,19 @@ final class Uniforma_Photo_Importer_202611 {
         $live = $this->colors($p);
         foreach ($item['color_targets'] as $color => $target) if (($live[$color] ?? '') !== $target) throw new RuntimeException('Los colores de «' . $item['name'] . '» cambiaron. Reiniciá el progreso y revisá las coincidencias.');
         $this->backup($id);
+        if ($state['phase'] === 'images' && $state['offset'] === 0 && !empty($item['add_colors']) && empty($state['colors_added'])) {
+            $this->add_colors($p, $item['add_colors']);
+            $live = $this->colors(wc_get_product($id));
+            foreach ($item['add_colors'] as $color) if (!isset($live[$this->key($color)])) throw new RuntimeException($item['name'] . ': el color ' . $color . ' no quedó en la ficha.');
+            foreach ($state['plan'][$state['index']]['images'] as &$image) {
+                if ($this->is_view($image) && isset($live[$image['color_slug']])) $image['target_color'] = $live[$image['color_slug']];
+            }
+            unset($image);
+            $state['colors_added'] = true;
+            $state['message'] = $item['name'] . ': color ' . implode(', ', $item['add_colors']) . ' agregado.';
+            update_option(self::STATE, $state, false);
+            return $state;
+        }
         if ($state['phase'] === 'images') {
             foreach (array_slice($item['images'], $state['offset'], 2) as $image) {
                 $result = $this->attachment($image, $item['target_name']);
@@ -283,11 +304,42 @@ final class Uniforma_Photo_Importer_202611 {
         if ($state['phase'] === 'finish') {
             wc_delete_product_transients($id); clean_post_cache($id);
             $state['log'][] = array('key' => $item['key'], 'id' => $id, 'product' => $p->get_name(), 'images' => count($item['images']), 'result' => 'OK');
-            $state['index']++; $state['phase'] = 'images'; $state['offset'] = 0; $state['variation_offset'] = 0; $state['ids'] = array(); $state['fronts'] = array();
+            $state['index']++; $state['phase'] = 'images'; $state['offset'] = 0; $state['variation_offset'] = 0; $state['ids'] = array(); $state['fronts'] = array(); $state['colors_added'] = false;
             if ($state['index'] >= count($state['plan'])) { $state['done'] = true; $state['message'] = 'Carga terminada. Revisá el registro y las fichas actualizadas.'; }
         }
         update_option(self::STATE, $state, false);
         return $state;
+    }
+
+    /** Nombres de los términos de un atributo de la ficha (pa_color, pa_talle), en el orden guardado. */
+    private function term_names($product, $taxonomy) {
+        $attributes = $product->get_attributes();
+        if (empty($attributes[$taxonomy])) return array();
+        $names = array();
+        foreach ($attributes[$taxonomy]->get_options() as $term_id) {
+            $term = get_term($term_id, $taxonomy);
+            if ($term && !is_wp_error($term)) $names[] = $term->name;
+        }
+        return $names;
+    }
+
+    /**
+     * Agrega colores con la misma función que usa el ERP del tema: mismo nombre, SKU, talles y colores actuales + los nuevos.
+     * No manda precios, textos ni categorías, así que no se tocan; las variaciones nuevas toman el precio x5.
+     */
+    private function add_colors($p, $colors) {
+        if (!function_exists('uniforma_erp_product_handle')) throw new RuntimeException('El tema UNIFORMA no está activo o es de una versión sin la carga de productos del ERP.');
+        $current = $this->term_names($p, 'pa_color'); $sizes = $this->term_names($p, 'pa_talle');
+        if (!$current || !$sizes) throw new RuntimeException($p->get_name() . ': la ficha no tiene colores y talles globales; agregá el color a mano.');
+        $request = new WP_REST_Request('POST', '/uniforma/v1/product');
+        $request->set_header('content-type', 'application/json');
+        $request->set_body(wp_json_encode(array(
+            'wooId' => $p->get_id(), 'name' => $p->get_name(), 'sku' => $p->get_sku(), 'status' => $p->get_status(),
+            'colors' => array_map(function ($c) { return array('name' => $c); }, array_merge($current, $colors)), 'sizes' => $sizes,
+        )));
+        try { uniforma_erp_product_handle($request); }
+        catch (UniformaErpException $e) { throw new RuntimeException($p->get_name() . ': no se pudo agregar el color. ' . $e->getMessage()); }
+        wc_delete_product_transients($p->get_id()); clean_post_cache($p->get_id());
     }
 
     private function attachment($image, $product_name) {
